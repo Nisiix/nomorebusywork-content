@@ -1,0 +1,136 @@
+{
+  "id": "2026-10-27-am",
+  "type": "carousel",
+  "series": "PROMPT DUEL",
+  "publish_at": "2026-10-27T16:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "Prompt Duel",
+      "big": "2",
+      "size": "l",
+      "title": "prompts, one job ad.\n**Both outputs shown.**",
+      "sub": "A one-line prompt vs a proper brief, for the same weekend barista job.",
+      "tag": "Example café, invented ↓"
+    },
+    {
+      "layout": "chat",
+      "kicker": "Prompt A: one line",
+      "messages": [
+        {
+          "role": "you",
+          "text": "Write a job ad for a barista."
+        },
+        {
+          "role": "ai",
+          "text": "**Barista Wanted!**\nWe're looking for a passionate, friendly barista to join our team!\nResponsibilities: prepare espresso drinks, provide excellent customer service, keep the work area clean.\nRequirements: previous experience preferred, strong communication skills, ability to work in a fast-paced environment.\nApply today!"
+        }
+      ],
+      "note": "No hours, no pay, no reason to pick this café."
+    },
+    {
+      "layout": "prompt",
+      "kicker": "Prompt B: a proper brief",
+      "cards": [
+        {
+          "n": "B",
+          "title": "Job ad brief",
+          "text": "Write a job ad for [ROLE] at [BUSINESS] in [AREA]. Hours: [DAYS + TIMES]. Pay: [RATE]. Must have: [2–3 MUST-HAVES]. Nice to have: [ANY]. Why work here: [2–3 REAL REASONS]. How to apply: [STEPS]. Tone: friendly and plain, like we talk. Under 120 words. Don't use 'fast-paced' or 'rockstar'."
+        }
+      ],
+      "note": "Put the pay in, even as a range."
+    },
+    {
+      "layout": "chat",
+      "kicker": "What I filled in",
+      "messages": [
+        {
+          "role": "you",
+          "text": "Weekend barista, Corner Cup, Elm Park.\nSat + Sun, 7am–1pm. Pay: [RATE] + tips, shared.\nMust: free both mornings, OK with early starts, friendly with regulars.\nNice: latte art.\nWhy: free drinks, work with the owner, schedule set a month ahead.\nApply: 3 lines about you + a 20-min paid trial shift."
+        }
+      ]
+    },
+    {
+      "layout": "chat",
+      "kicker": "Prompt B: the output",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "**Weekend barista at Corner Cup, Elm Park**\nSat + Sun, 7am–1pm · [RATE]/hour + tips, shared equally.\nWhat you need: free both weekend mornings, fine with early starts, friendly with our regulars.\nLatte art? Nice to have, not a must.\nWhy us: free drinks on shift, you'll work with the owner, and your schedule is set a month ahead.\nTo apply: send us 3 lines about you, then come in for a 20-minute paid trial shift."
+        }
+      ]
+    },
+    {
+      "layout": "compare",
+      "kicker": "What changed",
+      "title": "Same job. **Different ad.**",
+      "cols": [
+        "",
+        "A: one line",
+        "B: brief"
+      ],
+      "rows": [
+        [
+          "Hours",
+          "Missing",
+          "Up front"
+        ],
+        [
+          "Pay",
+          "Missing",
+          "Up front"
+        ],
+        [
+          "Tone",
+          "Could be anyone",
+          "Sounds like us"
+        ],
+        [
+          "Clichés",
+          "'Fast-paced'",
+          "None"
+        ],
+        [
+          "Next step",
+          "'Apply today!'",
+          "3 lines + a trial shift"
+        ]
+      ]
+    },
+    {
+      "layout": "checklist",
+      "kicker": "Save this",
+      "title": "Your job-ad **brief**",
+      "items": [
+        {
+          "t": "Hours and pay up front",
+          "d": "Don't make anyone ask."
+        },
+        {
+          "t": "2–3 real must-haves",
+          "d": "Not a wish list of ten."
+        },
+        {
+          "t": "Real reasons to work there",
+          "d": "Small perks count. Be specific."
+        },
+        {
+          "t": "How to apply, step by step",
+          "d": "Keep the first step small."
+        },
+        {
+          "t": "Words to ban",
+          "d": "'Fast-paced', 'rockstar', 'family'."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "kicker": "Want more like this?",
+      "title": "Follow + comment",
+      "keyword": "PACK",
+      "after": "I'll DM you **21 more prompts** for sales, bookings, money and your team. Free, for followers."
+    }
+  ],
+  "caption": "How to write a job ad with AI: one-line prompt vs a proper brief\n\nPrompt A was \"Write a job ad for a barista.\" It came back with \"passionate\", \"fast-paced\" and no hours or pay.\n\nPrompt B was a short brief. Copy this:\n\n\"Write a job ad for [ROLE] at [BUSINESS] in [AREA]. Hours: [DAYS + TIMES]. Pay: [RATE]. Must have: [2–3 MUST-HAVES]. Nice to have: [ANY]. Why work here: [2–3 REAL REASONS]. How to apply: [STEPS]. Tone: friendly and plain, like we talk. Under 120 words. Don't use 'fast-paced' or 'rockstar'.\"\n\nOn an invented café, B put the hours and pay in the second line, kept the real perks and ended with a clear next step: 3 lines about you, then a short paid trial shift.\n\nThe AI can only be specific if you are. Two minutes on the brief does the work.\n\nFollow @nomorebusywork and comment PACK: I'll DM you 21 more prompts, including ones for your team.\n\nSave this for later. 📌\n\n#hiring #smallbusiness #jobad #chatgptprompts #smallbusinessowner"
+}

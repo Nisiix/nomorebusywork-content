@@ -1,0 +1,162 @@
+{
+  "id": "2026-10-29-am",
+  "type": "carousel",
+  "series": "5-MINUTE FIX",
+  "publish_at": "2026-10-29T16:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "5-Minute Fix",
+      "big": "20",
+      "title": "reviews in.\n**5 marketing lines** + 3 fixes out.",
+      "sub": "One prompt turns what customers already said into copy for your posts, and a to-do list.",
+      "tag": "Tested on 20 sample reviews ↓"
+    },
+    {
+      "layout": "text",
+      "kicker": "The problem",
+      "size": "l",
+      "title": "Your reviews are free **copywriting and free advice**.",
+      "paras": [
+        "But you read them once, feel good (or bad), and move on. The useful bits stay buried."
+      ]
+    },
+    {
+      "layout": "prompt",
+      "kicker": "The prompt (copy it)",
+      "cards": [
+        {
+          "n": "01",
+          "title": "Review miner",
+          "text": "Here are [NUMBER] customer reviews. 1) Write 5 short marketing lines using my customers' own words. Don't invent claims. 2) Find the 3 most repeated complaints, how many reviews mention each, and one practical fix for each. Reviews: [PASTE REVIEWS, NO NAMES]"
+        }
+      ],
+      "note": "Remove customer names and private details before pasting."
+    },
+    {
+      "layout": "chat",
+      "kicker": "What I pasted (4 of 20)",
+      "messages": [
+        {
+          "role": "you",
+          "text": "• Best crust in town, crispy but chewy. Delivery took over an hour though.\n• Gluten-free base is actually good! Finally.\n• Waited 70 minutes, pizza arrived cold.\n• Couldn't get through on the phone, ordered elsewhere.\n...and 16 more"
+        }
+      ],
+      "note": "Example pizza place and reviews, invented."
+    },
+    {
+      "layout": "compare",
+      "kicker": "Part 1: marketing lines",
+      "title": "5 lines, in **their words**",
+      "cols": [
+        "They said",
+        "AI line"
+      ],
+      "rows": [
+        [
+          "'crispy but chewy'",
+          "Crispy but chewy, the way crust should be."
+        ],
+        [
+          "'doesn't taste like cardboard'",
+          "Gluten-free that doesn't taste like cardboard."
+        ],
+        [
+          "'remembered my order'",
+          "We remember your order."
+        ],
+        [
+          "'always consistent'",
+          "Same great pizza, every time."
+        ],
+        [
+          "'garlic knots... worth the trip'",
+          "Garlic knots worth the trip on their own."
+        ]
+      ],
+      "note": "Every line traces back to a real review in the set."
+    },
+    {
+      "layout": "compare",
+      "kicker": "Part 2: what to fix",
+      "title": "3 complaints, **counted**",
+      "cols": [
+        "Complaint",
+        "Mentions",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Slow weekend delivery",
+          "3 of 20",
+          "Give a real time when they order"
+        ],
+        [
+          "Phone always busy",
+          "2 of 20",
+          "Point callers to online ordering"
+        ],
+        [
+          "Online menu confusing",
+          "2 of 20",
+          "Match the shop menu, allow extras"
+        ]
+      ],
+      "note": "Do fix 3 first, so fix 2 actually helps."
+    },
+    {
+      "layout": "steps",
+      "kicker": "Use it this week",
+      "title": "Lines → posts. Fixes → **one at a time**.",
+      "steps": [
+        {
+          "t": "Save the 5 lines in a note",
+          "d": "One per post, menu board or flyer."
+        },
+        {
+          "t": "Pick one fix",
+          "d": "The one mentioned most, or the easiest."
+        },
+        {
+          "t": "Tell customers you fixed it",
+          "d": "That's a post too."
+        }
+      ]
+    },
+    {
+      "layout": "checklist",
+      "kicker": "Save this",
+      "title": "The **monthly** review routine",
+      "items": [
+        {
+          "t": "Copy last month's reviews",
+          "d": "Good and bad, all of them."
+        },
+        {
+          "t": "Remove names",
+          "d": "The words matter, not who wrote them."
+        },
+        {
+          "t": "Run the prompt",
+          "d": "Lines + counted complaints."
+        },
+        {
+          "t": "Check every line",
+          "d": "Each one should match a real review."
+        },
+        {
+          "t": "Fix one thing",
+          "d": "Then run it again next month."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "kicker": "Want the prompts?",
+      "title": "Follow + comment",
+      "keyword": "PROMPTS",
+      "after": "I'll DM you the **free 25-prompt pack**: reviews, emails, quotes, social posts and admin. Free, for followers."
+    }
+  ],
+  "caption": "How to turn customer reviews into marketing lines and improvement ideas with AI\n\nYour reviews already contain your best copy and your clearest to-do list. One prompt pulls both out.\n\nCopy this:\n\n\"Here are [NUMBER] customer reviews. 1) Write 5 short marketing lines using my customers' own words. Don't invent claims. 2) Find the 3 most repeated complaints, how many reviews mention each, and one practical fix for each. Reviews: [PASTE REVIEWS, NO NAMES]\"\n\nI tested it on 20 invented reviews for a pizza place. It found lines like \"Gluten-free that doesn't taste like cardboard\" and counted slow weekend delivery as the top complaint (3 of 20).\n\nTwo rules: remove names before pasting, and check that every marketing line matches something a customer really said.\n\nFollow @nomorebusywork and comment PROMPTS: I'll DM you the free 25-prompt pack, with more prompts for reviews.\n\nSave this for later. 📌\n\n#customerreviews #smallbusinessmarketing #smallbusiness #aitools #restaurantmarketing"
+}

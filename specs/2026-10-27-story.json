@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-27-story",
+  "type": "story",
+  "series": "TODAY",
+  "publish_at": "2026-10-27T13:00:00Z",
+  "story": {
+    "layout": "text",
+    "kicker": "Prompt Duel at noon ET",
+    "size": "l",
+    "title": "\"Write a job ad for a barista.\"\n\nvs a **proper brief**.",
+    "paras": [
+      "Same job, both outputs shown. Guess which one you would apply to. New post at noon ET.",
+      "**DM me TOOLS** for our starter kit"
+    ],
+    "foot": "Today at noon ET"
+  }
+}
