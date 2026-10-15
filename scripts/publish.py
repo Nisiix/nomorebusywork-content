@@ -63,6 +63,8 @@ def publish(folder, post, ig_id):
     urls = [RAW + rel + "/" + m for m in post["media"]]
     kind = post["type"]
     caption = post.get("caption", "")
+    # Optional Collab invites (up to 3 usernames); they appear as co-authors once they accept in the app.
+    collab = {"collaborators": json.dumps(post["collaborators"][:3])} if post.get("collaborators") else {}
     if kind == "carousel":
         children = []
         for u, m in zip(urls, post["media"]):
@@ -70,9 +72,9 @@ def publish(folder, post, ig_id):
                                                 **({"media_type": "VIDEO"} if media_param(m) == "video_url" else {})})
             wait_ready(c["id"])
             children.append(c["id"])
-        cont = call("POST", f"{ig_id}/media", {"media_type": "CAROUSEL", "children": ",".join(children), "caption": caption})
+        cont = call("POST", f"{ig_id}/media", {"media_type": "CAROUSEL", "children": ",".join(children), "caption": caption, **collab})
     elif kind == "reel":
-        params = {"media_type": "REELS", "video_url": urls[0], "caption": caption, "share_to_feed": "true"}
+        params = {"media_type": "REELS", "video_url": urls[0], "caption": caption, "share_to_feed": "true", **collab}
         if post.get("cover"):
             params["cover_url"] = RAW + rel + "/" + post["cover"]
         cont = call("POST", f"{ig_id}/media", params)
@@ -82,7 +84,7 @@ def publish(folder, post, ig_id):
             story_params["media_type"] = "STORIES"
         cont = call("POST", f"{ig_id}/media", story_params)
     else:
-        params = {"image_url": urls[0], "caption": caption}
+        params = {"image_url": urls[0], "caption": caption, **collab}
         if post.get("alt_text"):
             try:
                 cont = call("POST", f"{ig_id}/media", {**params, "alt_text": post["alt_text"][:1000]})
