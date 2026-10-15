@@ -1,0 +1,16 @@
+{
+  "type": "carousel",
+  "caption": "How to write a client proposal with AI: vague prompt vs structured prompt\n\nRound 1: \"Write a proposal for a website for a bakery.\" It came back polite and generic: no client name, no real problem, a price of $[X] and an online shop nobody asked for.\n\nRound 2, the structured prompt:\n\n\"Write a 1-page proposal. Client: [NAME, BUSINESS]. Their problem in their words: [QUOTE]. What I'll deliver: [SCOPE]. Not included: [LIST]. Price and terms: [MY NUMBERS]. Timeline: [DATE]. Tone: plain, confident, no buzzwords. End with one clear next step.\"\n\nThis one opened with the client's own words, listed what's in and what's out, and ended with a next step she can answer in one word.\n\nThe brackets are the whole trick: each one is something only you know. Fill them in and AI only has to do the writing.\n\nFollow @nomorebusywork and comment PACK: I'll DM you 21 more prompts.\n\nSave this for later. 📌\n\n#freelancer #smallbusiness #clientproposal #chatgptprompts #aitools",
+  "publish_at": "2026-11-10T17:00:00Z",
+  "media": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg",
+    "08.jpg",
+    "09.jpg"
+  ]
+}

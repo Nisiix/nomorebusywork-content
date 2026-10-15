@@ -1,0 +1,16 @@
+{
+  "type": "carousel",
+  "caption": "How to screen job applications fairly with AI: a structured shortlist\n\nThe slow part of hiring isn't reading. It's re-reading, changing your mind halfway through the pile, and writing rejections one by one.\n\nPrompt 1 builds the scorecard:\n\"I'm hiring a [ROLE] for my [TYPE OF BUSINESS]. Must-haves: [LIST]. Build a scorecard with 4 criteria tied to the job, each scored 0–2, with one line on what 0, 1 and 2 look like. No criteria about age, gender, names, photos, career gaps or where someone is from.\"\n\nPrompt 2 scores each application with evidence:\n\"Score this application against the scorecard. For each criterion give the score and quote the line that supports it. If it's not mentioned, write 'not mentioned' and score 0. Don't guess. Application: [PASTE, NAME REMOVED]\"\n\nRemove names, photos and contact details first. AI sorts, you decide: read the low scores yourself before saying no, and check local hiring rules.\n\nFollow @nomorebusywork and comment PACK: I'll DM you 21 more prompts.\n\nSave this for later. 📌\n\n#hiring #smallbusinessowner #recruitingtips #aitools",
+  "publish_at": "2026-11-09T17:00:00Z",
+  "media": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg",
+    "08.jpg",
+    "09.jpg"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-12-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-11-12T23:00:00Z",
+  "slides": [
+    {"layout": "cover", "size": "xl", "kicker": "One-minute tip", "title": "Your process lives in **your head**.", "seconds": 4},
+    {"layout": "text", "kicker": "The problem", "size": "l", "title": "So every time you're out, someone **guesses**.", "seconds": 4},
+    {"layout": "prompt", "kicker": "The prompt", "cards": [{"n": "01", "title": "Ramble to checklist", "text": "Here's how we [TASK], explained badly: [PASTE RAMBLE OR VOICE NOTE]. Turn it into a checklist a new team member can follow: numbered steps, one action each, a \"done means\" line at the end. Ask me about anything unclear."}], "seconds": 7},
+    {"layout": "chat", "kicker": "What I pasted", "messages": [{"role": "you", "text": "Closing up: so first the coffee machine, backflush it, oh and before that put the milk away, cash up but only after the last order, chairs up, mop, and the alarm, code's on the card in the office, lights off last."}], "note": "Example café, invented.", "seconds": 6},
+    {"layout": "chat", "kicker": "What came back", "messages": [{"role": "ai", "text": "1. Put the milk away\n2. Backflush the coffee machine\n3. After the last order: cash up\n4. Chairs up, then mop\n5. Set the alarm (code: office card)\n6. Lights off last\nDone means: milk away, machine clean, till counted, alarm on.\nUnclear: cash up before or after mopping?"}], "seconds": 8},
+    {"layout": "text", "kicker": "One tip", "size": "l", "title": "Print it. Tape it where the **work** happens.", "paras": ["Next to the machine, not in a shared folder nobody opens."], "seconds": 6},
+    {"layout": "cover", "size": "l", "title": "Send this to someone who still explains closing up **every shift**.", "sub": "Follow @nomorebusywork for one fix a day.", "seconds": 5}
+  ],
+  "caption": "How to turn a messy process into a team checklist with AI\n\nIf a process only lives in your head, everyone does it a little differently. Ramble it out once, and let AI do the tidying.\n\nCopy this:\n\n\"Here's how we [TASK], explained badly: [PASTE RAMBLE OR VOICE NOTE]. Turn it into a checklist a new team member can follow: numbered steps, one action each, a 'done means' line at the end. Ask me about anything unclear.\"\n\nI tried it on a rambling description of closing a café. It put the steps in order, added a clear \"done means\" line and asked the question I'd skipped: cash up before or after mopping?\n\nThat last part is the gold. Answer its questions, then print the checklist and tape it where the work happens.\n\nSend this to someone who still explains closing up every shift. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#smallbusinessowner #teammanagement #checklist #aitools"
+}

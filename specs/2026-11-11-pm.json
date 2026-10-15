@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-11-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-11-11T23:00:00Z",
+  "slides": [
+    {"layout": "cover", "size": "xl", "kicker": "One-minute tip", "title": "Holiday hours. **5 channels.** One prompt.", "seconds": 4},
+    {"layout": "text", "kicker": "The problem", "size": "l", "title": "Same hours, typed 5 times, slightly **different** each time.", "seconds": 5},
+    {"layout": "prompt", "kicker": "The prompt", "cards": [{"n": "01", "title": "One info, every channel", "text": "My holiday hours: [DATES + HOURS]. Write versions for: 1) door sign 2) social story 3) website banner 4) text to regular clients 5) map listing note. Same facts in each, each at its natural length."}], "seconds": 7},
+    {"layout": "chat", "kicker": "What I pasted", "messages": [{"role": "you", "text": "Hair salon. Closed Dec 24–26 and Jan 1. Dec 31: 9am–2pm. Back Jan 2."}], "note": "Example business, invented.", "seconds": 5},
+    {"layout": "chat", "kicker": "What came back (3 of 5)", "messages": [{"role": "ai", "text": "Door sign: CLOSED Dec 24–26 & Jan 1. Dec 31: 9am–2pm.\n\nStory: Short break for the holidays! Closed Dec 24–26 and Jan 1. Last appointments of the year: Dec 31, 9–2.\n\nText: Hi! Heads-up: we're closed Dec 24–26 and Jan 1, open 9–2 on Dec 31. Want a cut before the holidays? Reply and I'll find you a slot."}], "seconds": 8},
+    {"layout": "text", "kicker": "One tip", "size": "l", "title": "Check the dates **once**, then copy everywhere.", "paras": ["One source, five places. If the source is right, they're all right."], "seconds": 6},
+    {"layout": "cover", "size": "l", "title": "Send this to someone who still types their hours **five times**.", "sub": "Follow @nomorebusywork for one fix a day.", "seconds": 5}
+  ],
+  "caption": "How to write holiday hours for every channel at once with AI\n\nDoor sign, social story, website banner, a text to regulars, your map listing. Same hours, five places, and somehow one always ends up with the wrong date.\n\nCopy this:\n\n\"My holiday hours: [DATES + HOURS]. Write versions for: 1) door sign 2) social story 3) website banner 4) text to regular clients 5) map listing note. Same facts in each, each at its natural length.\"\n\nI tried it with a sample salon schedule: the sign came back short and blunt, the story friendly, and the text to regulars even offered a pre-holiday slot.\n\nThe tip: check the dates once in the prompt, against your calendar. If the source is right, all five versions are right.\n\nSend this to someone who still types their hours five times. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#holidayhours #smallbusiness #salonowner #aitools"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-07-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-11-07T23:00:00Z",
+  "slides": [
+    {"layout": "cover", "size": "xl", "kicker": "One-minute tip", "title": "A **2-minute** AI routine for every morning.", "seconds": 4},
+    {"layout": "text", "kicker": "The problem", "size": "l", "title": "You start the day answering whatever pings **first**.", "seconds": 5},
+    {"layout": "prompt", "kicker": "The prompt", "cards": [{"n": "01", "title": "Morning brief", "text": "Here's my day: [PASTE CALENDAR + TOP 5 TO-DOS]. Pick the one task that matters most, flag anything that clashes, and write a 3-line plan for my morning."}], "seconds": 7},
+    {"layout": "chat", "kicker": "What I pasted", "messages": [{"role": "you", "text": "9:00 supplier call\n11:30 site visit (40 min drive)\n2:00 dentist\nTo-do: send Lee's quote, pay rent invoice, reply to 3 reviews, order paint, write a social post"}], "note": "Example day, invented.", "seconds": 6},
+    {"layout": "chat", "kicker": "What came back", "messages": [{"role": "ai", "text": "Most important: Lee's quote. It's the one that brings in work.\nClash: the 11:30 visit is a 40-min drive, so leave by 10:45.\n1) 8:30 send Lee's quote\n2) 9:00 supplier call, then order paint\n3) 10:15 pay rent, then head out"}], "seconds": 7},
+    {"layout": "text", "kicker": "One tip", "size": "l", "title": "Same prompt, **every day**.", "paras": ["Save it in your phone's notes. Paste, fill in, done before your coffee gets cold."], "seconds": 6},
+    {"layout": "cover", "size": "l", "title": "Send this to someone who still plans the day **in their head**.", "sub": "Follow @nomorebusywork for one fix a day.", "seconds": 5}
+  ],
+  "caption": "A simple daily AI routine for small business owners (2 minutes)\n\nMost mornings start with whatever pings first. This one prompt gives you a plan before the phone takes over.\n\nCopy this:\n\n\"Here's my day: [PASTE CALENDAR + TOP 5 TO-DOS]. Pick the one task that matters most, flag anything that clashes, and write a 3-line plan for my morning.\"\n\nI tried it on a sample day: it put the client quote first, noticed the 40-minute drive before an 11:30 site visit and told me when to leave.\n\nHow to make it stick:\n1) Save the prompt in your phone's notes.\n2) Paste your calendar and to-dos as they are, no tidying.\n3) Do the first line of the plan before opening email.\n\nSend this to someone who still plans the day in their head. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#smallbusinessowner #dailyroutine #productivity #aitools"
+}

@@ -1,0 +1,145 @@
+{
+  "id": "2026-11-12-am",
+  "type": "carousel",
+  "series": "5-MINUTE FIX",
+  "publish_at": "2026-11-12T17:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "5-Minute Fix",
+      "big": "3",
+      "title": "supplier quotes.\nOne **clean** table.",
+      "sub": "Paste the text of each quote, get a side-by-side comparison with the catches spotted.",
+      "tag": "Tested on 3 sample quotes ↓"
+    },
+    {
+      "layout": "text",
+      "kicker": "The problem",
+      "title": "The lowest price isn't always the **cheapest** quote.",
+      "paras": [
+        "Delivery, minimum orders and payment terms hide in a different spot on every quote. Comparing them by eye is where mistakes happen."
+      ]
+    },
+    {
+      "layout": "prompt",
+      "kicker": "The prompt (copy it)",
+      "cards": [
+        {
+          "n": "01",
+          "title": "Quote comparer",
+          "text": "Compare these supplier quotes in a table: total for what I need, what's included, delivery cost and time, minimum order, payment terms. Write \"not stated\" where a quote doesn't say. Then list the catches and one question to ask each supplier. I need: [QUANTITY]. Quotes: [PASTE TEXT OF EACH]"
+        }
+      ],
+      "note": "Remove account numbers and your own contact details first."
+    },
+    {
+      "layout": "chat",
+      "kicker": "What I pasted",
+      "messages": [
+        {
+          "role": "you",
+          "text": "I need 1,000 takeaway cups.\nA) 1,000 cups $180. Delivery $25, 5 days. Pay within 30 days.\nB) $160 per 1,000. Minimum order 2,000. Free delivery. Pay upfront.\nC) 1,000 compostable cups $210 incl. delivery, 3 days. Lids not included."
+        }
+      ],
+      "note": "Example quotes, invented."
+    },
+    {
+      "layout": "compare",
+      "kicker": "What came back (shortened)",
+      "cols": [
+        "",
+        "A",
+        "B",
+        "C"
+      ],
+      "rows": [
+        [
+          "Total now",
+          "$205",
+          "$320 (min. 2,000)",
+          "$210 + lids"
+        ],
+        [
+          "Delivery",
+          "$25, 5 days",
+          "Free, time not stated",
+          "Included, 3 days"
+        ],
+        [
+          "Payment",
+          "30 days",
+          "Upfront",
+          "Not stated"
+        ],
+        [
+          "Catch",
+          "None stated",
+          "Must buy 2,000",
+          "No lids"
+        ]
+      ],
+      "title": "Side by **side**"
+    },
+    {
+      "layout": "chat",
+      "kicker": "The catches it found",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "• B only looks cheapest: the 2,000 minimum doubles what you pay now.\n• C has no lids and no payment terms.\nAsk:\n• A: is delivery free above a certain order?\n• B: will you do 1,000 at this price?\n• C: what do lids cost, and when do I pay?"
+        }
+      ]
+    },
+    {
+      "layout": "text",
+      "kicker": "The real cheapest",
+      "title": "Lowest on paper: B.\nLowest cost **today**: A.",
+      "stats": [
+        [
+          "$205",
+          "A: 1,000 cups, delivered"
+        ],
+        [
+          "$320",
+          "B: its 2,000 minimum"
+        ],
+        [
+          "$210+",
+          "C: before lids"
+        ]
+      ],
+      "note": "Numbers from the invented example above."
+    },
+    {
+      "layout": "checklist",
+      "kicker": "Save this",
+      "title": "Before you pick a **supplier**",
+      "items": [
+        {
+          "t": "Compare totals, not unit prices",
+          "d": "For the amount you actually need."
+        },
+        {
+          "t": "Treat \"not stated\" as a question",
+          "d": "Gaps aren't zeros."
+        },
+        {
+          "t": "Check the minimum order",
+          "d": "It can double the bill."
+        },
+        {
+          "t": "Check the math yourself",
+          "d": "AI can slip on numbers. Use a calculator."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "kicker": "Want the tools we use?",
+      "title": "Follow + comment",
+      "keyword": "TOOLS",
+      "after": "I'll DM you our **starter kit**: the free-plan tools that run every prompt we post."
+    }
+  ],
+  "caption": "How to compare supplier quotes with AI in a clean table\n\nEvery quote hides delivery, minimums and payment terms in a different spot. This prompt lines them up and points out the catches.\n\nCopy this:\n\n\"Compare these supplier quotes in a table: total for what I need, what's included, delivery cost and time, minimum order, payment terms. Write 'not stated' where a quote doesn't say. Then list the catches and one question to ask each supplier. I need: [QUANTITY]. Quotes: [PASTE TEXT OF EACH]\"\n\nOn 3 sample quotes for takeaway cups, the one with the lowest unit price turned out to need a 2,000-cup minimum, and the compostable option didn't include lids.\n\nTwo rules: remove account numbers before pasting, and check the totals with a calculator. AI can slip on numbers.\n\nFollow @nomorebusywork and comment TOOLS: I'll DM you our free starter kit.\n\nSave this for later. 📌\n\n#smallbusiness #suppliers #cafeowner #smallbusinesstips #aitools"
+}

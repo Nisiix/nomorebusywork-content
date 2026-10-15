@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-09-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-11-09T23:00:00Z",
+  "slides": [
+    {"layout": "cover", "size": "xl", "kicker": "One-minute tip", "title": "Sent a quote? Then **silence**?", "seconds": 4},
+    {"layout": "text", "kicker": "The problem", "size": "l", "title": "Quiet often means **busy**, not no.", "paras": ["A short, useful nudge makes it easy for them to say yes."], "seconds": 5},
+    {"layout": "prompt", "kicker": "The prompt", "cards": [{"n": "01", "title": "Friendly follow-up", "text": "I sent a quote for [JOB] to [CLIENT] on [DATE] and heard nothing. Write a follow-up under 60 words: one useful detail they may have missed, one easy yes/no question, no guilt-tripping. Useful detail: [E.G. A DEADLINE]."}], "seconds": 7},
+    {"layout": "chat", "kicker": "What came back", "messages": [{"role": "ai", "text": "Hi Priya, just checking the bathroom tiling quote reached you. One thing worth knowing: if you'd like it done before the holidays, I'd need to order the tiles by the 20th.\nShould I hold a start date for you? A simple yes or no is perfect.\nThanks, Sam"}], "note": "Example job, invented.", "seconds": 7},
+    {"layout": "checklist", "kicker": "Why it works", "title": "It's easy to answer", "items": ["One new, useful detail", "One yes/no question", "No \"just checking in\" guilt", "Short enough for a phone"], "seconds": 6},
+    {"layout": "text", "kicker": "One tip", "size": "l", "title": "Book the follow-up when you **send** the quote.", "paras": ["Add a reminder for a few days later, right then. Future you won't remember."], "seconds": 6},
+    {"layout": "cover", "size": "l", "title": "Send this to someone who still waits for clients to **call back**.", "sub": "Follow @nomorebusywork for one fix a day.", "seconds": 5}
+  ],
+  "caption": "How to follow up on a quote without sounding pushy (AI prompt)\n\nYou sent the quote. Then nothing. Quiet often means busy, not no, and a short, useful nudge makes it easy to say yes.\n\nCopy this:\n\n\"I sent a quote for [JOB] to [CLIENT] on [DATE] and heard nothing. Write a follow-up under 60 words: one useful detail they may have missed, one easy yes/no question, no guilt-tripping. Useful detail: [E.G. A DEADLINE].\"\n\nThe useful detail is the trick. A real ordering deadline, a free slot next week, a material that's back in stock. Give AI the true detail, don't let it invent one.\n\nAnd set the reminder the moment you send the quote, not when you remember.\n\nSend this to someone who still waits for clients to call back. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#smallbusiness #salestips #followup #freelancetips #aitools"
+}

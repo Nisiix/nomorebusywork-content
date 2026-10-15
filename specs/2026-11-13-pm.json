@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-13-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-11-13T23:00:00Z",
+  "slides": [
+    {"layout": "cover", "size": "xl", "kicker": "One-minute tip", "title": "A week of captions. **One** prompt.", "seconds": 4},
+    {"layout": "text", "kicker": "The problem", "size": "l", "title": "Staring at a blank caption box, **every** single day.", "seconds": 4},
+    {"layout": "prompt", "kicker": "The prompt", "cards": [{"n": "01", "title": "Week of captions", "text": "I run [BUSINESS]. This week: [3–5 THINGS HAPPENING]. Write 5 captions, Mon–Fri, under 40 words each, each with a different job: behind the scenes, tip, customer question, product, invite. Sound like me: [PASTE 1 OLD CAPTION]. Use only facts I gave you."}], "seconds": 7},
+    {"layout": "chat", "kicker": "What I pasted", "messages": [{"role": "you", "text": "Florist. This week: new winter stems in, a wedding on Thursday, holiday orders open, wreath workshop on Saturday."}], "note": "Example business, invented.", "seconds": 5},
+    {"layout": "chat", "kicker": "What came back (shortened)", "messages": [{"role": "ai", "text": "Mon: Unpacking this week's winter stems. Eucalyptus everywhere.\nTue: Tip: re-cut stems at an angle when you change the water.\nWed: \"Can I order holiday flowers yet?\" Yes, orders are open.\nThu: Wedding day. Wish us steady hands.\nFri: Wreath workshop this Saturday. Want a spot? DM us."}], "seconds": 8},
+    {"layout": "text", "kicker": "One tip", "size": "l", "title": "Read them out loud. Change **one line** each.", "paras": ["Then add your photo and cut anything that isn't true this week."], "seconds": 6},
+    {"layout": "cover", "size": "l", "title": "Send this to someone who still writes captions **one day at a time**.", "sub": "Follow @nomorebusywork for one fix a day.", "seconds": 5}
+  ],
+  "caption": "How to write a week of social media captions with one AI prompt\n\nInstead of staring at a blank caption box every day, give AI your week once.\n\nCopy this:\n\n\"I run [BUSINESS]. This week: [3–5 THINGS HAPPENING]. Write 5 captions, Mon–Fri, under 40 words each, each with a different job: behind the scenes, tip, customer question, product, invite. Sound like me: [PASTE 1 OLD CAPTION]. Use only facts I gave you.\"\n\nI tried it for a sample florist's week: winter stems, a wedding, holiday orders, a wreath workshop. Five captions came back, each doing a different job, none inventing a sale or a \"last few spots\".\n\nThat last line of the prompt matters. Without it, AI tends to fill gaps with things that sound good but aren't true.\n\nSend this to someone who still writes captions one day at a time. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#socialmediatips #contentplanning #smallbusiness #floristlife #aitools"
+}

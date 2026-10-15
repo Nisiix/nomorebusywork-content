@@ -1,0 +1,16 @@
+{
+  "type": "carousel",
+  "caption": "How to compare supplier quotes with AI in a clean table\n\nEvery quote hides delivery, minimums and payment terms in a different spot. This prompt lines them up and points out the catches.\n\nCopy this:\n\n\"Compare these supplier quotes in a table: total for what I need, what's included, delivery cost and time, minimum order, payment terms. Write 'not stated' where a quote doesn't say. Then list the catches and one question to ask each supplier. I need: [QUANTITY]. Quotes: [PASTE TEXT OF EACH]\"\n\nOn 3 sample quotes for takeaway cups, the one with the lowest unit price turned out to need a 2,000-cup minimum, and the compostable option didn't include lids.\n\nTwo rules: remove account numbers before pasting, and check the totals with a calculator. AI can slip on numbers.\n\nFollow @nomorebusywork and comment TOOLS: I'll DM you our free starter kit.\n\nSave this for later. 📌\n\n#smallbusiness #suppliers #cafeowner #smallbusinesstips #aitools",
+  "publish_at": "2026-11-12T17:00:00Z",
+  "media": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg",
+    "08.jpg",
+    "09.jpg"
+  ]
+}

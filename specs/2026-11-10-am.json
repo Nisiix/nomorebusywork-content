@@ -1,0 +1,124 @@
+{
+  "id": "2026-11-10-am",
+  "type": "carousel",
+  "series": "PROMPT DUEL",
+  "publish_at": "2026-11-10T17:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "Prompt duel",
+      "big": "2",
+      "title": "prompts. Same client proposal.\nOnly one is **ready to send**.",
+      "sub": "Both outputs shown, written for an invented bakery client.",
+      "tag": "Swipe for round 1 ↓"
+    },
+    {
+      "layout": "text",
+      "kicker": "Round 1: the vague prompt",
+      "size": "l",
+      "title": "\"Write a proposal for a website for a **bakery**.\"",
+      "paras": [
+        "What most of us type: one line, zero context.",
+        "Let's see what AI can do with that →"
+      ]
+    },
+    {
+      "layout": "chat",
+      "kicker": "What came back (shortened)",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "Website Proposal for [Bakery Name]\nIntroduction: We're excited to help you build a beautiful, modern website that showcases your delicious products...\nScope: Home, About, Menu, Gallery, Contact, Online ordering (optional)\nTimeline: 4–6 weeks\nInvestment: $[X]\nWe look forward to working with you!"
+        }
+      ]
+    },
+    {
+      "layout": "text",
+      "kicker": "Round 1 verdict",
+      "title": "Polite. Generic. **Not sendable.**",
+      "paras": [
+        "No client name, no real problem, no price, and an online shop nobody asked for.",
+        "Not the AI's fault: it only knew the word \"bakery\". You'd rewrite all of it."
+      ]
+    },
+    {
+      "layout": "prompt",
+      "kicker": "Round 2: the structured prompt",
+      "cards": [
+        {
+          "n": "B",
+          "title": "Proposal builder",
+          "text": "Write a 1-page proposal. Client: [NAME, BUSINESS]. Their problem in their words: [QUOTE]. What I'll deliver: [SCOPE]. Not included: [LIST]. Price and terms: [MY NUMBERS]. Timeline: [DATE]. Tone: plain, confident, no buzzwords. End with one clear next step."
+        }
+      ],
+      "note": "Every bracket is something only you know. That's the point."
+    },
+    {
+      "layout": "chat",
+      "kicker": "What I filled in",
+      "messages": [
+        {
+          "role": "you",
+          "text": "Rosa, Corner Crumb Bakery. Her words: \"People call all day asking if we have gluten-free bread today.\" Deliver: 4-page site + a specials page she edits from her phone, map + hours. Not included: online shop, photos. Price: [YOUR PRICE], 50% upfront, 50% at launch. Live by Dec 1."
+        }
+      ],
+      "note": "Example business, invented."
+    },
+    {
+      "layout": "chat",
+      "kicker": "What came back (shortened)",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "Rosa, you told me the phone rings all day with \"do you have gluten-free today?\" This site answers that before they call.\n**What you get:** 4 pages + a specials page you update from your phone. Map and hours on every page.\nNot included: online shop, photography.\nPrice: [YOUR PRICE], 50% to start, 50% at launch. Live by Dec 1.\nNext step: reply \"go\" and I'll send the first invoice and a kickoff date."
+        }
+      ]
+    },
+    {
+      "layout": "compare",
+      "kicker": "The scorecard",
+      "title": "Vague vs **structured**",
+      "cols": [
+        "",
+        "Vague",
+        "Structured"
+      ],
+      "rows": [
+        [
+          "Client's problem",
+          "Missing",
+          "In her words"
+        ],
+        [
+          "Scope",
+          "Generic list",
+          "4 pages + specials"
+        ],
+        [
+          "Not included",
+          "Not stated",
+          "Shop, photos"
+        ],
+        [
+          "Price",
+          "$[X]",
+          "Your terms"
+        ],
+        [
+          "Next step",
+          "\"We look forward...\"",
+          "Reply \"go\""
+        ]
+      ],
+      "note": "Same AI. The difference is what you give it."
+    },
+    {
+      "layout": "cta",
+      "kicker": "Want more like this?",
+      "title": "Follow + comment",
+      "keyword": "PACK",
+      "after": "I'll DM you **21 more prompts** for sales, bookings, money and your team. Free, for followers."
+    }
+  ],
+  "caption": "How to write a client proposal with AI: vague prompt vs structured prompt\n\nRound 1: \"Write a proposal for a website for a bakery.\" It came back polite and generic: no client name, no real problem, a price of $[X] and an online shop nobody asked for.\n\nRound 2, the structured prompt:\n\n\"Write a 1-page proposal. Client: [NAME, BUSINESS]. Their problem in their words: [QUOTE]. What I'll deliver: [SCOPE]. Not included: [LIST]. Price and terms: [MY NUMBERS]. Timeline: [DATE]. Tone: plain, confident, no buzzwords. End with one clear next step.\"\n\nThis one opened with the client's own words, listed what's in and what's out, and ended with a next step she can answer in one word.\n\nThe brackets are the whole trick: each one is something only you know. Fill them in and AI only has to do the writing.\n\nFollow @nomorebusywork and comment PACK: I'll DM you 21 more prompts.\n\nSave this for later. 📌\n\n#freelancer #smallbusiness #clientproposal #chatgptprompts #aitools"
+}
