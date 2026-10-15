@@ -1,0 +1,143 @@
+{
+  "id": "2026-10-16-am",
+  "type": "carousel",
+  "series": "MYTH VS REALITY",
+  "publish_at": "2026-10-16T16:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "Myth vs Reality",
+      "size": "xl",
+      "title": "**5 AI myths** keeping you stuck doing busywork",
+      "sub": "Each one busted with a real example you can try today.",
+      "tag": "Myth 1 ↓"
+    },
+    {
+      "layout": "chat",
+      "kicker": "Myth 1: \"I'm not techy enough\"",
+      "messages": [
+        {
+          "role": "you",
+          "text": "I'm a plumber. Write a text telling Mrs. Patel I'm running 20 minutes late. Friendly, short."
+        },
+        {
+          "role": "ai",
+          "text": "Hi Mrs. Patel, it's [YOUR NAME] the plumber. I'm running about 20 minutes late, sorry about that. I'll be with you as soon as I can."
+        }
+      ],
+      "note": "**Reality:** that's the whole skill. Plain English in, a usable draft out. (Example names invented.)"
+    },
+    {
+      "layout": "beforeafter",
+      "kicker": "Myth 2: \"AI always sounds like a robot\"",
+      "before": {
+        "label": "NO EXAMPLE GIVEN",
+        "text": "Thank you for reaching out! Yes, we are open on Saturday from 9:00 AM to 1:00 PM. We look forward to seeing you!"
+      },
+      "after": {
+        "label": "+ \"SOUND LIKE ME\" + ONE OLD MESSAGE",
+        "text": "Hey! Yep, we're open Saturday, 9 till 1. Pop in whenever suits, and shout if you want anything put aside."
+      },
+      "note": "**Reality:** it only sounds generic when you give it nothing to copy. Same question both times: open Saturday? (Yes, 9 to 1.)"
+    },
+    {
+      "layout": "text",
+      "kicker": "Myth 3",
+      "size": "m",
+      "title": "\"It'll do the job **for me**.\"",
+      "paras": [
+        "**Reality:** it writes the first draft, fast. You still make the calls.",
+        "Check names, prices, dates and anything you're promising before it goes out. AI can sound sure and still be wrong."
+      ]
+    },
+    {
+      "layout": "steps",
+      "kicker": "Myth 4: \"I need a big setup first\"",
+      "title": "Reality: start with **one task**",
+      "steps": [
+        {
+          "t": "Pick the task you dread",
+          "d": "Quotes, chasers, the weekly email."
+        },
+        {
+          "t": "Write one prompt for it",
+          "d": "Say what you need, for who, how long."
+        },
+        {
+          "t": "Save it in your notes app",
+          "d": "Swap the details next time."
+        },
+        {
+          "t": "Add a second task next week",
+          "d": "That's the system."
+        }
+      ]
+    },
+    {
+      "layout": "compare",
+      "kicker": "Myth 5: \"It's just for social posts\"",
+      "title": "Reality: it's best at the **boring stuff**",
+      "cols": [
+        "Task",
+        "Start with"
+      ],
+      "rows": [
+        [
+          "Inbox",
+          "\"Sort these into reply today, later, ignore.\""
+        ],
+        [
+          "Quotes",
+          "\"Turn my notes into a clear quote.\""
+        ],
+        [
+          "Your week",
+          "\"Plan my week from this list.\""
+        ],
+        [
+          "Long docs",
+          "\"Give me 5 bullet points.\""
+        ],
+        [
+          "Complaints",
+          "\"Draft a calm reply I can edit.\""
+        ]
+      ]
+    },
+    {
+      "layout": "checklist",
+      "kicker": "Save this",
+      "title": "Myth → **what to do instead**",
+      "items": [
+        {
+          "t": "Write like you'd brief a helper",
+          "d": "Plain English is the whole skill."
+        },
+        {
+          "t": "Paste one message you wrote",
+          "d": "Then add: sound like me."
+        },
+        {
+          "t": "Check before you send",
+          "d": "Names, prices, dates, promises."
+        },
+        {
+          "t": "Start with one task",
+          "d": "One prompt, saved in your notes."
+        },
+        {
+          "t": "Use it on the boring stuff",
+          "d": "Inbox, quotes, plans, summaries."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "kicker": "Want the simple setup?",
+      "title": "Follow + comment",
+      "keyword": "TOOLS",
+      "after": "I'll DM you our **starter kit**: the 3 tools we use to run every prompt we post. Free plans first."
+    }
+  ],
+  "caption": "5 AI myths that keep small business owners stuck doing busywork (and what's actually true)\n\nMyth 1: you need to be techy. You don't. If you can text, you can write a prompt.\n\nMyth 2: it sounds like a robot. Only when you give it nothing to copy. Try this:\n\n\"Reply to this message: [PASTE]. Sound like me. Here's a message I wrote last week: [PASTE ONE OF YOUR MESSAGES]\"\n\nMyth 3: it does the job for you. It writes the first draft. You check names, prices, dates and promises.\n\nMyth 4: you need a big setup. Start with one task you dread and one saved prompt.\n\nMyth 5: it's just for social posts. It's best at the boring stuff: inbox, quotes, weekly plans, summaries.\n\nWhich myth stopped you from trying? Tell me below.\n\nFollow @nomorebusywork and comment TOOLS: I'll DM you our starter kit, the 3 simple tools we use for every prompt we post.\n\nSave this for later. 📌\n\n#smallbusiness #aitools #smallbusinessowner #aimyths #workingsmarter"
+}

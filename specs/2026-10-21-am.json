@@ -1,0 +1,132 @@
+{
+  "id": "2026-10-21-am",
+  "type": "carousel",
+  "series": "STEAL THIS TEMPLATE",
+  "publish_at": "2026-10-21T16:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "Steal This Template",
+      "big": "3",
+      "size": "l",
+      "title": "emails that make new clients feel **looked after**",
+      "sub": "A welcome sequence you write once and reuse, with the 3 prompts.",
+      "tag": "Copy all 3 ↓"
+    },
+    {
+      "layout": "steps",
+      "kicker": "The sequence",
+      "title": "Day 0, day 2, **day 7**",
+      "steps": [
+        {
+          "t": "Welcome",
+          "d": "Day 0. Thanks, what happens next, how to reach you."
+        },
+        {
+          "t": "What I need from you",
+          "d": "Day 2. A short checklist, one deadline."
+        },
+        {
+          "t": "Week-one check-in",
+          "d": "Day 7. Progress, how you'll work, one question."
+        }
+      ]
+    },
+    {
+      "layout": "prompt",
+      "kicker": "Email 1 · prompt",
+      "cards": [
+        {
+          "n": "01",
+          "title": "Welcome",
+          "text": "Write a welcome email for a new client of my [BUSINESS]. Include: a thank you, the next 3 steps with dates: [STEPS + DATES], and how to reach me: [CONTACT + HOURS]. Warm, under 120 words."
+        }
+      ],
+      "note": "Example business, invented: a one-person bookkeeping service."
+    },
+    {
+      "layout": "chat",
+      "kicker": "Email 1 · what came back",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "Subject: Welcome! Here's what happens next\n\nHi Maria,\n\nThanks for choosing me to look after your books. Here's what happens next:\n1. By Friday: I'll send a short list of what I need.\n2. By the 31st: your accounts are set up.\n3. On the 1st: your first monthly summary.\n\nQuestions? Email me any time. I reply within one working day, Mon–Fri.\n\nBen"
+        }
+      ]
+    },
+    {
+      "layout": "prompt",
+      "kicker": "Emails 2 + 3 · prompts",
+      "cards": [
+        {
+          "n": "02",
+          "title": "What I need",
+          "text": "Write a short email asking my new client for: [LIST]. Use a checklist, with a few words on why I need each. One clear deadline: [DATE]."
+        },
+        {
+          "n": "03",
+          "title": "Week-one check-in",
+          "text": "Write a check-in email for a client one week in. Say what's done: [PROGRESS]. How we'll work from now on: [ROUTINE]. End with one question: is there anything you'd like done differently? Under 80 words."
+        }
+      ]
+    },
+    {
+      "layout": "chat",
+      "kicker": "Email 2 · what came back",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "Subject: 4 things I need to get started\n\nHi Maria, to set up your books I need:\n• Bank statements, last 3 months (to match payments)\n• Sales invoices since January (to record income)\n• Receipts for business costs (to record expenses)\n• Read-only access to your invoicing app (to keep it in sync)\n\nCould you send these **by Friday the 23rd**? Thanks!\nBen"
+        }
+      ]
+    },
+    {
+      "layout": "beforeafter",
+      "kicker": "Email 3 · the one most people skip",
+      "before": {
+        "label": "WEEK ONE, USUALLY",
+        "text": "(Silence, until something goes wrong.)"
+      },
+      "after": {
+        "label": "WEEK ONE, WITH THE TEMPLATE",
+        "text": "Hi Maria, one week in! Your accounts are set up and September is fully matched. From now on, you'll get a summary on the 1st of each month. Is there anything you'd like me to do differently?"
+      },
+      "note": "One question at the end. Small problems come up early, while they're easy to fix."
+    },
+    {
+      "layout": "checklist",
+      "kicker": "Save this",
+      "title": "Make it **reusable**",
+      "items": [
+        {
+          "t": "Save all 3 as email templates",
+          "d": "Swap names and dates, then send."
+        },
+        {
+          "t": "Send email 1 the same day",
+          "d": "While they're still excited."
+        },
+        {
+          "t": "Set reminders for day 2 and day 7",
+          "d": "In your calendar app."
+        },
+        {
+          "t": "Keep client details out of the chat",
+          "d": "Add names and numbers after."
+        },
+        {
+          "t": "Read each one before it goes",
+          "d": "Dates and promises especially."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "kicker": "Want more templates?",
+      "title": "Follow + comment",
+      "keyword": "PACK",
+      "after": "I'll DM you **21 more prompts** for sales, bookings, money and your team. Free, for followers."
+    }
+  ],
+  "caption": "Client onboarding email templates: a 3-email welcome sequence (with AI prompts)\n\nThree short emails make them feel looked after:\n\n1) Day 0, Welcome:\n\"Write a welcome email for a new client of my [BUSINESS]. Include: a thank you, the next 3 steps with dates: [STEPS + DATES], and how to reach me: [CONTACT + HOURS]. Warm, under 120 words.\"\n\n2) Day 2, What I need:\n\"Write a short email asking my new client for: [LIST]. Use a checklist, with a few words on why I need each. One clear deadline: [DATE].\"\n\n3) Day 7, Check-in:\n\"Write a check-in email for a client one week in. Say what's done: [PROGRESS]. How we'll work from now on: [ROUTINE]. End with one question: is there anything you'd like done differently? Under 80 words.\"\n\nSave them as templates and swap names and dates. Keep client details out of the chat and add them after.\n\nFollow @nomorebusywork and comment PACK: I'll DM you 21 more prompts for sales, bookings, money and your team.\n\nSave this for later. 📌\n\n#smallbusiness #clientonboarding #emailtemplates #servicebusiness #smallbusinessowner"
+}

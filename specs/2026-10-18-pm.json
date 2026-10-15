@@ -1,0 +1,93 @@
+{
+  "id": "2026-10-18-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-10-18T22:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "One-minute tip",
+      "size": "xl",
+      "title": "Make AI ask **you** first.",
+      "seconds": 4
+    },
+    {
+      "layout": "text",
+      "kicker": "The problem",
+      "size": "l",
+      "title": "AI fills the gaps with **guesses.**",
+      "paras": [
+        "\"Fully insured.\" \"Affordable rates.\" Things you never said."
+      ],
+      "seconds": 5
+    },
+    {
+      "layout": "text",
+      "kicker": "The fix",
+      "size": "l",
+      "title": "Add one line:\n**\"Ask me 3 questions first.\"**",
+      "seconds": 4
+    },
+    {
+      "layout": "prompt",
+      "kicker": "Copy this",
+      "cards": [
+        {
+          "n": "01",
+          "title": "Ask me first",
+          "text": "I need [WHAT YOU NEED]. Before you write anything, ask me 3 questions. Then write it using only my answers."
+        }
+      ],
+      "seconds": 6
+    },
+    {
+      "layout": "chat",
+      "kicker": "I tried it",
+      "messages": [
+        {
+          "role": "you",
+          "text": "I need a flyer for my window-cleaning business. Before you write anything, ask me 3 questions."
+        },
+        {
+          "role": "ai",
+          "text": "1) Who's it for: homes, shops or both? Which area?\n2) What makes you different?\n3) What should people do next: call, text or book online?"
+        }
+      ],
+      "note": "Example business, invented.",
+      "seconds": 7
+    },
+    {
+      "layout": "chat",
+      "kicker": "My answers → the flyer",
+      "messages": [
+        {
+          "role": "you",
+          "text": "Homes in Riverside. Same cleaner every visit. Text to book."
+        },
+        {
+          "role": "ai",
+          "text": "**Same cleaner. Every visit.**\nWindow cleaning for Riverside homes.\nText [NUMBER] to book your first clean."
+        }
+      ],
+      "seconds": 7
+    },
+    {
+      "layout": "text",
+      "kicker": "Tip",
+      "size": "l",
+      "title": "Bigger job? Add **\"one at a time.\"**",
+      "paras": [
+        "It feels like a chat, not a form."
+      ],
+      "seconds": 5
+    },
+    {
+      "layout": "cta",
+      "kicker": "Know someone?",
+      "title": "Send this to someone who still fixes AI's guesses **by hand.**",
+      "body": "Follow @nomorebusywork for one fix a day.",
+      "seconds": 5
+    }
+  ],
+  "caption": "How to stop AI making things up about your business: make it ask questions first\n\nWhen AI doesn't know something, it fills the gap with a guess. That's where \"fully insured\" and \"affordable rates\" come from, even if you never said them.\n\nAdd one line to your prompt:\n\n\"I need [WHAT YOU NEED]. Before you write anything, ask me 3 questions. Then write it using only my answers.\"\n\nI tried it for a flyer for an example window-cleaning business. The 3 questions: who it's for, what makes you different, what people should do next. Three short answers later, the flyer led with \"Same cleaner. Every visit.\" because that's what I told it.\n\nTip: for bigger jobs (About page, service descriptions), add \"one at a time\" so it feels like a chat.\n\nSend this to someone who still fixes AI's guesses by hand. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#smallbusiness #aitips #promptwriting #smallbusinessowner #flyerdesign"
+}

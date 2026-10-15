@@ -1,0 +1,17 @@
+{
+  "type": "carousel",
+  "caption": "How to do weekly invoicing and payment reminders with AI (2 copy-paste prompts)\n\nKeep a one-line job log during the week. On Friday, run 2 prompts.\n\nPrompt 1:\n\"Here's my job log for the week. Group it by client. For each client: invoice lines (date, job, amount), the total, and a 3-line friendly email to send with the invoice. Payment due in [X] days. Don't change any amounts. Log: [PASTE]\"\n\nPrompt 2:\n\"These invoices are unpaid: [CLIENT, INVOICE NO., AMOUNT, DAYS LATE]. Write a short reminder for each. Under 7 days: friendly nudge. 8 to 21: polite but clear. Over 21: firm, ask for a payment date. No guilt-tripping.\"\n\nIn our invented example, a one-person gardening service, Friday admin went from about 2 hours to about 20 minutes. Yours depends on how many jobs you do. Check every amount before sending, and keep addresses and bank details out of the chat.\n\nFollow @nomorebusywork and comment PACK: I'll DM you 21 more prompts for sales, bookings, money and your team.\n\nSave this for later. 📌\n\n#smallbusiness #invoicing #getpaid #smallbusinessowner #adminhacks",
+  "publish_at": "2026-10-19T16:00:00Z",
+  "media": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg",
+    "08.jpg",
+    "09.jpg",
+    "10.jpg"
+  ]
+}

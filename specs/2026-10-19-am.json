@@ -1,0 +1,159 @@
+{
+  "id": "2026-10-19-am",
+  "type": "carousel",
+  "series": "BUSYWORK AUTOPSY",
+  "publish_at": "2026-10-19T16:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "Busywork Autopsy",
+      "big": "2h → 20m",
+      "size": "l",
+      "title": "Weekly invoicing + payment chasers, **with 2 prompts**",
+      "sub": "Where the time goes, and how one example week went from about 2 hours to about 20 minutes.",
+      "tag": "The autopsy ↓"
+    },
+    {
+      "layout": "compare",
+      "kicker": "The autopsy: where the time went",
+      "title": "Friday, **by hand**",
+      "cols": [
+        "Task",
+        "What it looked like"
+      ],
+      "rows": [
+        [
+          "What to bill",
+          "Digging through texts and the calendar"
+        ],
+        [
+          "Invoices",
+          "Copy last week's, edit, re-check"
+        ],
+        [
+          "Emails",
+          "A new note for every client"
+        ],
+        [
+          "Who's unpaid?",
+          "Scrolling the bank app"
+        ],
+        [
+          "Chasing",
+          "Put off, then written in a rush"
+        ]
+      ],
+      "note": "Example business, invented: a one-person gardening service."
+    },
+    {
+      "layout": "text",
+      "kicker": "The fix",
+      "size": "l",
+      "title": "One **job log** + two prompts.",
+      "paras": [
+        "During the week: one line per job in your notes app. Date, client, job, amount.",
+        "Friday: paste it in. AI does the writing. You do the checking."
+      ]
+    },
+    {
+      "layout": "prompt",
+      "kicker": "Prompt 1 (copy it)",
+      "cards": [
+        {
+          "n": "01",
+          "title": "Invoice batch",
+          "text": "Here's my job log for the week. Group it by client. For each client: invoice lines (date, job, amount), the total, and a 3-line friendly email to send with the invoice. Payment due in [X] days. Don't change any amounts. Log: [PASTE]"
+        }
+      ],
+      "note": "First names only. Leave out addresses and bank details."
+    },
+    {
+      "layout": "chat",
+      "kicker": "What I pasted → what came back",
+      "messages": [
+        {
+          "role": "you",
+          "text": "Due in 14 days. Log:\nMon: Jo, hedge trim, $90\nMon: Ana, lawn + edges, $55\nWed: Jo, leaf clear, $60\nThu: Sam, lawn, $45\nFri: Ana, lawn + edges, $55"
+        },
+        {
+          "role": "ai",
+          "text": "**Jo**: Hedge trim (Mon) $90 · Leaf clear (Wed) $60 · Total $150\n\"Hi Jo, thanks for having me this week! Your invoice for the hedge trim and leaf clear is attached: $150, due in 14 days. Any questions, just reply.\"\n\nAna: 2 visits, total $110 · Sam: 1 visit, total $45"
+        }
+      ]
+    },
+    {
+      "layout": "prompt",
+      "kicker": "Prompt 2 (copy it)",
+      "cards": [
+        {
+          "n": "02",
+          "title": "Payment chasers",
+          "text": "These invoices are unpaid: [CLIENT, INVOICE NO., AMOUNT, DAYS LATE]. Write a short reminder for each. Under 7 days: friendly nudge. 8 to 21: polite but clear. Over 21: firm, ask for a payment date. No guilt-tripping."
+        }
+      ],
+      "note": "Read every reminder before it goes out. You know which clients need a softer word."
+    },
+    {
+      "layout": "chat",
+      "kicker": "Two reminders, two tones",
+      "messages": [
+        {
+          "role": "you",
+          "text": "Sam, #104, $45, 5 days late\nLee, #098, $120, 30 days late"
+        },
+        {
+          "role": "ai",
+          "text": "Sam: \"Hi Sam, just a friendly nudge: invoice #104 for $45 was due 5 days ago. I've attached it again in case it got buried. Thanks!\"\n\nLee: \"Hi Lee, invoice #098 for $120 is now 30 days overdue. Could you let me know **by Friday** when you'll be able to pay? If something's wrong with the invoice, tell me and we'll sort it.\""
+        }
+      ]
+    },
+    {
+      "layout": "text",
+      "kicker": "In this example week",
+      "size": "m",
+      "title": "Same Friday job, **less of Friday**.",
+      "stats": [
+        [
+          "~2 h",
+          "before: invoices + chasing, by hand"
+        ],
+        [
+          "~20 min",
+          "after: log + 2 prompts + checking"
+        ]
+      ],
+      "note": "Your time depends on how many jobs you do. The checking step always stays."
+    },
+    {
+      "layout": "steps",
+      "kicker": "Save this",
+      "title": "Your **Friday 20**",
+      "steps": [
+        {
+          "t": "Paste the week's log",
+          "d": "Prompt 1. Check every amount."
+        },
+        {
+          "t": "Send the invoices",
+          "d": "From your invoicing app or email."
+        },
+        {
+          "t": "List who hasn't paid",
+          "d": "Client, invoice no., amount, days late."
+        },
+        {
+          "t": "Run prompt 2",
+          "d": "Read each reminder, then send."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "kicker": "Want the rest of the money prompts?",
+      "title": "Follow + comment",
+      "keyword": "PACK",
+      "after": "I'll DM you **21 more prompts** for sales, bookings, money and your team. Free, for followers."
+    }
+  ],
+  "caption": "How to do weekly invoicing and payment reminders with AI (2 copy-paste prompts)\n\nKeep a one-line job log during the week. On Friday, run 2 prompts.\n\nPrompt 1:\n\"Here's my job log for the week. Group it by client. For each client: invoice lines (date, job, amount), the total, and a 3-line friendly email to send with the invoice. Payment due in [X] days. Don't change any amounts. Log: [PASTE]\"\n\nPrompt 2:\n\"These invoices are unpaid: [CLIENT, INVOICE NO., AMOUNT, DAYS LATE]. Write a short reminder for each. Under 7 days: friendly nudge. 8 to 21: polite but clear. Over 21: firm, ask for a payment date. No guilt-tripping.\"\n\nIn our invented example, a one-person gardening service, Friday admin went from about 2 hours to about 20 minutes. Yours depends on how many jobs you do. Check every amount before sending, and keep addresses and bank details out of the chat.\n\nFollow @nomorebusywork and comment PACK: I'll DM you 21 more prompts for sales, bookings, money and your team.\n\nSave this for later. 📌\n\n#smallbusiness #invoicing #getpaid #smallbusinessowner #adminhacks"
+}

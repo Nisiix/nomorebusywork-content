@@ -1,0 +1,95 @@
+{
+  "id": "2026-10-20-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-10-20T22:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "One-minute tip",
+      "size": "xl",
+      "title": "Voice note in.\n**To-do list out.**",
+      "seconds": 4
+    },
+    {
+      "layout": "text",
+      "kicker": "The problem",
+      "size": "l",
+      "title": "Your best ideas come **in the van.** Then they're gone.",
+      "seconds": 4
+    },
+    {
+      "layout": "steps",
+      "kicker": "How",
+      "title": "Talk, paste, done",
+      "steps": [
+        {
+          "t": "Just talk",
+          "d": "Jobs, calls, ideas. Don't tidy it up."
+        },
+        {
+          "t": "Use voice typing",
+          "d": "The mic on your phone keyboard, in your notes app."
+        },
+        {
+          "t": "Paste it with this prompt ↓",
+          "d": "AI sorts it."
+        }
+      ],
+      "seconds": 6
+    },
+    {
+      "layout": "prompt",
+      "kicker": "Copy this",
+      "cards": [
+        {
+          "n": "01",
+          "title": "Voice note → to-do",
+          "text": "Turn this voice note into a to-do list. Group by Today, This week, Someday. One line per task, starting with a verb. Keep dates and names. Ignore the waffle. Voice note: [PASTE]"
+        }
+      ],
+      "seconds": 6
+    },
+    {
+      "layout": "chat",
+      "kicker": "What I said",
+      "messages": [
+        {
+          "role": "you",
+          "text": "right so call Dave back about the boiler job, today really, and the van's inspection is due end of the month, should book that, oh and try posting before-and-after photos, order more copper fittings before Thursday, and invoice Mrs. Lee for last week"
+        }
+      ],
+      "note": "Example voice note, invented.",
+      "seconds": 7
+    },
+    {
+      "layout": "chat",
+      "kicker": "What came back",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "**Today**\n• Call Dave back about the boiler job\n• Invoice Mrs. Lee for last week\n\nThis week\n• Order copper fittings (before Thu)\n• Book the van's inspection (due end of month)\n\nSomeday\n• Try posting before-and-after photos"
+        }
+      ],
+      "seconds": 7
+    },
+    {
+      "layout": "text",
+      "kicker": "Tip",
+      "size": "l",
+      "title": "Say names and dates **out loud.**",
+      "paras": [
+        "It can only pull out what you actually said."
+      ],
+      "seconds": 5
+    },
+    {
+      "layout": "cta",
+      "kicker": "Know someone?",
+      "title": "Send this to someone who still writes to-dos **on their hand.**",
+      "body": "Follow @nomorebusywork for one fix a day.",
+      "seconds": 5
+    }
+  ],
+  "caption": "How to turn a voice note into a to-do list with AI\n\nYour best ideas show up while you're driving. By the time you're parked, half of them are gone.\n\nJust talk instead: use the mic on your phone keyboard to dictate into your notes app. Don't tidy it up. Then paste it with this:\n\n\"Turn this voice note into a to-do list. Group by Today, This week, Someday. One line per task, starting with a verb. Keep dates and names. Ignore the waffle. Voice note: [PASTE]\"\n\nI tried it on an example ramble from a plumber: a callback, an invoice, an inspection to book, fittings to order before Thursday and a someday idea. Every task came out as one clean line, in the right group.\n\nTip: say names and dates out loud. It can only pull out what you said. Skip private details like customer addresses.\n\nSend this to someone who still writes to-dos on their hand. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#smallbusiness #todolist #productivitytips #aitools #tradesbusiness"
+}

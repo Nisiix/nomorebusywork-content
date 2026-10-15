@@ -1,0 +1,87 @@
+{
+  "id": "2026-10-22-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-10-22T22:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "One-minute tip",
+      "size": "xl",
+      "title": "One example. **Same voice every time.**",
+      "seconds": 4
+    },
+    {
+      "layout": "text",
+      "kicker": "The problem",
+      "size": "l",
+      "title": "Monday's post sounds like you. Friday's sounds like **a bank.**",
+      "seconds": 5
+    },
+    {
+      "layout": "prompt",
+      "kicker": "Copy this",
+      "cards": [
+        {
+          "n": "01",
+          "title": "Make a style card",
+          "text": "Here's something I wrote: [PASTE A POST OR EMAIL YOU LIKE]. Describe my writing style in 5 short bullets I can reuse: sentence length, words I use, tone, how I start and end."
+        }
+      ],
+      "seconds": 7
+    },
+    {
+      "layout": "chat",
+      "kicker": "My example",
+      "messages": [
+        {
+          "role": "you",
+          "text": "New week, new bakes! The cinnamon knots are back (sorry, they sold out by 10 last time). Come early, bring a friend, and don't tell anyone about the corner table."
+        }
+      ],
+      "note": "Example bakery, invented.",
+      "seconds": 6
+    },
+    {
+      "layout": "chat",
+      "kicker": "My style card",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "• Short, punchy sentences\n• Chatty asides in brackets\n• Everyday words, no jargon\n• Warm and a little cheeky\n• Opens with news, ends with a nudge to visit"
+        }
+      ],
+      "seconds": 6
+    },
+    {
+      "layout": "text",
+      "kicker": "Now use it",
+      "size": "l",
+      "title": "Paste your **style card** at the top of every request.",
+      "seconds": 5
+    },
+    {
+      "layout": "chat",
+      "kicker": "Tried it",
+      "messages": [
+        {
+          "role": "you",
+          "text": "Using my style card: 2-line post, we're closed Monday for a family wedding."
+        },
+        {
+          "role": "ai",
+          "text": "Closed this Monday (family wedding, someone has to eat the cake). Back Tuesday with fresh bakes!"
+        }
+      ],
+      "seconds": 7
+    },
+    {
+      "layout": "cta",
+      "kicker": "Know someone?",
+      "title": "Send this to someone whose AI posts all sound **different.**",
+      "body": "Follow @nomorebusywork for one fix a day.",
+      "seconds": 5
+    }
+  ],
+  "caption": "How to keep a consistent tone of voice with AI: make a style card\n\nWhen every post starts from a blank prompt, every post sounds a bit different. Fix it once:\n\n\"Here's something I wrote: [PASTE A POST OR EMAIL YOU LIKE]. Describe my writing style in 5 short bullets I can reuse: sentence length, words I use, tone, how I start and end.\"\n\nI tried it with a post from an example bakery. The style card: short punchy sentences, chatty asides in brackets, everyday words, warm and a little cheeky, opens with news and ends with a nudge to visit.\n\nSave those 5 bullets in your notes app and paste them at the top of every request. Posts, emails, replies: same voice.\n\nSend this to someone whose AI posts all sound different. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#smallbusiness #brandvoice #contentcreation #aitools #smallbusinessmarketing"
+}

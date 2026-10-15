@@ -1,0 +1,93 @@
+{
+  "id": "2026-10-21-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-10-21T22:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "One-minute tip",
+      "size": "xl",
+      "title": "Make AI **get to the point.**",
+      "seconds": 4
+    },
+    {
+      "layout": "chat",
+      "kicker": "What most people get",
+      "messages": [
+        {
+          "role": "you",
+          "text": "Write a message telling my team the shop opens late on Monday."
+        },
+        {
+          "role": "ai",
+          "text": "Hi team, I hope you're all doing well! I wanted to let you know that the shop will be opening later than usual on Monday, at [time]. Please plan accordingly, and don't hesitate to reach out if you have any questions. Thank you for your understanding!"
+        }
+      ],
+      "note": "Example shop, invented.",
+      "seconds": 7
+    },
+    {
+      "layout": "text",
+      "kicker": "The fix",
+      "size": "l",
+      "title": "Give it a **hard limit.**",
+      "paras": [
+        "Not \"keep it short.\" A number: words, lines or bullets."
+      ],
+      "seconds": 4
+    },
+    {
+      "layout": "prompt",
+      "kicker": "Copy this",
+      "cards": [
+        {
+          "n": "01",
+          "title": "No waffle",
+          "text": "[YOUR REQUEST]. Max [N] words. Lead with the key fact. No \"I hope you're well\", no filler at the end."
+        }
+      ],
+      "seconds": 6
+    },
+    {
+      "layout": "chat",
+      "kicker": "Same message, with limits",
+      "messages": [
+        {
+          "role": "you",
+          "text": "Tell my team the shop opens at 11 on Monday, not 9 (stock delivery). Max 25 words. Lead with the key fact."
+        },
+        {
+          "role": "ai",
+          "text": "Heads-up: on Monday the shop opens at 11, not 9, because of a stock delivery. See you then!"
+        }
+      ],
+      "seconds": 6
+    },
+    {
+      "layout": "text",
+      "kicker": "Limits that work",
+      "size": "l",
+      "title": "**Max 25 words.**\n3 bullets.\nOne sentence first.",
+      "paras": [
+        "Pick one. Any number beats \"short.\""
+      ],
+      "seconds": 5
+    },
+    {
+      "layout": "text",
+      "kicker": "Bonus: already too long?",
+      "size": "l",
+      "title": "Paste it back:\n**\"Cut this in half. Keep every fact.\"**",
+      "seconds": 5
+    },
+    {
+      "layout": "cta",
+      "kicker": "Know someone?",
+      "title": "Send this to someone who still cuts AI's waffle **by hand.**",
+      "body": "Follow @nomorebusywork for one fix a day.",
+      "seconds": 5
+    }
+  ],
+  "caption": "How to make AI keep it short (and stop the waffle)\n\nAsk for a simple team message and you get \"I hope you're all doing well\", \"please plan accordingly\" and a thank-you paragraph. All that for one fact: the shop opens late on Monday.\n\n\"Keep it short\" doesn't really work. A number does:\n\n\"[YOUR REQUEST]. Max [N] words. Lead with the key fact. No \"I hope you're well\", no filler at the end.\"\n\nWith a 25-word limit, the same message became one line: Monday we open at 11, not 9, because of a stock delivery.\n\nOther limits that work: \"3 bullets, one line each\" or \"one sentence first, details after\".\n\nBonus: already got a long one? Paste it back with \"Cut this in half. Keep every fact.\"\n\nSend this to someone who still cuts AI's waffle by hand. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#smallbusiness #writingtips #aiprompts #teamcommunication #smallbusinessowner"
+}

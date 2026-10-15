@@ -1,0 +1,113 @@
+{
+  "id": "2026-10-17-am",
+  "type": "carousel",
+  "series": "BEFORE → AFTER",
+  "publish_at": "2026-10-17T16:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "Before → After",
+      "big": "Umm…",
+      "size": "l",
+      "title": "A rambling voice note → a **clean job quote**",
+      "sub": "Talk it through on the drive home. One prompt does the typing.",
+      "tag": "Full example inside ↓"
+    },
+    {
+      "layout": "text",
+      "kicker": "The problem",
+      "size": "m",
+      "title": "You price the job on site. Then the quote sits in your head **for days**.",
+      "paras": [
+        "Talking it through takes a couple of minutes. Typing it up properly is the bit that never gets done."
+      ]
+    },
+    {
+      "layout": "chat",
+      "kicker": "Before: the voice note, transcribed",
+      "messages": [
+        {
+          "role": "you",
+          "text": "ok so for [CUSTOMER], they want the living room and hallway done, living room walls and ceiling, hallway just walls but the stairs too so that's the tricky bit, um, sage green in the living room, hallway white, I said three days maybe four with the stairs, need to fill some cracks in the hall first, oh and gloss the skirting, all rooms, labor 1,800, I'm buying the paint, roughly 250 on top, they said start after November 3rd, usual 20% deposit"
+        }
+      ],
+      "note": "Example business, invented: a painter. Dictate into your notes app, then copy the text. Customer name and address swapped for [CUSTOMER]."
+    },
+    {
+      "layout": "prompt",
+      "kicker": "The prompt (copy it)",
+      "cards": [
+        {
+          "n": "01",
+          "title": "Voice note → quote",
+          "text": "Turn this voice-note transcript into a clear job quote for my customer. Sections: Job summary, Work included, Price (only use numbers I say), Timing, Next step. Plain English. Anything unclear: list it as a question for me at the end, don't guess. Transcript: [PASTE]"
+        }
+      ],
+      "note": "Swap names and addresses for [CUSTOMER] before pasting. Add them back in the final quote."
+    },
+    {
+      "layout": "chat",
+      "kicker": "After: what came back (1/2)",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "**Quote: interior painting for [CUSTOMER]**\n\nJob summary\nRepaint the living room, hallway and stairs.\n\nWork included\n• Living room: walls and ceiling, sage green\n• Hallway and stairs: walls, white\n• Fill cracks in hallway walls before painting\n• Gloss skirting boards"
+        }
+      ]
+    },
+    {
+      "layout": "chat",
+      "kicker": "After: what came back (2/2)",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "Price\n• Labor: $1,800\n• Paint (supplied by us): about $250\n• Estimated total: about $2,050\n• 20% deposit to book\n\nTiming: 3–4 days, starting after Nov 3.\nNext step: reply to confirm and I'll send the deposit invoice.\n\n**Questions for you**\n1. Stairs: walls only, or banisters too?\n2. \"Skirting, all rooms\": living room and hallway only?\n3. Deposit: 20% of labor, or of the total?"
+        }
+      ]
+    },
+    {
+      "layout": "beforeafter",
+      "kicker": "The best part: it asked, it didn't guess",
+      "before": {
+        "label": "VOICE NOTE SAID",
+        "text": "\"…the stairs too so that's the tricky bit… gloss the skirting, all rooms…\""
+      },
+      "after": {
+        "label": "QUOTE NOW ASKS YOU",
+        "text": "Stairs: walls only, or banisters too?\nSkirting: living room and hallway only?"
+      },
+      "note": "Answer the questions, then ask it to update the quote. Vague bits are where quotes go wrong."
+    },
+    {
+      "layout": "checklist",
+      "kicker": "Save this",
+      "title": "Check before you **send it**",
+      "items": [
+        {
+          "t": "Every number came from you",
+          "d": "Nothing added, nothing rounded."
+        },
+        {
+          "t": "The questions are answered",
+          "d": "Then delete that section."
+        },
+        {
+          "t": "Customer details added back",
+          "d": "Name, address, date of the quote."
+        },
+        {
+          "t": "Your payment terms are in",
+          "d": "Deposit, when the rest is due."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "kicker": "Want more like this?",
+      "title": "Follow + comment",
+      "keyword": "PACK",
+      "after": "I'll DM you **21 more prompts** for sales, bookings, money and your team. Free, for followers."
+    }
+  ],
+  "caption": "How to turn a voice note into a job quote with AI (copy the prompt)\n\nYou price the job on site, then the quote sits in your head for days. Instead: talk it through on the drive home, dictate it into your notes app, and let AI do the typing.\n\nThe prompt:\n\n\"Turn this voice-note transcript into a clear job quote for my customer. Sections: Job summary, Work included, Price (only use numbers I say), Timing, Next step. Plain English. Anything unclear: list it as a question for me at the end, don't guess. Transcript: [PASTE]\"\n\nI tried it on an example painting job. It sorted the rambling into summary, work, price and timing, and it only used the numbers in the transcript. Best part: it asked about the stairs and the skirting instead of guessing.\n\nBefore you send: check every number, answer the questions, add the customer's details back in.\n\nFollow @nomorebusywork and comment PACK: I'll DM you 21 more prompts for sales, bookings, money and your team.\n\nSave this for later. 📌\n\n#smallbusiness #tradesmen #contractorlife #aitools #smallbusinessowner"
+}

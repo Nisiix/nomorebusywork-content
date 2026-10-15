@@ -1,0 +1,130 @@
+{
+  "id": "2026-10-20-am",
+  "type": "carousel",
+  "series": "PROMPT DUEL",
+  "publish_at": "2026-10-20T16:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "Prompt Duel",
+      "size": "xl",
+      "title": "Same complaint.\nTwo prompts.\n**Very different replies.**",
+      "sub": "A vague prompt vs a specific one. Both replies shown.",
+      "tag": "The complaint ↓"
+    },
+    {
+      "layout": "text",
+      "kicker": "The complaint",
+      "size": "m",
+      "title": "\"One of the mugs arrived **smashed**. It was a gift for Saturday.\"",
+      "paras": [
+        "Full email: \"Hi, my order came today and one of the two mugs is smashed. Pretty disappointed, it was a birthday gift for Saturday. Priya\""
+      ],
+      "note": "Example shop and customer, invented: a small online pottery shop."
+    },
+    {
+      "layout": "chat",
+      "kicker": "Prompt A: vague",
+      "messages": [
+        {
+          "role": "you",
+          "text": "Reply to this complaint: [PASTE EMAIL]"
+        },
+        {
+          "role": "ai",
+          "text": "Dear Priya,\n\nThank you for reaching out, and we sincerely apologize for the inconvenience. We understand how disappointing it must be to receive a damaged item, especially one intended as a gift. Please rest assured that we take this matter seriously. Could you please provide your order number and a photo of the damaged mug so we can resolve this as quickly as possible?\n\nBest regards,\n[YOUR NAME]"
+        }
+      ]
+    },
+    {
+      "layout": "prompt",
+      "kicker": "Prompt B: specific",
+      "cards": [
+        {
+          "n": "B",
+          "title": "The brief",
+          "text": "Reply to this customer email. What happened: 1 of 2 mugs arrived broken, it's a gift for Saturday. What we're doing: replacement sent today by express, arrives Friday, no need to return the broken one. Tone: warm, human, no corporate phrases. Under 70 words. Sign off as [NAME]. Email: [PASTE]"
+        }
+      ],
+      "note": "Remove order numbers, addresses and email addresses before pasting."
+    },
+    {
+      "layout": "chat",
+      "kicker": "What B came back with",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "Hi Priya,\n\nI'm so sorry, that's not how a gift should arrive. I've sent a replacement mug today by express, so it'll be with you by Friday, in time for Saturday. No need to send the broken one back, just wrap it up and recycle it carefully.\n\nThanks for letting me know.\n[NAME]"
+        }
+      ]
+    },
+    {
+      "layout": "compare",
+      "kicker": "Side by side",
+      "title": "A vs B: **what the customer gets**",
+      "cols": [
+        "",
+        "A: vague",
+        "B: specific"
+      ],
+      "rows": [
+        [
+          "The gift",
+          "\"especially one intended as a gift\"",
+          "Arrives Friday, in time"
+        ],
+        [
+          "Next step",
+          "Customer sends photo + order no.",
+          "Replacement already sent"
+        ],
+        [
+          "Broken mug",
+          "Not mentioned",
+          "No need to return it"
+        ],
+        [
+          "Sounds like",
+          "\"we take this matter seriously\"",
+          "\"not how a gift should arrive\""
+        ]
+      ],
+      "note": "A wasn't wrong. It just didn't know what you can offer."
+    },
+    {
+      "layout": "checklist",
+      "kicker": "Save this",
+      "title": "Before a complaint reply, **tell AI**",
+      "items": [
+        {
+          "t": "What happened",
+          "d": "One line, in your words."
+        },
+        {
+          "t": "What you're doing about it",
+          "d": "Refund, replacement, a call, a visit."
+        },
+        {
+          "t": "Any deadline that matters",
+          "d": "A gift, an event, a trip."
+        },
+        {
+          "t": "Tone + length",
+          "d": "\"Warm, no corporate phrases, under 70 words.\""
+        },
+        {
+          "t": "Nothing private",
+          "d": "No order numbers, addresses or emails."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "kicker": "Want more like this?",
+      "title": "Follow + comment",
+      "keyword": "PACK",
+      "after": "I'll DM you **21 more prompts** for sales, bookings, money and your team. Free, for followers."
+    }
+  ],
+  "caption": "How to reply to a customer complaint with AI: vague prompt vs specific prompt\n\nSame complaint (an example pottery shop, invented): one mug arrived smashed, and it was a birthday gift for Saturday.\n\nPrompt A: \"Reply to this complaint: [PASTE EMAIL]\"\nPolite and formal, and it asked the customer for a photo and an order number. More waiting.\n\nPrompt B: \"Reply to this customer email. What happened: 1 of 2 mugs arrived broken, it's a gift for Saturday. What we're doing: replacement sent today by express, arrives Friday, no need to return the broken one. Tone: warm, human, no corporate phrases. Under 70 words. Sign off as [NAME]. Email: [PASTE]\"\nWarm and short: sorry, replacement on its way, arrives Friday, keep the broken one.\n\nA wasn't wrong. It just didn't know what you can offer. Decide the fix first.\n\nRemove order numbers, addresses and emails before pasting.\n\nFollow @nomorebusywork and comment PACK: I'll DM you 21 more prompts for sales, bookings, money and your team.\n\nSave this for later. 📌\n\n#smallbusiness #customerservice #customerexperience #aitools #smallbusinessowner"
+}

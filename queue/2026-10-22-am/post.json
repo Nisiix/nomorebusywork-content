@@ -1,0 +1,16 @@
+{
+  "type": "carousel",
+  "caption": "How to turn messy meeting notes into action items with AI\n\nMeeting over, notes full of \"who? me I guess\" and \"maybe Ali?\". Here's the fix:\n\n\"Turn these meeting notes into 3 sections: DECISIONS (what we agreed), ACTIONS (task, owner, deadline), OPEN QUESTIONS (not decided yet). If an owner or deadline is missing, write NOT SET. Don't guess. Notes: [PASTE]\"\n\nThen: \"Now write a short message for the team chat: one line per action, owner first. Then list what's still open.\"\n\nI tried it on example notes from a café team meeting. It pulled out 2 decisions, 4 actions with owners, and flagged what was never decided instead of guessing.\n\nThe routine: paste right after the meeting, fill in every NOT SET, send the recap, open the next meeting with it.\n\nLeave out anything private: pay, health or HR issues.\n\nFollow @nomorebusywork and comment PACK: I'll DM you 21 more prompts for sales, bookings, money and your team.\n\nSave this for later. 📌\n\n#smallbusiness #meetingnotes #teammanagement #aitools #smallbusinessowner",
+  "publish_at": "2026-10-22T16:00:00Z",
+  "media": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg",
+    "08.jpg",
+    "09.jpg"
+  ]
+}

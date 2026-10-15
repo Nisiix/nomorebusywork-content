@@ -1,0 +1,116 @@
+{
+  "id": "2026-10-22-am",
+  "type": "carousel",
+  "series": "5-MINUTE FIX",
+  "publish_at": "2026-10-22T16:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "5-Minute Fix",
+      "size": "l",
+      "title": "Messy meeting notes → **who does what, by when.**",
+      "sub": "One prompt sorts your scribbles into decisions, owners and deadlines. About 5 minutes, checking included.",
+      "tag": "Tested on example notes ↓"
+    },
+    {
+      "layout": "text",
+      "kicker": "The problem",
+      "size": "m",
+      "title": "Everyone left the meeting thinking **someone else** would do it.",
+      "paras": [
+        "Notes like these record what was said. Not who's doing what, or by when."
+      ]
+    },
+    {
+      "layout": "chat",
+      "kicker": "The notes, as typed",
+      "messages": [
+        {
+          "role": "you",
+          "text": "team mtg tues. holiday menu?? Jen wants gingerbread latte, Sam not sure re cost. agreed: 2 seasonal drinks not 4. Jen to cost them. new rota from Nov, Sam doing it, needs everyone's availability by Fri. dishwasher broken AGAIN, call repair guy, who? me I guess. socials: nobody posting. maybe Ali? didn't decide. deep clean Sat 2nd, all in at 8"
+        }
+      ],
+      "note": "Example café and team, invented."
+    },
+    {
+      "layout": "prompt",
+      "kicker": "The prompt (copy it)",
+      "cards": [
+        {
+          "n": "01",
+          "title": "Notes → actions",
+          "text": "Turn these meeting notes into 3 sections: DECISIONS (what we agreed), ACTIONS (task, owner, deadline), OPEN QUESTIONS (not decided yet). If an owner or deadline is missing, write NOT SET. Don't guess. Notes: [PASTE]"
+        }
+      ],
+      "note": "Leave out anything private: pay, health, HR issues."
+    },
+    {
+      "layout": "chat",
+      "kicker": "What came back",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "**DECISIONS**\n• 2 seasonal drinks on the holiday menu, not 4\n• Deep clean Sat 2nd, everyone in at 8\n\nACTIONS\n• Cost the 2 drinks: Jen, NOT SET\n• New rota from Nov: Sam, NOT SET\n• Availability to Sam: everyone, Fri\n• Call dishwasher repair: you (note-taker), NOT SET\n\nOPEN QUESTIONS\n• Which 2 drinks? (gingerbread latte suggested)\n• Who posts on social media? (Ali suggested, not agreed)"
+        }
+      ]
+    },
+    {
+      "layout": "beforeafter",
+      "kicker": "The bit that saves you",
+      "before": {
+        "label": "NOTES SAID",
+        "text": "\"socials: nobody posting. maybe Ali? didn't decide.\""
+      },
+      "after": {
+        "label": "AI FLAGGED IT",
+        "text": "OPEN: Who posts on social media? Ali suggested, not agreed."
+      },
+      "note": "It didn't quietly hand the job to Ali. Unclear stays unclear until you decide."
+    },
+    {
+      "layout": "chat",
+      "kicker": "Then: one message for the team",
+      "messages": [
+        {
+          "role": "you",
+          "text": "Now write a short message for the team chat: one line per action, owner first. Then list what's still open."
+        },
+        {
+          "role": "ai",
+          "text": "Quick recap from Tuesday:\n• Jen: cost the 2 holiday drinks\n• Sam: new rota from Nov\n• Everyone: availability to Sam by Fri\n• Me: call dishwasher repair\n• All: deep clean Sat 2nd, 8am\nStill open: which 2 drinks, who runs our socials?"
+        }
+      ]
+    },
+    {
+      "layout": "checklist",
+      "kicker": "Save this",
+      "title": "The **5-minute** routine",
+      "items": [
+        {
+          "t": "Paste notes right after the meeting",
+          "d": "While everyone still remembers."
+        },
+        {
+          "t": "Fill in every NOT SET",
+          "d": "A name and a day for each."
+        },
+        {
+          "t": "Send the recap to the team chat",
+          "d": "Owner first, one line each."
+        },
+        {
+          "t": "Open the next meeting with it",
+          "d": "Done, stuck or dropped?"
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "kicker": "Want more like this?",
+      "title": "Follow + comment",
+      "keyword": "PACK",
+      "after": "I'll DM you **21 more prompts** for sales, bookings, money and your team. Free, for followers."
+    }
+  ],
+  "caption": "How to turn messy meeting notes into action items with AI\n\nMeeting over, notes full of \"who? me I guess\" and \"maybe Ali?\". Here's the fix:\n\n\"Turn these meeting notes into 3 sections: DECISIONS (what we agreed), ACTIONS (task, owner, deadline), OPEN QUESTIONS (not decided yet). If an owner or deadline is missing, write NOT SET. Don't guess. Notes: [PASTE]\"\n\nThen: \"Now write a short message for the team chat: one line per action, owner first. Then list what's still open.\"\n\nI tried it on example notes from a café team meeting. It pulled out 2 decisions, 4 actions with owners, and flagged what was never decided instead of guessing.\n\nThe routine: paste right after the meeting, fill in every NOT SET, send the recap, open the next meeting with it.\n\nLeave out anything private: pay, health or HR issues.\n\nFollow @nomorebusywork and comment PACK: I'll DM you 21 more prompts for sales, bookings, money and your team.\n\nSave this for later. 📌\n\n#smallbusiness #meetingnotes #teammanagement #aitools #smallbusinessowner"
+}

@@ -1,0 +1,91 @@
+{
+  "id": "2026-10-17-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-10-17T22:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "One-minute tip",
+      "size": "xl",
+      "title": "Stop typing **\"write an email.\"**",
+      "seconds": 4
+    },
+    {
+      "layout": "chat",
+      "kicker": "What most people type",
+      "messages": [
+        {
+          "role": "you",
+          "text": "Write an email to a supplier about a late delivery."
+        },
+        {
+          "role": "ai",
+          "text": "Subject: Delayed Delivery\n\nDear [Supplier Name],\n\nI hope this email finds you well. I am writing to inquire about the status of our recent order, which has not yet arrived…"
+        }
+      ],
+      "note": "Polite. Vague. Not ready to send.",
+      "seconds": 6
+    },
+    {
+      "layout": "text",
+      "kicker": "The fix",
+      "size": "l",
+      "title": "Give it 4 things:\n**who, what, tone, length.**",
+      "seconds": 4
+    },
+    {
+      "layout": "prompt",
+      "kicker": "Copy this",
+      "cards": [
+        {
+          "n": "01",
+          "title": "The 4-part email",
+          "text": "Write an email to [WHO + HOW YOU KNOW THEM]. What: [WHAT HAPPENED + WHAT YOU NEED]. Tone: [E.G. FRIENDLY BUT FIRM]. Length: under [N] words."
+        }
+      ],
+      "seconds": 6
+    },
+    {
+      "layout": "chat",
+      "kicker": "Filled in",
+      "messages": [
+        {
+          "role": "you",
+          "text": "Write an email to Dan, our regular flour supplier. What: Tuesday's order hasn't arrived, I need it by Friday morning or I'll buy elsewhere this week. Tone: friendly but firm. Under 60 words."
+        }
+      ],
+      "note": "Example business, invented: a bakery.",
+      "seconds": 6
+    },
+    {
+      "layout": "chat",
+      "kicker": "What came back",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "Hi Dan,\n\nTuesday's flour order still hasn't arrived. Could you check where it is? I need it by Friday morning at the latest, otherwise I'll have to buy elsewhere this week.\n\nCan you let me know today?\n\nThanks,\n[YOUR NAME]"
+        }
+      ],
+      "seconds": 7
+    },
+    {
+      "layout": "text",
+      "kicker": "Tip",
+      "size": "l",
+      "title": "Length is the one people skip.",
+      "paras": [
+        "Add **\"under 60 words\"** and the waffle goes."
+      ],
+      "seconds": 5
+    },
+    {
+      "layout": "cta",
+      "kicker": "Know someone?",
+      "title": "Send this to someone who still writes every email **from scratch.**",
+      "body": "Follow @nomorebusywork for one fix a day.",
+      "seconds": 5
+    }
+  ],
+  "caption": "How to write better emails with AI: who, what, tone, length\n\n\"Write an email to a supplier about a late delivery\" gets you \"I hope this email finds you well\" and a [Supplier Name] blank. Polite, vague, not ready to send.\n\nGive it 4 things instead:\n\n\"Write an email to [WHO + HOW YOU KNOW THEM]. What: [WHAT HAPPENED + WHAT YOU NEED]. Tone: [E.G. FRIENDLY BUT FIRM]. Length: under [N] words.\"\n\nI filled it in for an example bakery chasing a late flour order and got 5 short lines: what's missing, the Friday deadline, what happens if not, and a clear ask. Ready to send after a quick read.\n\nTip: length is the one people skip. A word limit cuts the waffle.\n\nSend this to someone who still writes every email from scratch. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#smallbusiness #emailtips #aiprompts #productivity #smallbusinessowner"
+}

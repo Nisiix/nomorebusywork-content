@@ -1,0 +1,9 @@
+{
+  "type": "reel",
+  "caption": "How to stop AI making things up about your business: make it ask questions first\n\nWhen AI doesn't know something, it fills the gap with a guess. That's where \"fully insured\" and \"affordable rates\" come from, even if you never said them.\n\nAdd one line to your prompt:\n\n\"I need [WHAT YOU NEED]. Before you write anything, ask me 3 questions. Then write it using only my answers.\"\n\nI tried it for a flyer for an example window-cleaning business. The 3 questions: who it's for, what makes you different, what people should do next. Three short answers later, the flyer led with \"Same cleaner. Every visit.\" because that's what I told it.\n\nTip: for bigger jobs (About page, service descriptions), add \"one at a time\" so it feels like a chat.\n\nSend this to someone who still fixes AI's guesses by hand. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#smallbusiness #aitips #promptwriting #smallbusinessowner #flyerdesign",
+  "publish_at": "2026-10-18T22:00:00Z",
+  "media": [
+    "reel.mp4"
+  ],
+  "cover": "cover.jpg"
+}

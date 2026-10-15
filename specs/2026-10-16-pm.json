@@ -1,0 +1,97 @@
+{
+  "id": "2026-10-16-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-10-16T22:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "One-minute tip",
+      "size": "xl",
+      "title": "Your AI replies sound **like a robot?**",
+      "seconds": 4
+    },
+    {
+      "layout": "chat",
+      "kicker": "What most people type",
+      "messages": [
+        {
+          "role": "you",
+          "text": "Reply to Sam, who booked a dog groom for Tuesday at 4."
+        },
+        {
+          "role": "ai",
+          "text": "Dear Sam, thank you for your booking. We are pleased to confirm your appointment on Tuesday at 4:00 PM. Please do not hesitate to contact us with any questions."
+        }
+      ],
+      "note": "Example business, invented: a dog groomer.",
+      "seconds": 6
+    },
+    {
+      "layout": "text",
+      "kicker": "The fix",
+      "size": "l",
+      "title": "Add 3 words:\n**sound like me.**",
+      "paras": [
+        "Then paste one message you actually wrote."
+      ],
+      "seconds": 4
+    },
+    {
+      "layout": "prompt",
+      "kicker": "Copy this",
+      "cards": [
+        {
+          "n": "01",
+          "title": "Sound like me",
+          "text": "Reply to [WHO + WHAT THEY ASKED]. Sound like me. Here's a message I sent last week: [PASTE ONE OF YOUR MESSAGES]"
+        }
+      ],
+      "seconds": 6
+    },
+    {
+      "layout": "chat",
+      "kicker": "With it",
+      "messages": [
+        {
+          "role": "you",
+          "text": "…Sound like me. Here's one I sent last week: \"Hi Lou! Biscuit was a star today, all fluffy and ready to go home. See you next month!\""
+        },
+        {
+          "role": "ai",
+          "text": "Hi Sam! You're all booked in for Tuesday at 4. Can't wait to meet your pup. See you then!"
+        }
+      ],
+      "seconds": 7
+    },
+    {
+      "layout": "text",
+      "kicker": "Why it works",
+      "size": "l",
+      "title": "AI copies **what it sees.**",
+      "paras": [
+        "Give it nothing, you get its default voice.",
+        "Give it your message, you get yours."
+      ],
+      "seconds": 5
+    },
+    {
+      "layout": "text",
+      "kicker": "Tip",
+      "size": "l",
+      "title": "Keep your best message in your **notes app.**",
+      "paras": [
+        "Paste it every time. Same voice, every reply."
+      ],
+      "seconds": 5
+    },
+    {
+      "layout": "cta",
+      "kicker": "Know someone?",
+      "title": "Send this to someone who still rewrites every AI reply **by hand.**",
+      "body": "Follow @nomorebusywork for one fix a day.",
+      "seconds": 5
+    }
+  ],
+  "caption": "How to make AI replies sound like you, not a robot\n\nAsk AI to \"reply to a booking\" and you get \"We are pleased to confirm your appointment.\" Nobody talks like that.\n\nThe fix is 3 words, plus one example:\n\n\"Reply to [WHO + WHAT THEY ASKED]. Sound like me. Here's a message I sent last week: [PASTE ONE OF YOUR MESSAGES]\"\n\nAI copies what it sees. Give it nothing and you get its default voice. Give it one of your messages and it picks up your greeting, your sentence length and your warmth.\n\nTip: keep your best message in your notes app and paste it every time.\n\nSend this to someone who still rewrites every AI reply by hand. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#smallbusiness #customerservice #aitips #smallbusinessowner #chatgptprompts"
+}

@@ -1,0 +1,131 @@
+{
+  "id": "2026-10-18-am",
+  "type": "carousel",
+  "series": "QUIZ",
+  "publish_at": "2026-10-18T16:00:00Z",
+  "slides": [
+    {
+      "layout": "quiz",
+      "kicker": "4-round prompt quiz · Round 1 · Answer next slide",
+      "question": "Review: \"Great coffee, but I waited 20 min for a sandwich.\" Which prompt **replies better**?",
+      "options": [
+        "Reply to this review.",
+        "Reply in under 50 words. Say sorry for the wait, mention we added a second person at lunch, offer a free coffee next time."
+      ],
+      "answer": 1,
+      "reveal": false
+    },
+    {
+      "layout": "quiz",
+      "kicker": "4-round prompt quiz · Round 1 · Answer next slide",
+      "question": "Review: \"Great coffee, but I waited 20 min for a sandwich.\" Which prompt **replies better**?",
+      "options": [
+        "Reply to this review.",
+        "Reply in under 50 words. Say sorry for the wait, mention we added a second person at lunch, offer a free coffee next time."
+      ],
+      "answer": 1,
+      "reveal": true,
+      "explain": "**B.** A said sorry and \"we're always working to improve.\" B said what changed and gave them a reason to come back."
+    },
+    {
+      "layout": "quiz",
+      "kicker": "Round 2 of 4 · Sale post",
+      "question": "Which prompt gives you a post you can **use as is**?",
+      "options": [
+        "3-line caption: 20% off all candles, Sat–Sun only. For regulars who buy gifts. End with \"See you Saturday.\"",
+        "Write a post about our weekend sale."
+      ],
+      "answer": 0,
+      "reveal": false
+    },
+    {
+      "layout": "quiz",
+      "kicker": "Round 2 of 4 · Sale post",
+      "question": "Which prompt gives you a post you can **use as is**?",
+      "options": [
+        "3-line caption: 20% off all candles, Sat–Sun only. For regulars who buy gifts. End with \"See you Saturday.\"",
+        "Write a post about our weekend sale."
+      ],
+      "answer": 0,
+      "reveal": true,
+      "explain": "**A.** B came back with \"amazing deals\" and [blanks] to fill in. It can't know what's on sale unless you say."
+    },
+    {
+      "layout": "quiz",
+      "kicker": "Round 3 of 4 · Appointment reminder",
+      "question": "Which prompt writes the **better reminder text**?",
+      "options": [
+        "You're a world-class copywriter with 20 years of experience. Write an appointment reminder.",
+        "2-line text reminding a client of their appointment tomorrow at [TIME]. Friendly. To reschedule: reply to this text."
+      ],
+      "answer": 1,
+      "reveal": false
+    },
+    {
+      "layout": "quiz",
+      "kicker": "Round 3 of 4 · Appointment reminder",
+      "question": "Which prompt writes the **better reminder text**?",
+      "options": [
+        "You're a world-class copywriter with 20 years of experience. Write an appointment reminder.",
+        "2-line text reminding a client of their appointment tomorrow at [TIME]. Friendly. To reschedule: reply to this text."
+      ],
+      "answer": 1,
+      "reveal": true,
+      "explain": "**B.** The fancy job title got me a polished reminder full of blanks: name, date, time, phone. Details beat job titles."
+    },
+    {
+      "layout": "quiz",
+      "kicker": "Round 4 of 4 · About page",
+      "question": "Which prompt gets an About page that **sounds like you**?",
+      "options": [
+        "Ask me 5 questions about my business, one at a time. Then write my About page from my answers.",
+        "Write an About page for my bakery."
+      ],
+      "answer": 0,
+      "reveal": false
+    },
+    {
+      "layout": "quiz",
+      "kicker": "Round 4 of 4 · About page",
+      "question": "Which prompt gets an About page that **sounds like you**?",
+      "options": [
+        "Ask me 5 questions about my business, one at a time. Then write my About page from my answers.",
+        "Write an About page for my bakery."
+      ],
+      "answer": 0,
+      "reveal": true,
+      "explain": "**A.** B made things up, like \"family recipes\" and \"locally sourced.\" A only uses what you tell it."
+    },
+    {
+      "layout": "checklist",
+      "kicker": "Save this",
+      "title": "What won **every round**",
+      "items": [
+        {
+          "t": "Give the details",
+          "d": "What happened, what's on offer, what you need."
+        },
+        {
+          "t": "Set a length",
+          "d": "\"Under 50 words\" or \"2 lines.\""
+        },
+        {
+          "t": "Skip the fancy job title",
+          "d": "Facts help more than \"world-class expert.\""
+        },
+        {
+          "t": "Let it ask you first",
+          "d": "When it can't know your story."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "kicker": "How many did you get?",
+      "title": "Follow + comment",
+      "keyword": "PROMPTS",
+      "after": "I'll DM you **25 copy-paste prompts** for emails, reviews, quotes and social posts. Free, for followers."
+    }
+  ],
+  "caption": "Which AI prompt gets the better result? A 4-round quiz for small business owners\n\nI ran every prompt in this quiz myself, both versions, and compared what came back.\n\nRound 1: a review reply. Round 2: a weekend sale post. Round 3: an appointment reminder. Round 4: an About page. Guess first, then swipe for the answer.\n\nThe pattern behind every winner:\n1) Give the details: what happened, what's on offer, what you need.\n2) Set a length: \"under 50 words\" or \"2 lines\".\n3) Skip the fancy job title. \"World-class copywriter\" added polish, not facts.\n4) When AI can't know your story, let it ask first:\n\n\"Ask me 5 questions about my business, one at a time. Then write my About page from my answers.\"\n\nTell me your score in the comments: 4/4?\n\nFollow @nomorebusywork and comment PROMPTS: I'll DM you 25 free copy-paste prompts for emails, reviews, quotes and posts.\n\nSave this for later. 📌\n\n#smallbusiness #aiquiz #chatgptprompts #smallbusinessowner #marketingtips"
+}
