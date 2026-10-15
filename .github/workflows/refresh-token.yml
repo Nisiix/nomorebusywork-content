@@ -1,0 +1,34 @@
+name: Refresh Instagram token
+
+# Long-lived Instagram tokens last 60 days and can be refreshed once they are at least 24 hours old.
+# With a GH_PAT secret (fine-grained token, this repository only, permission "Secrets: read and write")
+# the refreshed token is saved automatically. Without it, this job only checks the token and fails
+# loudly when it stops working, so you get an email from GitHub.
+
+on:
+  schedule:
+    - cron: "17 3 1,15 * *"
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Refresh and store token
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          resp=$(curl -fsS "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=${IG_ACCESS_TOKEN}")
+          new=$(echo "$resp" | python3 -c 'import sys,json; print(json.load(sys.stdin)["access_token"])')
+          echo "::add-mask::$new"
+          days=$(echo "$resp" | python3 -c 'import sys,json; print(int(json.load(sys.stdin).get("expires_in",0))//86400)')
+          echo "Token valid for about $days more days."
+          if [ -n "${GH_PAT:-}" ]; then
+            GH_TOKEN="$GH_PAT" gh secret set IG_ACCESS_TOKEN --repo "$GH_REPO" --body "$new"
+            echo "Token saved."
+          else
+            echo "GH_PAT not set: token checked but not saved."
+          fi
