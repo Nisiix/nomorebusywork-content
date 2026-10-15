@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-08-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-11-08T23:00:00Z",
+  "slides": [
+    {"layout": "cover", "size": "xl", "kicker": "60-second privacy check", "title": "Stop pasting **this** into AI.", "seconds": 4},
+    {"layout": "checklist", "kicker": "Scan before you hit enter", "title": "Don't paste", "items": ["Card and bank numbers", "Passwords and login codes", "Customers' names + contact details", "Staff health or HR details", "Anything under NDA"], "seconds": 6},
+    {"layout": "beforeafter", "kicker": "Swap them for tags", "before": {"label": "AS IS", "text": "Hi, it's Maria Lopez, 555-0147. My card ending 4471 was charged twice for order 8812."}, "after": {"label": "CLEANED", "text": "Hi, it's [CUSTOMER]. My card was charged twice for order [ORDER]."}, "note": "Example message, invented.", "seconds": 6},
+    {"layout": "prompt", "kicker": "The prompt", "cards": [{"n": "01", "title": "Reply draft", "text": "Write a short, warm reply to this customer. Keep the tags as they are. Message: [PASTE CLEANED MESSAGE]"}], "seconds": 5},
+    {"layout": "chat", "kicker": "What came back", "messages": [{"role": "ai", "text": "Hi [CUSTOMER], I'm sorry you were charged twice for order [ORDER]. I've asked for the extra payment to be refunded and I'll email you as soon as it's done."}], "seconds": 6},
+    {"layout": "text", "kicker": "One tip", "size": "l", "title": "Swap the tags back **outside** the chat.", "paras": ["Fill in the real name in your email app. And only promise the refund once you've actually asked for it."], "seconds": 6},
+    {"layout": "cover", "size": "l", "title": "Send this to someone who still pastes **whole emails** into AI.", "sub": "Follow @nomorebusywork for one fix a day.", "seconds": 5}
+  ],
+  "caption": "What not to paste into AI: a 60-second privacy check for small businesses\n\nBefore you hit enter, scan for 5 things: card and bank numbers, passwords and login codes, customers' names and contact details, staff health or HR details, and anything under NDA.\n\nThen swap them for tags like [CUSTOMER] and [ORDER]. AI only needs the shape of the problem to write a good reply.\n\nCopy this:\n\n\"Write a short, warm reply to this customer. Keep the tags as they are. Message: [PASTE CLEANED MESSAGE]\"\n\nFill the real details back in your email app, not in the chat. And read the draft before sending: if it says \"I've asked for a refund\", make sure you have.\n\nSend this to someone who still pastes whole emails into AI. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#dataprivacy #smallbusiness #aitools #cybersecuritytips #smallbusinessowner"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-06-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-11-06T23:00:00Z",
+  "slides": [
+    {"layout": "cover", "size": "xl", "kicker": "One-minute tip", "title": "Your best reviews are **hiding**.", "seconds": 4},
+    {"layout": "text", "kicker": "The problem", "size": "l", "title": "Great reviews sit on a page nobody reads.", "paras": ["Turn them into posts, with the customer's OK."], "seconds": 5},
+    {"layout": "prompt", "kicker": "The prompt", "cards": [{"n": "01", "title": "Review to post", "text": "Here's a customer review: [PASTE REVIEW]. Write a short social post that quotes it word for word, adds one line about the job, and ends with a soft invite. Don't change their words. First name + initial only."}], "seconds": 7},
+    {"layout": "chat", "kicker": "The review", "messages": [{"role": "you", "text": "\"They fixed our boiler on a Sunday, explained everything and left the place cleaner than they found it.\" Ana R."}], "note": "Example review, invented.", "seconds": 5},
+    {"layout": "chat", "kicker": "What came back", "messages": [{"role": "ai", "text": "\"They fixed our boiler on a Sunday, explained everything and left the place cleaner than they found it.\" Ana R.\n\nBoilers don't pick convenient days.\nIf yours is acting up, send us a message and we'll tell you honestly what it needs."}], "seconds": 7},
+    {"layout": "text", "kicker": "One tip", "size": "l", "title": "Ask **first**.", "paras": ["\"Can we share your review on our page, with your first name?\"", "Screenshot the yes and keep it."], "seconds": 6},
+    {"layout": "cover", "size": "l", "title": "Send this to someone who still copies reviews **by hand**.", "sub": "Follow @nomorebusywork for one fix a day.", "seconds": 5}
+  ],
+  "caption": "How to turn customer reviews into social posts with AI (with permission)\n\nYour best reviews are sitting on a page nobody reads. One prompt turns each one into a post, without changing a word the customer wrote.\n\nCopy this:\n\n\"Here's a customer review: [PASTE REVIEW]. Write a short social post that quotes it word for word, adds one line about the job, and ends with a soft invite. Don't change their words. First name + initial only.\"\n\nBefore you post, ask: \"Can we share your review on our page, with your first name?\" Screenshot the yes and keep it.\n\nTwo checks: the quote must match the original exactly, and the extra line must be true about your business.\n\nSend this to someone who still copies reviews by hand. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#smallbusiness #customerreviews #socialmediatips #aitools"
+}

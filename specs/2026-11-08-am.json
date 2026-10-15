@@ -1,0 +1,138 @@
+{
+  "id": "2026-11-08-am",
+  "type": "carousel",
+  "series": "QUIZ",
+  "publish_at": "2026-11-08T17:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "Sunday quiz",
+      "big": "5/5?",
+      "title": "AI basics every business owner should get **right**.",
+      "size": "m",
+      "sub": "5 quick questions. No jargon. Answers inside.",
+      "tag": "Keep score ↓"
+    },
+    {
+      "layout": "quiz",
+      "kicker": "Question 1 of 5",
+      "question": "AI gives you a fact about your industry. What do you do?",
+      "options": [
+        "Trust it. AI looks everything up.",
+        "Check it if it matters: numbers, laws, dates.",
+        "Never use AI for facts at all."
+      ],
+      "answer": 1,
+      "reveal": false
+    },
+    {
+      "layout": "quiz",
+      "kicker": "Answer 1",
+      "question": "AI gives you a fact about your industry. What do you do?",
+      "options": [
+        "Trust it. AI looks everything up.",
+        "Check it if it matters: numbers, laws, dates.",
+        "Never use AI for facts at all."
+      ],
+      "answer": 1,
+      "reveal": true,
+      "explain": "AI can sound sure and still be wrong. Use it for drafts and ideas, and check anything you'd repeat to a customer."
+    },
+    {
+      "layout": "quiz",
+      "kicker": "Question 2 of 5",
+      "question": "Which prompt gets the most useful email?",
+      "options": [
+        "Write a marketing email.",
+        "Write a marketing email. Be creative!",
+        "Write a 100-word email to past customers about our new Saturday hours. Friendly, one link."
+      ],
+      "answer": 2,
+      "reveal": false
+    },
+    {
+      "layout": "quiz",
+      "kicker": "Answer 2",
+      "question": "Which prompt gets the most useful email?",
+      "options": [
+        "Write a marketing email.",
+        "Write a marketing email. Be creative!",
+        "Write a 100-word email to past customers about our new Saturday hours. Friendly, one link."
+      ],
+      "answer": 2,
+      "reveal": true,
+      "explain": "Specific beats clever: who it's for, what it's about, how long, what tone."
+    },
+    {
+      "layout": "quiz",
+      "kicker": "Question 3 of 5",
+      "question": "Which is fine to paste into an AI chat?",
+      "options": [
+        "A customer's card number, to check an invoice",
+        "Your staff's home addresses",
+        "Your opening hours and price list"
+      ],
+      "answer": 2,
+      "reveal": false
+    },
+    {
+      "layout": "quiz",
+      "kicker": "Answer 3",
+      "question": "Which is fine to paste into an AI chat?",
+      "options": [
+        "A customer's card number, to check an invoice",
+        "Your staff's home addresses",
+        "Your opening hours and price list"
+      ],
+      "answer": 2,
+      "reveal": true,
+      "explain": "Info that's already public is fine. Remove names, numbers and anything private first."
+    },
+    {
+      "layout": "text",
+      "kicker": "Questions 4 and 5",
+      "size": "l",
+      "title": "Quick-fire:\ntrue or **false**?",
+      "paras": [
+        "4. \"AI remembers everything from our last chat.\"",
+        "5. \"You can ask AI to tell you what it isn't sure about.\""
+      ],
+      "note": "Decide, then swipe for the answers + recap →"
+    },
+    {
+      "layout": "checklist",
+      "kicker": "The 5 answers (save this)",
+      "title": "How did you **score**?",
+      "items": [
+        {
+          "t": "1. Check facts that matter",
+          "d": "Numbers, laws, dates."
+        },
+        {
+          "t": "2. Be specific",
+          "d": "Who, what, how long, what tone."
+        },
+        {
+          "t": "3. Paste public info only",
+          "d": "Strip names and private numbers."
+        },
+        {
+          "t": "4. False, mostly",
+          "d": "Depends on the tool and settings. Re-paste key details."
+        },
+        {
+          "t": "5. True",
+          "d": "Add: \"List anything you're not sure about.\""
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "kicker": "Want the next step?",
+      "title": "Follow + comment",
+      "keyword": "PACK",
+      "after": "I'll DM you **21 prompts** that put these basics to work: sales, bookings, money and your team."
+    }
+  ],
+  "caption": "AI basics quiz for small business owners: 5 questions\n\nNo jargon, no trick questions. Just the 5 things that decide whether AI saves you time or creates more work. Keep score and tell me yours in the comments.\n\nThe short version:\n1) AI can sound sure and still be wrong. Check numbers, laws and dates before you repeat them.\n2) Specific beats clever. Say who it's for, what it's about, how long and what tone.\n3) Only paste what's already public. Remove names, card numbers and anything private.\n4) Don't count on AI remembering your last chat. Re-paste the key details.\n5) You can ask it to flag doubts. Add this to any prompt:\n\n\"At the end, list anything you're not sure about and what I should check.\"\n\nFollow @nomorebusywork and comment PACK: I'll DM you 21 prompts that put these basics to work.\n\nSave this for later. 📌\n\n#smallbusiness #aiforbeginners #aitools #smallbusinessowner #businesstips"
+}

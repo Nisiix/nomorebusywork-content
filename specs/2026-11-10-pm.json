@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-10-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-11-10T23:00:00Z",
+  "slides": [
+    {"layout": "cover", "size": "xl", "kicker": "One-minute tip", "title": "Make AI **admit** what it doesn't know.", "seconds": 4},
+    {"layout": "text", "kicker": "The problem", "size": "l", "title": "AI sounds just as sure when it's **guessing**.", "seconds": 5},
+    {"layout": "prompt", "kicker": "Add this line", "cards": [{"n": "01", "title": "Flag it", "text": "[YOUR REQUEST]. Don't invent numbers, dates or rules. End with a list called CHECK THESE: every fact you're not sure about, and where I could confirm it."}], "seconds": 7},
+    {"layout": "chat", "kicker": "Real example", "messages": [{"role": "you", "text": "A customer asks if their boiler repair is covered by the warranty. Draft a reply. [+ the line]"}, {"role": "ai", "text": "Hi Mark, thanks for asking. Whether it's covered depends on your boiler's warranty terms and install date. Could you send me the model and install date? I'll check and confirm.\nCHECK THESE:\n• Warranty length for this model\n• Whether yearly servicing is required\n• Whether labor is covered"}], "note": "Example customer, invented.", "seconds": 8},
+    {"layout": "checklist", "kicker": "Use it for", "title": "Anything you'd regret getting wrong", "items": ["Quotes with prices", "Warranty or refund answers", "Dates and deadlines", "Anything about rules or tax"], "seconds": 5},
+    {"layout": "text", "kicker": "One tip", "size": "l", "title": "Treat the list as a **to-do**.", "paras": ["Two minutes on the manufacturer's site beats one wrong promise to a customer."], "seconds": 6},
+    {"layout": "cover", "size": "l", "title": "Send this to someone who still fact-checks **every line** by hand.", "sub": "Follow @nomorebusywork for one fix a day.", "seconds": 5}
+  ],
+  "caption": "How to make AI tell you what it's not sure about (one line to add)\n\nAI sounds just as confident when it's guessing. So ask it to point at its own weak spots.\n\nAdd this to any prompt:\n\n\"Don't invent numbers, dates or rules. End with a list called CHECK THESE: every fact you're not sure about, and where I could confirm it.\"\n\nI tried it on a customer asking whether a boiler repair is covered by the warranty. Instead of a confident yes or no, the draft asked for the model and install date, and the CHECK THESE list named exactly what to look up: warranty length, servicing rules, labor.\n\nUse it for prices, refunds, dates and anything about rules or tax. Then actually check the list. It's your to-do, not decoration.\n\nSend this to someone who still fact-checks every line by hand. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#aitips #smallbusiness #customerservice #productivity"
+}

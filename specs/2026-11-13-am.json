@@ -1,0 +1,111 @@
+{
+  "id": "2026-11-13-am",
+  "type": "carousel",
+  "series": "MISTAKES",
+  "publish_at": "2026-11-13T17:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "Mistakes",
+      "size": "l",
+      "title": "5 signs your AI reply isn't **ready to send**.",
+      "sub": "One quick read-through catches all five. Here's what to look for, on a real draft.",
+      "tag": "Real example inside ↓"
+    },
+    {
+      "layout": "chat",
+      "kicker": "The draft (from a vague prompt)",
+      "messages": [
+        {
+          "role": "you",
+          "text": "Reply to this complaint: \"My order arrived 5 days late and nobody answered my emails.\""
+        },
+        {
+          "role": "ai",
+          "text": "Dear [Customer Name],\nThank you for reaching out, and I'm truly sorry for the delay with your order and the lack of response to your emails.\nWe're looking into what happened and will make sure this doesn't happen again. As a token of our apology, we'd like to offer you [discount/refund]."
+        }
+      ],
+      "note": "Example complaint, invented. Draft shortened."
+    },
+    {
+      "layout": "steps",
+      "kicker": "Signs 1–3",
+      "title": "Spot them in the draft",
+      "steps": [
+        {
+          "t": "A bracket is still in it",
+          "d": "[Customer Name], [discount/refund]. Search for \"[\" before sending."
+        },
+        {
+          "t": "It promises what you didn't decide",
+          "d": "\"This won't happen again.\" Can you guarantee that?"
+        },
+        {
+          "t": "It states facts you never gave it",
+          "d": "\"We're looking into what happened.\" Are you?"
+        }
+      ]
+    },
+    {
+      "layout": "steps",
+      "kicker": "Signs 4–5",
+      "title": "The two that are easy to miss",
+      "start": 4,
+      "steps": [
+        {
+          "t": "It could go to anyone",
+          "d": "No name, no order number, no date. It reads like a template because it is one."
+        },
+        {
+          "t": "The stakes are high",
+          "d": "Refunds, legal threats, an upset regular. Write the last version yourself."
+        }
+      ]
+    },
+    {
+      "layout": "prompt",
+      "kicker": "The fix prompt",
+      "cards": [
+        {
+          "n": "01",
+          "title": "Rewrite with real facts",
+          "text": "Rewrite this reply. Use only these facts: [WHAT HAPPENED, WHAT I'VE DONE, WHAT I'LL DO]. No promises beyond those. Use their name and order number. Under 80 words. Draft: [PASTE]"
+        }
+      ],
+      "note": "Remove addresses and payment details before pasting."
+    },
+    {
+      "layout": "beforeafter",
+      "kicker": "What came back",
+      "before": {
+        "label": "VAGUE DRAFT",
+        "text": "...We're looking into what happened and will make sure this doesn't happen again. As a token of our apology, we'd like to offer you [discount/refund]."
+      },
+      "after": {
+        "label": "WITH REAL FACTS",
+        "text": "Hi Jordan, I'm sorry order #4127 reached you 5 days late, and that your emails went unanswered. The courier held it at their depot for 4 days, and nobody checked our inbox while I was away. That's on me.\nI've refunded your shipping today. If anything's wrong with the order, reply here and I'll answer the same day."
+      },
+      "note": "Facts given: courier delay, inbox unchecked, shipping refunded, same-day replies."
+    },
+    {
+      "layout": "checklist",
+      "kicker": "Save this",
+      "title": "Before you hit **send**",
+      "items": [
+        "No [brackets] left",
+        "No promises you didn't make",
+        "Every fact is one you gave it",
+        "Their name and details are in it",
+        "High stakes? Your words last"
+      ]
+    },
+    {
+      "layout": "cta",
+      "kicker": "Want more like this?",
+      "title": "Follow + comment",
+      "keyword": "PACK",
+      "after": "I'll DM you **21 more prompts** for sales, bookings, money and your team. Free, for followers."
+    }
+  ],
+  "caption": "5 signs an AI-written reply needs a human before you send it\n\nI asked for a reply to a complaint with a vague prompt. The draft sounded fine, until I read it properly:\n\n1) A bracket was still in it: [Customer Name].\n2) It promised \"this won't happen again\" and a refund nobody had decided on.\n3) It said \"we're looking into what happened\". Nobody was.\n4) No name, no order number: it could have gone to anyone.\n5) Late order plus ignored emails: high stakes, so a human writes the last version.\n\nThe fix is one more prompt with the real facts:\n\n\"Rewrite this reply. Use only these facts: [WHAT HAPPENED, WHAT I'VE DONE, WHAT I'LL DO]. No promises beyond those. Use their name and order number. Under 80 words. Draft: [PASTE]\"\n\nFollow @nomorebusywork and comment PACK: I'll DM you 21 more prompts.\n\nSave this for later. 📌\n\n#customerservice #smallbusiness #aitools #smallbusinessowner #emailtips"
+}

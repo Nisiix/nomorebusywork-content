@@ -1,0 +1,137 @@
+{
+  "id": "2026-11-11-am",
+  "type": "carousel",
+  "series": "STEAL THIS TEMPLATE",
+  "publish_at": "2026-11-11T17:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "Steal this template",
+      "size": "l",
+      "title": "3 holiday messages.\nOne prompt **each**.",
+      "sub": "Hours notice, promo post and email auto-reply, written before the rush.",
+      "tag": "Copy-paste templates inside ↓"
+    },
+    {
+      "layout": "text",
+      "kicker": "Why now",
+      "title": "Write them **before** you're busy.",
+      "paras": [
+        "In December you'll be answering \"are you open on the 24th?\" between customers.",
+        "Do all three now, while it's quiet, and just hit post later."
+      ],
+      "note": "Example business in this post: a bike repair shop, invented."
+    },
+    {
+      "layout": "prompt",
+      "kicker": "Template 1",
+      "cards": [
+        {
+          "n": "01",
+          "title": "Holiday hours notice",
+          "text": "Write a short holiday hours notice for [BUSINESS]. Dates and hours: [LIST]. Say when we reopen and how to reach us for urgent things: [HOW]. Friendly, under 60 words."
+        }
+      ],
+      "note": "Paste your real dates. AI copies what you give it, typos included."
+    },
+    {
+      "layout": "chat",
+      "kicker": "What came back",
+      "messages": [
+        {
+          "role": "you",
+          "text": "Last day Dec 23 (until 3pm). Closed Dec 24 – Jan 1. Back Jan 2. Urgent: text the shop phone."
+        },
+        {
+          "role": "ai",
+          "text": "**Holiday hours at Spoke & Chain**\nOur last day this year is Dec 23 (open until 3pm). We're closed Dec 24 – Jan 1 and back to normal hours on Jan 2.\nBike trouble while we're closed? Text the shop phone and we'll reply when we can. Happy holidays!"
+        }
+      ]
+    },
+    {
+      "layout": "prompt",
+      "kicker": "Template 2",
+      "cards": [
+        {
+          "n": "02",
+          "title": "Holiday promo post",
+          "text": "Write a social post for [BUSINESS] about [YOUR REAL OFFER]. Deadline: [DATE]. No fake urgency, no discounts or prices I didn't give you. 3 short lines + 1 call to action."
+        }
+      ],
+      "note": "No real offer? Gift vouchers, booking early or a holiday menu all work."
+    },
+    {
+      "layout": "chat",
+      "kicker": "What came back",
+      "messages": [
+        {
+          "role": "you",
+          "text": "Offer: service gift vouchers, any amount. Order by Dec 20, in store or by DM."
+        },
+        {
+          "role": "ai",
+          "text": "Stuck on a gift for the cyclist in your life?\nA Spoke & Chain service voucher, in any amount, keeps their bike rolling into spring.\nOrder in store or by DM by **Dec 20**.\n→ Message us to get yours."
+        }
+      ]
+    },
+    {
+      "layout": "prompt",
+      "kicker": "Template 3",
+      "cards": [
+        {
+          "n": "03",
+          "title": "Email auto-reply",
+          "text": "Write an out-of-office reply for [DATES]. Say when we're back, what happens to their message, and what to do if [URGENT CASE]. 3 sentences max. Warm, not cute."
+        },
+        {
+          "n": "→",
+          "title": "What I filled in",
+          "text": "Dates: Dec 24 – Jan 1. Back: Jan 2. Urgent case: a bike that's unsafe to ride → text the shop phone."
+        }
+      ]
+    },
+    {
+      "layout": "beforeafter",
+      "kicker": "What came back",
+      "before": {
+        "label": "THE USUAL",
+        "text": "I am currently out of the office and will respond upon my return."
+      },
+      "after": {
+        "label": "AI DRAFT",
+        "text": "Thanks for your email. We're closed from Dec 24 to Jan 1 and will reply when we're back on Jan 2. If your bike needs an urgent safety fix, text the shop phone and we'll do our best to help."
+      }
+    },
+    {
+      "layout": "checklist",
+      "kicker": "Save this",
+      "title": "Holiday prep in **one sitting**",
+      "items": [
+        {
+          "t": "Hours notice",
+          "d": "Website, pinned post, shop door, map listing."
+        },
+        {
+          "t": "Promo post",
+          "d": "A real offer with a real deadline."
+        },
+        {
+          "t": "Auto-reply",
+          "d": "Schedule the start and end dates now."
+        },
+        {
+          "t": "Check every date once",
+          "d": "Against your calendar, before anything goes live."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "kicker": "Want more like this?",
+      "title": "Follow + comment",
+      "keyword": "PACK",
+      "after": "I'll DM you **21 more prompts** for sales, bookings, money and your team. Free, for followers."
+    }
+  ],
+  "caption": "Holiday season prep for small businesses: hours notice, promo post and auto-reply (AI templates)\n\nWrite them now, while it's quiet. Three prompts:\n\n1) \"Write a short holiday hours notice for [BUSINESS]. Dates and hours: [LIST]. Say when we reopen and how to reach us for urgent things: [HOW]. Friendly, under 60 words.\"\n\n2) \"Write a social post for [BUSINESS] about [YOUR REAL OFFER]. Deadline: [DATE]. No fake urgency, no discounts or prices I didn't give you. 3 short lines + 1 call to action.\"\n\n3) \"Write an out-of-office reply for [DATES]. Say when we're back, what happens to their message, and what to do if [URGENT CASE]. 3 sentences max. Warm, not cute.\"\n\nNo special offer? Gift vouchers, early booking or simply your hours are enough. Check every date against your calendar before anything goes live.\n\nFollow @nomorebusywork and comment PACK: I'll DM you 21 more prompts.\n\nSave this for later. 📌\n\n#holidayseason #smallbusiness #shopsmall #smallbusinesstips #aitools"
+}
