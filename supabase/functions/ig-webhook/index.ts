@@ -124,14 +124,49 @@ function isYes(text: string) {
   return YES_WORDS.some((w) => t === w || t.startsWith(w + " "));
 }
 
+// ---------------------------------------------------------------- public replies
+const REPLIES_URL = "https://raw.githubusercontent.com/Nisiix/nomorebusywork-content/main/offers/replies.json";
+let repliesCache: { at: number; data: Record<string, string[]> } | null = null;
+
+async function replies(): Promise<Record<string, string[]>> {
+  if (repliesCache && Date.now() - repliesCache.at < 5 * 60_000) return repliesCache.data;
+  const r = await fetch(REPLIES_URL, { headers: { "Cache-Control": "no-cache" } });
+  const data = r.ok ? await r.json() : repliesCache?.data ?? {};
+  repliesCache = { at: Date.now(), data };
+  return data;
+}
+
+function pick(list: string[] | undefined) {
+  return list && list.length ? list[Math.floor(Math.random() * list.length)] : "";
+}
+
+// One public reply per comment, posted under the comment on our own post.
+async function publicReply(commentId: string, commenter: string, kind: "keyword" | "question" | "general") {
+  const { count } = await db.from("ig_events").select("id", { count: "exact", head: true })
+    .eq("kind", "public_reply").eq("comment_id", commentId);
+  if (count) return;
+  const message = pick((await replies())[kind]);
+  if (!message) return;
+  await graph("POST", `${commentId}/replies`, { message });
+  await log("public_reply", { ig_user_id: commenter, comment_id: commentId, detail: { kind, message } });
+}
+
 // ---------------------------------------------------------------- handlers
 async function onComment(v: any) {
   const commenter = v?.from?.id ? String(v.from.id) : undefined;
   const text: string = v?.text ?? "";
   if (!commenter || !v?.id || commenter === (await myId())) return;
   const offer = matchOffer(text, await offers());
-  await log("comment", { ig_user_id: commenter, username: v.from?.username, comment_id: v.id, media_id: v.media?.id, keyword: offer?.id, detail: { text } });
-  if (!offer) return;
+  await log("comment", { ig_user_id: commenter, username: v.from?.username, comment_id: v.id, media_id: v.media?.id, keyword: offer?.id, detail: { text, parent_id: v.parent_id ?? null } });
+
+  // Replies inside an existing thread are left to the owner.
+  if (v.parent_id) return;
+
+  if (!offer) {
+    try { await publicReply(v.id, commenter, text.includes("?") ? "question" : "general"); }
+    catch (e) { await log("error", { comment_id: v.id, detail: { where: "public_reply", error: String(e) } }); }
+    return;
+  }
 
   // Only one private reply per comment.
   const { count } = await db.from("ig_events").select("id", { count: "exact", head: true })
@@ -144,6 +179,8 @@ async function onComment(v: any) {
     pending_since: new Date().toISOString(), updated_at: new Date().toISOString(),
   });
   await log("private_reply", { ig_user_id: commenter, comment_id: v.id, keyword: offer.id });
+  try { await publicReply(v.id, commenter, "keyword"); }
+  catch (e) { await log("error", { comment_id: v.id, detail: { where: "public_reply", error: String(e) } }); }
 }
 
 async function onMessage(m: any) {

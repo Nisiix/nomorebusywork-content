@@ -1,0 +1,24 @@
+{
+  "_readme": "Public replies the ig-webhook function posts under comments on @nomorebusywork posts. One reply per comment, picked at random from the matching list. Keep them short, varied and human. Changes go live within 5 minutes.",
+  "keyword": [
+    "Sent! Check your DMs 📩",
+    "Done ✅ Check your DMs.",
+    "On its way to your DMs 📩",
+    "Just sent it. Check your inbox 📩",
+    "Check your DMs, it's there 🙌"
+  ],
+  "question": [
+    "Good question! Send me a DM with a bit more detail and I'll point you to the right prompt.",
+    "Great question. Short answer: start with one task and one saved prompt. DM me if you want an example 👇",
+    "Happy to help with that. Drop me a DM with your use case.",
+    "Good one! I'll cover this in an upcoming post. Follow so you don't miss it."
+  ],
+  "general": [
+    "Thanks for reading! Which tip will you try first?",
+    "Glad this helps 🙌 Save it for later.",
+    "Love that. Tell me how it goes!",
+    "Appreciate you! A new fix drops every day.",
+    "Thank you! What task eats most of your week?",
+    "🙌 Happy it's useful."
+  ]
+}
