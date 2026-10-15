@@ -1,0 +1,140 @@
+{
+  "id": "2026-10-30-am",
+  "type": "carousel",
+  "series": "MISTAKES",
+  "publish_at": "2026-10-30T16:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "Mistakes",
+      "big": "6",
+      "title": "things to **delete** before you paste anything into AI.",
+      "sub": "A quick check that keeps customer and staff data out of your chats.",
+      "tag": "Plus the safe way to paste ↓"
+    },
+    {
+      "layout": "text",
+      "kicker": "Why it matters",
+      "title": "An AI chat is not your **private notebook**.",
+      "paras": [
+        "Depending on your plan and settings, what you paste can be stored, and sometimes reviewed to improve the tool.",
+        "So check your assistant's data settings once. Then build one habit: strip private details before you paste."
+      ]
+    },
+    {
+      "layout": "steps",
+      "kicker": "Never paste · 1 to 3",
+      "title": "Money and access",
+      "steps": [
+        {
+          "t": "Card and bank numbers",
+          "d": "Full card, account and routing numbers. Write \"the customer's card\" instead."
+        },
+        {
+          "t": "Passwords and login codes",
+          "d": "Including one-time codes and shared team logins. AI never needs them."
+        },
+        {
+          "t": "Customer contact details",
+          "d": "Names with emails, phones or home addresses. Use [CUSTOMER]."
+        }
+      ]
+    },
+    {
+      "layout": "steps",
+      "kicker": "Never paste · 4 to 6",
+      "title": "People and promises",
+      "start": 4,
+      "steps": [
+        {
+          "t": "Health information",
+          "d": "Yours, your staff's or your customers'. Describe the situation, not the person."
+        },
+        {
+          "t": "Staff records",
+          "d": "Pay, reviews, Social Security or ID numbers. Use [EMPLOYEE] and leave numbers out."
+        },
+        {
+          "t": "Confidential documents",
+          "d": "Anything under an NDA or a client contract. If you promised to keep it private, keep it out."
+        }
+      ]
+    },
+    {
+      "layout": "compare",
+      "kicker": "Swap, don't skip",
+      "title": "Use a **placeholder** instead",
+      "cols": [
+        "Instead of",
+        "Paste"
+      ],
+      "rows": [
+        [
+          "Full name + email",
+          "[CUSTOMER]"
+        ],
+        [
+          "Home address",
+          "[CITY] or nothing"
+        ],
+        [
+          "Order or account no.",
+          "[ORDER]"
+        ],
+        [
+          "A staff member's name",
+          "[EMPLOYEE]"
+        ],
+        [
+          "Login details",
+          "Nothing. Ever."
+        ]
+      ],
+      "note": "AI doesn't need the real details to write a good reply."
+    },
+    {
+      "layout": "beforeafter",
+      "kicker": "Same request, two ways",
+      "before": {
+        "label": "RISKY PASTE",
+        "text": "Write a refund reply to Sarah Jenkins, sarah@example.com, 14 Oak Lane. Card ending 4421, order 88123. Her tile arrived cracked."
+      },
+      "after": {
+        "label": "SAFE PASTE",
+        "text": "Write a short, warm refund reply to [CUSTOMER]. Order [ORDER]: a tile arrived cracked. We'll refund in full or send a replacement, their choice. Keep [CUSTOMER] and [ORDER] as placeholders."
+      },
+      "note": "Example customer and tile shop, invented."
+    },
+    {
+      "layout": "chat",
+      "kicker": "What came back (still useful)",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "Hi [CUSTOMER],\nI'm so sorry your tile arrived cracked. That's not how we wanted your project to start.\nWe can refund order [ORDER] in full or send a replacement, whichever you prefer. Just reply and let us know.\nThanks for your patience,\n[YOUR NAME]"
+        }
+      ],
+      "note": "Fill in the real name in your email app, not in the chat."
+    },
+    {
+      "layout": "checklist",
+      "kicker": "Save this",
+      "title": "The **before-you-paste** check",
+      "items": [
+        "Card, bank or login details? Delete.",
+        "Names + contact info? Swap for [CUSTOMER].",
+        "Health or staff records? Leave them out.",
+        "Under an NDA? Don't paste it.",
+        "Check your tool's data settings once."
+      ]
+    },
+    {
+      "layout": "cta",
+      "kicker": "Want more like this?",
+      "title": "Follow + comment",
+      "keyword": "PACK",
+      "after": "I'll DM you **21 more prompts** for sales, bookings, money and your team. Free, for followers."
+    }
+  ],
+  "caption": "What not to paste into an AI chat: 6 privacy rules for small business owners\n\nAI chat assistants are great for drafting replies. But depending on your plan and settings, what you paste may be stored or reviewed.\n\nNever paste:\n1) Card and bank numbers\n2) Passwords and login codes\n3) Customer names with contact details\n4) Health information\n5) Staff records (pay, reviews, ID numbers)\n6) Anything under an NDA or client contract\n\nSwap details for placeholders instead. The safe version I tested:\n\n\"Write a short, warm refund reply to [CUSTOMER]. Order [ORDER]: a tile arrived cracked. We'll refund in full or send a replacement, their choice. Keep [CUSTOMER] and [ORDER] as placeholders.\"\n\nThe reply was just as good. You add the real name in your email app.\n\nFollow @nomorebusywork and comment PACK: I'll DM you 21 more prompts for your business.\n\nSave this for later. 📌\n\n#smallbusiness #dataprivacy #aitools #smallbusinessowner #onlinesafety"
+}

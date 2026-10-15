@@ -1,0 +1,110 @@
+{
+  "id": "2026-10-31-am",
+  "type": "carousel",
+  "series": "BEFORE → AFTER",
+  "publish_at": "2026-10-31T16:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "Before → After",
+      "title": "From legal fog to **4 clear answers**.",
+      "size": "xl",
+      "sub": "One prompt turns a confusing policy page into an FAQ customers actually read. It even flags the gaps.",
+      "tag": "The real rewrite inside ↓"
+    },
+    {
+      "layout": "text",
+      "kicker": "Before: the policy page",
+      "title": "This is what customers saw:",
+      "size": "m",
+      "paras": [
+        "\"All custom orders are subject to a non-refundable deposit of 50% of the order value, payable upon confirmation, save where cancellation is effected no less than 14 days prior to the agreed collection date, in which case the deposit shall be refunded less an administration charge. Alterations to design may be accommodated at the Bakery's discretion, provided notice is received no later than 7 days prior to collection. The Bakery cannot guarantee products are free from allergens, as nuts, gluten, dairy and eggs are handled on the premises.\""
+      ],
+      "note": "Example business: a custom cake bakery, invented."
+    },
+    {
+      "layout": "prompt",
+      "kicker": "The prompt (copy it)",
+      "cards": [
+        {
+          "n": "01",
+          "title": "Policy → FAQ",
+          "text": "Rewrite this policy as a customer FAQ. Use the questions a customer would actually ask. Answer each in plain English, max 2 sentences. Keep every rule and number exactly as written. At the end, list anything unclear under \"Questions for the owner\". Policy: [PASTE POLICY]"
+        }
+      ],
+      "note": "Paste the policy only. No customer names or order details needed."
+    },
+    {
+      "layout": "beforeafter",
+      "kicker": "One rule, side by side",
+      "before": {
+        "label": "BEFORE",
+        "text": "...save where cancellation is effected no less than 14 days prior to the agreed collection date, in which case the deposit shall be refunded less an administration charge."
+      },
+      "after": {
+        "label": "AFTER",
+        "text": "Q: Can I get my deposit back if I cancel?\nA: Yes, if you cancel at least 14 days before collection. We keep a small admin fee. After that, the deposit isn't refundable."
+      }
+    },
+    {
+      "layout": "chat",
+      "kicker": "The rest of the FAQ it wrote",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "Q: Do I have to pay a deposit?\nA: Yes. You pay 50% when you confirm your order.\n\nQ: Can I change my design?\nA: Usually, if you tell us at least 7 days before collection. It depends on what we can fit in.\n\nQ: Are your cakes allergen-free?\nA: We can't promise that. Our kitchen handles nuts, gluten, dairy and eggs."
+        }
+      ]
+    },
+    {
+      "layout": "steps",
+      "kicker": "The best part: questions for the owner",
+      "title": "It found **the gaps** in the policy.",
+      "steps": [
+        {
+          "t": "How much is the admin fee?",
+          "d": "The policy mentions it but never gives an amount."
+        },
+        {
+          "t": "What if a change comes in late?",
+          "d": "Less than 7 days before collection: no, maybe, or extra charge?"
+        },
+        {
+          "t": "Your move: answer both",
+          "d": "Before you publish, or customers will ask you instead."
+        }
+      ]
+    },
+    {
+      "layout": "checklist",
+      "kicker": "Save this",
+      "title": "Before you **publish** the FAQ",
+      "items": [
+        {
+          "t": "Check every number",
+          "d": "Deposits, days and fees must match the policy."
+        },
+        {
+          "t": "Answer the owner questions",
+          "d": "Fill the gaps it flagged."
+        },
+        {
+          "t": "Keep the full policy linked",
+          "d": "The FAQ explains. The policy still applies."
+        },
+        {
+          "t": "Put it where people pay",
+          "d": "Order form, booking page, confirmation email."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "kicker": "Want more like this?",
+      "title": "Follow + comment",
+      "keyword": "PROMPTS",
+      "after": "I'll DM you **25 free prompts** for emails, reviews, quotes, customer service and admin. Free, for followers."
+    }
+  ],
+  "caption": "How to turn a confusing policy page into a clear customer FAQ with AI\n\nIf customers keep asking things your policy already covers, the policy isn't the problem. The wording is.\n\nCopy this:\n\n\"Rewrite this policy as a customer FAQ. Use the questions a customer would actually ask. Answer each in plain English, max 2 sentences. Keep every rule and number exactly as written. At the end, list anything unclear under 'Questions for the owner'. Policy: [PASTE POLICY]\"\n\nI tried it on an invented bakery's custom order policy. One long legal paragraph became 4 short answers, and it spotted that the policy never says how much the admin fee is.\n\nBefore you publish: check every number, answer the gaps, and keep the full policy linked below the FAQ.\n\nFollow @nomorebusywork and comment PROMPTS: I'll DM you 25 free prompts for your business.\n\nSave this for later. 📌\n\n#smallbusiness #customerexperience #aitools #smallbusinessowner #bakerybusiness"
+}

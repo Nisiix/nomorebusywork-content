@@ -1,0 +1,151 @@
+{
+  "id": "2026-11-03-am",
+  "type": "carousel",
+  "series": "PROMPT DUEL",
+  "publish_at": "2026-11-03T17:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "Prompt Duel",
+      "big": "1 vs 4",
+      "title": "A one-line prompt vs a **4-part brief**. Same caption job.",
+      "size": "m",
+      "sub": "Both prompts run, both answers shown. Guess which one gets parents through the door.",
+      "tag": "Round 1 ↓"
+    },
+    {
+      "layout": "text",
+      "kicker": "The job",
+      "title": "An Instagram caption for a **free kids' story time**.",
+      "paras": [
+        "Saturdays, 10 to 10:30am, starting Nov 7. Ages 3 to 7. No booking needed.",
+        "Same job, two prompts. Here's what each one gave back."
+      ],
+      "note": "Example business: an independent bookshop, invented.",
+      "size": "l"
+    },
+    {
+      "layout": "chat",
+      "kicker": "Round 1 · the one-liner",
+      "messages": [
+        {
+          "role": "you",
+          "text": "Write an Instagram caption for my bookshop's story time."
+        },
+        {
+          "role": "ai",
+          "text": "Calling all little bookworms! Join us for a magical story time adventure where imaginations run wild and every page opens a new world. Grab your favorite grown-up and come get cozy with us. See you there!\n#StoryTime #BookLovers #ReadingIsMagic #KidsBooks #ShopLocal"
+        }
+      ],
+      "note": "Emojis removed for the slide."
+    },
+    {
+      "layout": "text",
+      "kicker": "What's missing",
+      "title": "Pretty words. **Zero details.**",
+      "size": "xl",
+      "paras": [
+        "No day. No time. No age range. Not even that it's free.",
+        "A parent reads it, smiles, and scrolls on."
+      ]
+    },
+    {
+      "layout": "prompt",
+      "kicker": "Round 2 · the 4-part brief",
+      "cards": [
+        {
+          "n": "01",
+          "title": "Caption brief",
+          "text": "WHO: [WHO IT'S FOR]\nWHAT: [EVENT, DAY, TIME, COST]\nVOICE: [3 WORDS], max 2 emojis\nACTION: [WHAT TO DO NEXT]\n\nWrite 3 caption options under 60 words. The first line must work on its own."
+        }
+      ]
+    },
+    {
+      "layout": "chat",
+      "kicker": "Round 2 · what came back",
+      "messages": [
+        {
+          "role": "you",
+          "text": "WHO: parents of 3 to 7 year olds nearby. WHAT: free story time, Saturdays 10 to 10:30am, from Nov 7. VOICE: warm, plain, one light joke. ACTION: no booking, just come."
+        },
+        {
+          "role": "ai",
+          "text": "Free story time is here! Every Saturday, 10 to 10:30am, starting Nov 7. Bring your 3 to 7 year old, grab a cushion, and we'll handle the dragons. No booking needed, just come along."
+        }
+      ],
+      "note": "Option 1 of 3. Emoji removed for the slide."
+    },
+    {
+      "layout": "compare",
+      "kicker": "The scorecard",
+      "title": "Which one would **you** act on?",
+      "cols": [
+        "",
+        "One-liner",
+        "4-part brief"
+      ],
+      "rows": [
+        [
+          "Day and time",
+          "Missing",
+          "Sat, 10 to 10:30am"
+        ],
+        [
+          "Age range",
+          "Missing",
+          "3 to 7"
+        ],
+        [
+          "Free?",
+          "Missing",
+          "Yes, first line"
+        ],
+        [
+          "Next step",
+          "\"See you there\"",
+          "No booking, just come"
+        ],
+        [
+          "Sounds like",
+          "Any shop",
+          "A real person"
+        ]
+      ]
+    },
+    {
+      "layout": "checklist",
+      "kicker": "Save this",
+      "title": "The **4-part brief**",
+      "items": [
+        {
+          "t": "WHO",
+          "d": "Who it's for, as specific as you can."
+        },
+        {
+          "t": "WHAT",
+          "d": "The event or offer: day, time, cost."
+        },
+        {
+          "t": "VOICE",
+          "d": "3 words, plus an emoji limit."
+        },
+        {
+          "t": "ACTION",
+          "d": "The one thing they should do next."
+        },
+        {
+          "t": "Ask for 3 options",
+          "d": "Pick one, change a word, post."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "kicker": "Want more like this?",
+      "title": "Follow + comment",
+      "keyword": "PROMPTS",
+      "after": "I'll DM you **25 free prompts** for emails, reviews, social posts, quotes and more. Free, for followers."
+    }
+  ],
+  "caption": "How to write a better Instagram caption with AI: one-line prompt vs a 4-part brief\n\nSame job, two prompts. The one-liner gave me \"magical adventures\" and five hashtags, but no day, no time, no age range and no mention that it's free.\n\nThe 4-part brief:\n\n\"WHO: [WHO IT'S FOR]\nWHAT: [EVENT, DAY, TIME, COST]\nVOICE: [3 WORDS], max 2 emojis\nACTION: [WHAT TO DO NEXT]\nWrite 3 caption options under 60 words. The first line must work on its own.\"\n\nFor an invented bookshop's free story time, it wrote: \"Free story time is here! Every Saturday, 10 to 10:30am, starting Nov 7. Bring your 3 to 7 year old, grab a cushion, and we'll handle the dragons.\"\n\nA few extra lines of typing, a caption people can act on.\n\nFollow @nomorebusywork and comment PROMPTS: I'll DM you 25 free prompts for your business.\n\nSave this for later. 📌\n\n#smallbusiness #instagramtips #captionwriting #aitools #socialmediaforbusiness"
+}

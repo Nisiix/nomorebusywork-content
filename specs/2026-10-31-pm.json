@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-31-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-10-31T22:00:00Z",
+  "slides": [
+    {"layout": "cover", "kicker": "One-minute tip", "title": "Fix the typos. **Keep your voice.**", "size": "xl", "seconds": 3},
+    {"layout": "text", "kicker": "The problem", "title": "Ask AI to \"proofread\" and it often **rewrites you** into someone else.", "size": "l", "seconds": 5},
+    {"layout": "prompt", "kicker": "The prompt", "cards": [{"n": "01", "title": "Voice-safe proofread", "text": "Proofread this. Fix only spelling, grammar and punctuation. Don't change my word choices, tone or sentence length. List each change as: original → fixed. Then give me the corrected text. Text: [PASTE TEXT]"}], "seconds": 8},
+    {"layout": "chat", "kicker": "What I pasted", "messages": [{"role": "you", "text": "Hey everyone! Were closed this monday for the holiday but back tuesday with alot of fresh tulips. Pop in, say hi, and grab a bunch before there gone :)"}], "note": "Example: florist newsletter, invented.", "seconds": 6},
+    {"layout": "chat", "kicker": "What came back", "messages": [{"role": "ai", "text": "Were → We're\nmonday → Monday\ntuesday → Tuesday\nalot → a lot\nthere → they're\n\nHey everyone! **We're** closed this Monday for the holiday but back Tuesday with a lot of fresh tulips. Pop in, say hi, and grab a bunch before **they're** gone :)"}], "seconds": 8},
+    {"layout": "text", "kicker": "What it left alone", "title": "\"Hey everyone\", \"Pop in\" and the **smiley** all stayed.", "size": "l", "paras": ["Five fixes. Zero new words. Still sounds like the person who wrote it."], "seconds": 5},
+    {"layout": "text", "kicker": "One tip", "title": "The **→ list** is your veto.", "size": "l", "paras": ["Skim the changes first. If one isn't right, ignore it and keep your version."], "seconds": 5},
+    {"layout": "cta", "kicker": "Share it", "title": "Send this to someone who still proofreads every post **by hand**.", "after": "Follow @nomorebusywork for one fix a day.", "seconds": 5}
+  ],
+  "caption": "A proofreading prompt that fixes typos without changing your voice\n\nAsk AI to \"proofread\" and it often rewrites the whole thing. Suddenly your friendly note sounds like a bank.\n\nCopy this:\n\n\"Proofread this. Fix only spelling, grammar and punctuation. Don't change my word choices, tone or sentence length. List each change as: original → fixed. Then give me the corrected text. Text: [PASTE TEXT]\"\n\nOn an invented florist's newsletter it made 5 fixes (We're, Monday, Tuesday, a lot, they're) and left \"Hey everyone\", \"Pop in\" and the smiley exactly where they were.\n\nTip: read the change list first. It's your veto.\n\nSend this to someone who still proofreads every post by hand. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#smallbusiness #writingtips #aitools #proofreading #smallbusinessmarketing"
+}

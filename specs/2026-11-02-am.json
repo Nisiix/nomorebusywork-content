@@ -1,0 +1,130 @@
+{
+  "id": "2026-11-02-am",
+  "type": "carousel",
+  "series": "BUSYWORK AUTOPSY",
+  "publish_at": "2026-11-02T17:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "Busywork Autopsy",
+      "title": "**3 polite emails** that chase late payments for you.",
+      "size": "l",
+      "sub": "Write them once with one prompt. Reuse them for every late invoice, no awkward rewrites.",
+      "tag": "All 3 emails inside ↓"
+    },
+    {
+      "layout": "text",
+      "kicker": "The autopsy",
+      "title": "Chasing isn't hard. **Rewriting it** every time is.",
+      "paras": [
+        "Where the time really goes: checking who's late, staring at a blank email, worrying about tone, then putting it off another week.",
+        "Fix the writing once and the rest becomes a calendar reminder."
+      ]
+    },
+    {
+      "layout": "steps",
+      "kicker": "The system",
+      "title": "3 emails, 3 dates, 1 call",
+      "steps": [
+        {
+          "t": "1 day late: a friendly nudge",
+          "d": "Assume it slipped. Resend the invoice."
+        },
+        {
+          "t": "7 days late: a clear reminder",
+          "d": "Restate the amount and how to pay."
+        },
+        {
+          "t": "14 days late: firm and polite",
+          "d": "Give a new date and the next step."
+        },
+        {
+          "t": "Still nothing: pick up the phone",
+          "d": "Then do what your terms say: pause work or add the agreed fee."
+        }
+      ]
+    },
+    {
+      "layout": "prompt",
+      "kicker": "The prompt (copy it)",
+      "cards": [
+        {
+          "n": "01",
+          "title": "Payment reminders",
+          "text": "Write 3 payment reminder emails for [BUSINESS]. Email 1 (1 day late): friendly, assume it slipped. Email 2 (7 days): clear, restate the amount and how to pay. Email 3 (14 days): firm but polite, give a new date and the next step: [NEXT STEP]. Under 80 words each. Use placeholders for client, invoice, amount and dates."
+        }
+      ],
+      "note": "Keep the placeholders. Fill in client details in your email app."
+    },
+    {
+      "layout": "chat",
+      "kicker": "Email 1 · 1 day late",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "Hi [CLIENT NAME],\nJust a quick note: invoice [INVOICE NO.] for [AMOUNT] was due on [DATE]. It may have slipped through, so I've attached it again.\nIf it's already on its way, thank you, and please ignore this.\nBest, [YOUR NAME]"
+        }
+      ],
+      "note": "Example: a freelance web designer, invented."
+    },
+    {
+      "layout": "beforeafter",
+      "kicker": "Email 2 · 7 days late",
+      "before": {
+        "label": "THE EMAIL I KEPT PUTTING OFF",
+        "text": "Hi, so sorry to bother you, just wondering if you maybe had a chance to look at the invoice? No worries if not!"
+      },
+      "after": {
+        "label": "AI DRAFT",
+        "text": "Hi [CLIENT NAME], I'm following up on invoice [INVOICE NO.] for [AMOUNT], now 7 days overdue. Could you let me know when to expect payment? You can pay by [PAYMENT METHOD], and I'm happy to resend anything you need."
+      },
+      "note": "Clear isn't rude. It names the invoice, the amount and the ask."
+    },
+    {
+      "layout": "chat",
+      "kicker": "Email 3 · 14 days late",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "Hi [CLIENT NAME],\nInvoice [INVOICE NO.] for [AMOUNT] is now 14 days overdue, and I haven't heard back.\nPlease arrange payment by [NEW DATE]. If it isn't received by then, I'll [NEXT STEP] as set out in our terms.\nIf something's wrong, just reply and let's sort it out.\n[YOUR NAME]"
+        }
+      ],
+      "note": "Only charge late fees your contract allows."
+    },
+    {
+      "layout": "checklist",
+      "kicker": "Save this",
+      "title": "Set it up **once**",
+      "items": [
+        {
+          "t": "Save the 3 emails as templates",
+          "d": "In your email app or invoicing tool."
+        },
+        {
+          "t": "Add reminders for day 1, 7 and 14",
+          "d": "Your calendar does the remembering."
+        },
+        {
+          "t": "Put payment terms on every invoice",
+          "d": "Due date, how to pay, what happens if late."
+        },
+        {
+          "t": "Pick your step-3 action in advance",
+          "d": "Pause work, late fee, or a phone call."
+        },
+        {
+          "t": "Good client? Call before email 3",
+          "d": "A quick call can save the relationship."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "kicker": "Want more like this?",
+      "title": "Follow + comment",
+      "keyword": "PACK",
+      "after": "I'll DM you **21 more prompts** for sales, bookings, money and your team. Free, for followers."
+    }
+  ],
+  "caption": "How to chase late payments politely: a 3-step reminder email system\n\nChasing an invoice takes a few minutes. Rewriting the same awkward email every time is what eats the afternoon.\n\nCopy this once:\n\n\"Write 3 payment reminder emails for [BUSINESS]. Email 1 (1 day late): friendly, assume it slipped. Email 2 (7 days): clear, restate the amount and how to pay. Email 3 (14 days): firm but polite, give a new date and the next step: [NEXT STEP]. Under 80 words each. Use placeholders for client, invoice, amount and dates.\"\n\nThen:\n1) Save the 3 drafts as templates.\n2) Add calendar reminders for day 1, 7 and 14.\n3) Fill in client details in your email app, not in the chat.\n\nOnly charge late fees your contract allows.\n\nFollow @nomorebusywork and comment PACK: I'll DM you 21 more prompts for your business.\n\nSave this for later. 📌\n\n#smallbusiness #invoicing #freelancetips #aitools #cashflow"
+}

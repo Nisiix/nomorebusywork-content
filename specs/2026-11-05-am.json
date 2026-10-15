@@ -1,0 +1,114 @@
+{
+  "id": "2026-11-05-am",
+  "type": "carousel",
+  "series": "5-MINUTE FIX",
+  "publish_at": "2026-11-05T17:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "5-Minute Fix",
+      "big": "1",
+      "title": "brain dump → **1 realistic week**.",
+      "sub": "Paste your appointments and to-dos. Get back a Monday-to-Friday plan with breathing room.",
+      "tag": "Tested on an invented week ↓"
+    },
+    {
+      "layout": "text",
+      "kicker": "The problem",
+      "title": "Your calendar shows the appointments. **Not the work** around them.",
+      "paras": [
+        "Quotes, invoices and callbacks live in your head. So they pile up on Sunday night."
+      ]
+    },
+    {
+      "layout": "prompt",
+      "kicker": "The prompt (copy it)",
+      "cards": [
+        {
+          "n": "01",
+          "title": "Realistic week",
+          "text": "Here's my week: fixed appointments plus a to-do list. Build a realistic Mon–Fri plan. Rules: deadline tasks first, group similar tasks, leave a buffer every day, protect personal plans, and list anything that should move to next week. My week: [PASTE APPOINTMENTS + TO-DOS]"
+        }
+      ],
+      "note": "Client names aren't needed. Use first names or job labels."
+    },
+    {
+      "layout": "chat",
+      "kicker": "What I pasted",
+      "messages": [
+        {
+          "role": "you",
+          "text": "Jobs Mon–Thu 8–3 (Henderson kitchen Mon–Tue, Patel hallway Wed–Thu). Fri free.\nTo do: 3 quotes (about 30 min each), buy paint for Patel before Wed, invoice Henderson after the job, call back 4 leads, update website photos.\nAccountant Thu 4pm. Kid's school play Wed 5:30pm."
+        }
+      ],
+      "note": "Example: a solo house painter, invented."
+    },
+    {
+      "layout": "chat",
+      "kicker": "What came back",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "Mon · job 8–3\n→ 3:15 buy Patel paint, 4:00 call 2 leads\n\nTue · job 8–3\n→ 3:30 invoice Henderson, 4:00 call 2 leads\n\nWed · job 8–3\n→ nothing extra (school play 5:30)\n\nThu · job 8–3\n→ 4:00 accountant\n\nFri · 9:00 write 3 quotes\n→ afternoon = buffer\n\n**Next week:** website photos (no deadline)"
+        }
+      ]
+    },
+    {
+      "layout": "text",
+      "kicker": "What it got right",
+      "title": "A plan with **breathing room**.",
+      "paras": [
+        "Paint bought before it's needed. Leads called early, while they're warm. Quotes grouped into one quiet morning."
+      ],
+      "stats": [
+        [
+          "4",
+          "leads called by Tuesday"
+        ],
+        [
+          "1",
+          "evening kept free"
+        ],
+        [
+          "1",
+          "task moved, on purpose"
+        ]
+      ]
+    },
+    {
+      "layout": "steps",
+      "kicker": "Save this",
+      "title": "The **Sunday** routine",
+      "steps": [
+        {
+          "t": "Dump everything",
+          "d": "Appointments, to-dos, personal plans."
+        },
+        {
+          "t": "Paste it with the prompt",
+          "d": "Read the plan once, top to bottom."
+        },
+        {
+          "t": "Accept the \"next week\" list",
+          "d": "Moving a task is a decision, not a failure."
+        },
+        {
+          "t": "Block the times in your calendar",
+          "d": "Admin gets a slot like any job."
+        },
+        {
+          "t": "Week changed? Run it again",
+          "d": "Paste what's left on Wednesday."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "kicker": "Want the tools?",
+      "title": "Follow + comment",
+      "keyword": "TOOLS",
+      "after": "I'll DM you our **free starter kit**: an AI assistant, a design tool and a booking link so clients schedule themselves."
+    }
+  ],
+  "caption": "How to turn a messy calendar and to-do list into a realistic weekly plan with AI\n\nYour calendar shows the appointments, not the quotes, invoices and callbacks around them. That's why they land on Sunday night.\n\nCopy this:\n\n\"Here's my week: fixed appointments plus a to-do list. Build a realistic Mon–Fri plan. Rules: deadline tasks first, group similar tasks, leave a buffer every day, protect personal plans, and list anything that should move to next week. My week: [PASTE APPOINTMENTS + TO-DOS]\"\n\nI tried it on an invented house painter's week. It bought the paint before it was needed, called leads early, kept Wednesday evening free for a school play, and moved the website photos to next week.\n\nThe whole thing took about 5 minutes, including reading the plan.\n\nFollow @nomorebusywork and comment TOOLS: I'll DM you our free starter kit.\n\nSave this for later. 📌\n\n#smallbusiness #weeklyplanning #timemanagement #aitools #solopreneur"
+}

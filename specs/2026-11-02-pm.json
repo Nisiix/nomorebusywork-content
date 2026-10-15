@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-02-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-11-02T23:00:00Z",
+  "slides": [
+    {"layout": "cover", "kicker": "One-minute tip", "title": "Any meeting. **Three lines.** Done.", "size": "xl", "seconds": 3},
+    {"layout": "text", "kicker": "The problem", "title": "Long notes nobody reads mean **decisions nobody remembers**.", "size": "l", "seconds": 5},
+    {"layout": "prompt", "kicker": "The prompt", "cards": [{"n": "01", "title": "3-line summary", "text": "Summarize these meeting notes in exactly 3 lines: 1) What we decided. 2) Who does what, by when. 3) What's still open. No intro. Notes: [PASTE NOTES]"}], "note": "Remove anything confidential first.", "seconds": 7},
+    {"layout": "chat", "kicker": "What I pasted", "messages": [{"role": "you", "text": "talked holiday hours again. sam thinks close 24th at 2? maria ok. need new supplier for cake boxes, current one late twice. jo to ask 2 suppliers for quotes. social media, nobody posting, maybe a rota? didnt decide. sam to print new price list by fri"}], "note": "Example: bakery team meeting, invented.", "seconds": 7},
+    {"layout": "chat", "kicker": "What came back", "messages": [{"role": "ai", "text": "1) Decided: close at 2pm on Dec 24 (Sam proposed, Maria agreed).\n2) Actions: Jo gets cake box quotes from 2 suppliers (no deadline set). Sam prints the new price list by Friday.\n3) Open: who posts on social media. A rota was suggested, not agreed."}], "seconds": 8},
+    {"layout": "text", "kicker": "One tip", "title": "Add one line: **\"Flag any action with no deadline.\"**", "size": "l", "paras": ["Jo's quotes had no date. Now you know what to chase."], "seconds": 6},
+    {"layout": "cta", "kicker": "Share it", "title": "Send this to someone who still types up meeting notes **by hand**.", "after": "Follow @nomorebusywork for one fix a day.", "seconds": 5}
+  ],
+  "caption": "How to summarize any meeting in 3 lines with AI\n\nLong meeting notes don't get read. Three lines do.\n\nCopy this:\n\n\"Summarize these meeting notes in exactly 3 lines: 1) What we decided. 2) Who does what, by when. 3) What's still open. No intro. Notes: [PASTE NOTES]\"\n\nI tried it on messy notes from an invented bakery team meeting. It pulled out the one decision (close at 2pm on Dec 24), the two actions with owners, and the open question about who posts on social media. It even noticed Jo's task had no deadline.\n\nTip: add \"Flag any action with no deadline\" so you know what to chase. Remove anything confidential before you paste.\n\nSend this to someone who still types up meeting notes by hand. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#smallbusiness #meetings #productivity #aitools #teamwork"
+}

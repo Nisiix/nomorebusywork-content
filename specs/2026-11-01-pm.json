@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-01-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-11-01T23:00:00Z",
+  "slides": [
+    {"layout": "cover", "kicker": "One-minute tip", "title": "Write a **fair** job ad in one prompt.", "size": "xl", "seconds": 3},
+    {"layout": "text", "kicker": "The problem", "title": "Vague ads get vague applicants.", "size": "l", "paras": ["And some phrases, like \"young team\", can put people off or even be discriminatory."], "seconds": 5},
+    {"layout": "prompt", "kicker": "The prompt", "cards": [{"n": "01", "title": "Fair job ad", "text": "Write a job ad for [ROLE] at [BUSINESS]. Include: what a normal week looks like, max 4 must-haves, pay and hours, how to apply. Plain English. Avoid language about age or gender, and flag any requirement that may not be needed. Details: [PASTE NOTES]"}], "seconds": 8},
+    {"layout": "chat", "kicker": "What I pasted", "messages": [{"role": "you", "text": "Part-time cleaner, Fresh Start Cleaning, Columbus. 20 hrs/week, weekday daytime. Need: driver's license, reliable, eye for detail, can lift 25 lb. Young, energetic team. Pay: [PAY RANGE]."}], "note": "Example business, invented.", "seconds": 6},
+    {"layout": "chat", "kicker": "What came back (shortened)", "messages": [{"role": "ai", "text": "**Part-time Cleaner**, 20 hrs/week, weekdays\nA normal week: daytime home cleans around Columbus.\nMust-haves: driver's license · reliable timekeeping · eye for detail\nPay: [PAY RANGE] an hour\n\n**Flagged:** \"young, energetic team\" can read as age bias. Try \"friendly, supportive team\".\nCheck: is lifting 25 lb truly needed?"}], "seconds": 8},
+    {"layout": "text", "kicker": "One tip", "title": "Always **put the pay** in the ad.", "size": "l", "paras": ["Some US states and cities now require a pay range in job ads. Check your local rules."], "seconds": 6},
+    {"layout": "cta", "kicker": "Share it", "title": "Send this to someone who still writes job ads **from scratch**.", "after": "Follow @nomorebusywork for one fix a day.", "seconds": 5}
+  ],
+  "caption": "How to write a fair, clear job ad with AI in one prompt\n\nA vague job ad brings vague applicants. And phrases like \"young team\" can put good people off.\n\nCopy this:\n\n\"Write a job ad for [ROLE] at [BUSINESS]. Include: what a normal week looks like, max 4 must-haves, pay and hours, how to apply. Plain English. Avoid language about age or gender, and flag any requirement that may not be needed. Details: [PASTE NOTES]\"\n\nOn an invented cleaning business it wrote a clean ad and flagged two things: \"young, energetic team\" (can read as age bias) and whether lifting 25 lb is truly needed.\n\nTip: put the pay in. Some US states and cities require a pay range, so check your local rules.\n\nSend this to someone who still writes job ads from scratch. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#smallbusiness #hiring #aitools #smallbusinessowner #jobad"
+}

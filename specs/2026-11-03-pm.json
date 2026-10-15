@@ -1,0 +1,80 @@
+{
+  "id": "2026-11-03-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-11-03T23:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "One-minute tip",
+      "title": "Ban these words. **Sound human again.**",
+      "size": "xl",
+      "seconds": 3
+    },
+    {
+      "layout": "text",
+      "kicker": "The problem",
+      "title": "\"**Elevate**, unlock, seamless, game-changer.\"",
+      "size": "l",
+      "paras": [
+        "Sound familiar? Your customers have read it everywhere too."
+      ],
+      "seconds": 5
+    },
+    {
+      "layout": "prompt",
+      "kicker": "The prompt",
+      "cards": [
+        {
+          "n": "01",
+          "title": "Banned-words rewrite",
+          "text": "Rewrite this in plain, friendly English. Don't use: elevate, unlock, seamless, delve, game-changer, journey, tailored, cutting-edge, \"in today's world\". No exclamation marks. Short sentences. Text: [PASTE TEXT]"
+        }
+      ],
+      "seconds": 8
+    },
+    {
+      "layout": "beforeafter",
+      "kicker": "Before and after",
+      "before": {
+        "label": "THE DRAFT I PASTED",
+        "text": "Elevate your home with our seamless, tailored cleaning journey. Unlock a spotless space with cutting-edge care!"
+      },
+      "after": {
+        "label": "WHAT CAME BACK",
+        "text": "A home cleaning service that fits around how you live. Book a clean and come back to a spotless home."
+      },
+      "note": "Example cleaning business, invented.",
+      "seconds": 7
+    },
+    {
+      "layout": "text",
+      "kicker": "Starter list",
+      "title": "Words to **ban**",
+      "size": "l",
+      "paras": [
+        "elevate · unlock · seamless",
+        "delve · journey · tailored",
+        "game-changer · cutting-edge",
+        "\"in today's fast-paced world\"",
+        "+ your own pet hates"
+      ],
+      "seconds": 7
+    },
+    {
+      "layout": "text",
+      "kicker": "One tip",
+      "title": "Keep the list in a note. **Paste it** at the end of any prompt.",
+      "size": "l",
+      "seconds": 5
+    },
+    {
+      "layout": "cta",
+      "kicker": "Share it",
+      "title": "Send this to someone who still rewrites every AI draft **by hand**.",
+      "after": "Follow @nomorebusywork for one fix a day.",
+      "seconds": 5
+    }
+  ],
+  "caption": "The banned-words list that makes AI writing sound human\n\nElevate. Unlock. Seamless. If your website copy sounds like everyone else's, these words are probably why.\n\nCopy this:\n\n\"Rewrite this in plain, friendly English. Don't use: elevate, unlock, seamless, delve, game-changer, journey, tailored, cutting-edge, 'in today's world'. No exclamation marks. Short sentences. Text: [PASTE TEXT]\"\n\nOn an invented cleaning company's tagline, \"Elevate your home with our seamless, tailored cleaning journey\" became \"A home cleaning service that fits around how you live.\"\n\nTip: keep your list in a note on your phone and add it to the end of any prompt. Add the words you personally can't stand.\n\nSend this to someone who still rewrites every AI draft by hand. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#smallbusiness #copywriting #aitools #contentwriting #smallbusinessmarketing"
+}

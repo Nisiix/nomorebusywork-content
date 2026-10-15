@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-04-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-11-04T23:00:00Z",
+  "slides": [
+    {"layout": "cover", "kicker": "One-minute tip", "title": "Translate for customers. **Skip the robot tone.**", "size": "xl", "seconds": 3},
+    {"layout": "text", "kicker": "The problem", "title": "Word-for-word translation can sound **stiff**, or even rude.", "size": "l", "seconds": 4},
+    {"layout": "prompt", "kicker": "The prompt", "cards": [{"n": "01", "title": "Natural translation", "text": "Translate this message into [LANGUAGE AND COUNTRY] for a customer. Keep it as friendly and informal as the original. Write what a local small business would say, not word-for-word. Then translate your version back into English so I can check it. Message: [PASTE MESSAGE]"}], "seconds": 8},
+    {"layout": "chat", "kicker": "What I pasted", "messages": [{"role": "you", "text": "Spanish for Mexico. \"Hi Ana! Your appointment is confirmed for Friday at 3. If anything changes, just text us, no stress. See you soon!\""}], "note": "Example: hair salon, invented.", "seconds": 6},
+    {"layout": "chat", "kicker": "What came back", "messages": [{"role": "ai", "text": "¡Hola, Ana! Tu cita está confirmada para el viernes a las 3. Si cambia algo, mándanos un mensaje, sin problema. ¡Nos vemos pronto!\n\n**Back to English:** Hi, Ana! Your appointment is confirmed for Friday at 3. If anything changes, send us a message, no problem. See you soon!"}], "seconds": 8},
+    {"layout": "text", "kicker": "One tip", "title": "Name the **country**, not just the language.", "size": "l", "paras": ["Spanish in Mexico and Spanish in Spain use different everyday words. The back-translation lets you check the meaning yourself."], "seconds": 6},
+    {"layout": "text", "kicker": "One rule", "title": "Legal, medical or money? Have a **fluent person** check it.", "size": "l", "seconds": 5},
+    {"layout": "cta", "kicker": "Share it", "title": "Send this to someone who still translates customer messages **by hand**.", "after": "Follow @nomorebusywork for one fix a day.", "seconds": 5}
+  ],
+  "caption": "How to translate customer messages with AI so they sound natural\n\nWord-for-word translation is how a friendly text turns stiff. Ask for what a local business would actually say, then check it.\n\nCopy this:\n\n\"Translate this message into [LANGUAGE AND COUNTRY] for a customer. Keep it as friendly and informal as the original. Write what a local small business would say, not word-for-word. Then translate your version back into English so I can check it. Message: [PASTE MESSAGE]\"\n\nI tried it with an invented hair salon's appointment text in Spanish for Mexico. The back-translation matched the original, so you can check the meaning without speaking Spanish.\n\nTwo tips: name the country, not just the language. And for anything legal, medical or about money, have a fluent person check it.\n\nSend this to someone who still translates customer messages by hand. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#smallbusiness #customerservice #translation #aitools #smallbusinesstips"
+}
