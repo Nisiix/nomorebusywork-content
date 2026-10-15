@@ -72,12 +72,25 @@ def publish(folder, post, ig_id):
             children.append(c["id"])
         cont = call("POST", f"{ig_id}/media", {"media_type": "CAROUSEL", "children": ",".join(children), "caption": caption})
     elif kind == "reel":
-        cont = call("POST", f"{ig_id}/media", {"media_type": "REELS", "video_url": urls[0], "caption": caption})
+        params = {"media_type": "REELS", "video_url": urls[0], "caption": caption, "share_to_feed": "true"}
+        if post.get("cover"):
+            params["cover_url"] = RAW + rel + "/" + post["cover"]
+        cont = call("POST", f"{ig_id}/media", params)
     elif kind == "story":
-        cont = call("POST", f"{ig_id}/media", {"media_type": "STORIES", media_param(post["media"][0]): urls[0]})
+        story_params = {"media_type": "STORIES", media_param(post["media"][0]): urls[0]}
+        if media_param(post["media"][0]) == "video_url":
+            story_params["media_type"] = "STORIES"
+        cont = call("POST", f"{ig_id}/media", story_params)
     else:
-        cont = call("POST", f"{ig_id}/media", {"image_url": urls[0], "caption": caption})
-    wait_ready(cont["id"])
+        params = {"image_url": urls[0], "caption": caption}
+        if post.get("alt_text"):
+            try:
+                cont = call("POST", f"{ig_id}/media", {**params, "alt_text": post["alt_text"][:1000]})
+            except RuntimeError:
+                cont = call("POST", f"{ig_id}/media", params)  # alt text is optional
+        else:
+            cont = call("POST", f"{ig_id}/media", params)
+    wait_ready(cont["id"], timeout_s=900 if kind == "reel" else 300)
     res = call("POST", f"{ig_id}/media_publish", {"creation_id": cont["id"]})
     media_id = res["id"]
     link = call("GET", media_id, {"fields": "permalink"}).get("permalink")

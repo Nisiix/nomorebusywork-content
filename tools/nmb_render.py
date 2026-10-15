@@ -37,6 +37,8 @@ CSS = f"""
 html, body {{ background:{BG}; color:{TEXT}; font-family:'Inter', sans-serif; -webkit-font-smoothing:antialiased; }}
 .wrap {{ position:relative; width:var(--w); height:var(--h); padding:72px 80px; display:flex; flex-direction:column; overflow:hidden; }}
 .story .wrap {{ padding:150px 84px 170px; }}
+.reel .wrap {{ padding:200px 90px 380px; }}
+.reel .h-xl {{ font-size:104px; }} .reel .p, .reel .ptext, .reel .bubble {{ font-size:36px; }}
 .top {{ display:flex; justify-content:space-between; align-items:center; font-size:22px; letter-spacing:3px; font-weight:700; flex:none; }}
 .brand {{ display:flex; align-items:center; gap:14px; color:{LIME}; }}
 .brand .ic {{ width:34px; height:34px; }}
@@ -105,7 +107,7 @@ def frame(inner, idx, total, foot_left, series, w, h, story=False):
     counter = f"{idx}/{total}" if total and total > 1 else ""
     right = f'<div class="count">{counter}</div>' if counter else f'<div class="series">{html.escape(series or "")}</div>'
     return f"""<html><head><meta charset="utf-8"><style>:root{{--w:{w}px;--h:{h}px}}{CSS}</style></head>
-<body class="{'story' if story else ''}"><div class="wrap">
+<body class="{story if isinstance(story, str) else ('story' if story else '')}"><div class="wrap">
 <div class="top"><div class="brand"><div class="ic">{CHECK_ICON}</div>NO MORE BUSYWORK</div>{right}</div>
 <div class="body" id="body">{inner}</div>
 <div class="foot"><div>{html.escape(foot_left or '')}</div><div>@nomorebusywork</div></div>
@@ -210,31 +212,24 @@ def shoot(page, doc, path, w, h):
     return over
 
 
-def make_reel(slide_paths, out_mp4, seconds=3.2):
-    """Slides (1080x1350) -> 1080x1920 silent-audio MP4 with crossfades."""
+def make_reel(frames, out_mp4, seconds=3.2):
+    """Full-screen 1080x1920 frames -> MP4 (H.264 + silent AAC) with crossfades.
+    `seconds` may be a number or a list with one duration per frame."""
+    durs = seconds if isinstance(seconds, list) else [seconds] * len(frames)
     with tempfile.TemporaryDirectory() as td:
-        frames = []
-        from PIL import Image
-        for i, p in enumerate(slide_paths):
-            canvas = Image.new("RGB", (1080, 1920), BG)
-            im = Image.open(p)
-            canvas.paste(im, (0, 285))
-            fp = os.path.join(td, f"f{i:02d}.png")
-            canvas.save(fp)
-            frames.append(fp)
         n = len(frames)
         fade = 0.4
         inputs = []
-        for fp in frames:
-            inputs += ["-loop", "1", "-t", str(seconds), "-i", fp]
+        for fp, d in zip(frames, durs):
+            inputs += ["-loop", "1", "-t", str(d), "-i", fp]
         filt, last = [], "[0:v]"
-        offset = seconds - fade
+        offset = durs[0] - fade
         for i in range(1, n):
             outl = f"[v{i}]"
             filt.append(f"{last}[{i}:v]xfade=transition=fade:duration={fade}:offset={offset:.2f}{outl}")
             last = outl
-            offset += seconds - fade
-        total = seconds * n - fade * (n - 1)
+            offset += durs[i] - fade
+        total = sum(durs) - fade * (n - 1)
         fc = ";".join(filt) if filt else "[0:v]null[v1]"
         vout = last if filt else "[v1]"
         cmd = ["ffmpeg", "-y", "-loglevel", "error", *inputs,
@@ -262,6 +257,22 @@ def render_spec(spec, page):
         if over:
             problems.append(f"{pid} story overflows by {over}px")
         media = ["story.jpg"]
+    elif kind == "reel":
+        slides = spec["slides"]
+        frames = []
+        with tempfile.TemporaryDirectory() as td:
+            for i, s in enumerate(slides, start=1):
+                doc = frame(layout(s), None, None, s.get("foot", ""), series, 1080, 1920, story="reel")
+                fp = os.path.join(td, f"f{i:02d}.jpg")
+                over = shoot(page, doc, fp, 1080, 1920)
+                if over:
+                    problems.append(f"{pid} reel frame {i} overflows by {over}px")
+                frames.append(fp)
+            import shutil
+            shutil.copy(frames[0], os.path.join(out, "cover.jpg"))
+            durs = [s.get("seconds", spec.get("seconds_per_slide", 4)) for s in slides]
+            make_reel(frames, os.path.join(out, "reel.mp4"), durs)
+        media = ["reel.mp4"]
     else:
         slides = spec["slides"]
         total = len(slides)
@@ -274,14 +285,11 @@ def render_spec(spec, page):
             if over:
                 problems.append(f"{pid} slide {i} overflows by {over}px")
             media.append(name)
-        if kind == "reel":
-            make_reel([os.path.join(out, m) for m in media], os.path.join(out, "reel.mp4"), spec.get("seconds_per_slide", 3.2))
-            for m in media:
-                os.rename(os.path.join(out, m), os.path.join(out, "cover_" + m)) if m == "01.jpg" else os.remove(os.path.join(out, m))
-            media = ["reel.mp4"]
     post = {"type": kind, "caption": spec.get("caption", ""), "publish_at": spec["publish_at"], "media": media}
     if kind == "reel":
-        post["cover"] = "cover_01.jpg"
+        post["cover"] = "cover.jpg"
+    if spec.get("alt_text"):
+        post["alt_text"] = spec["alt_text"]
     json.dump(post, open(os.path.join(out, "post.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     return problems
 
