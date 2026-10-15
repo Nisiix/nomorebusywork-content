@@ -21,3 +21,9 @@ Secrets (Settings → Secrets and variables → Actions):
   "media": ["01.jpg", "02.jpg", "03.jpg"]
 }
 ```
+
+`tools/render_reference.py` is the reference renderer (Python + Playwright, HTML → PNG) with the brand style
+used for the first carousels. New posts reuse its `slide_frame()` layout and colours.
+
+Daily flow: the agent pushes the two posts of the day to a `pending/<date>` branch, the owner replies "ok",
+the agent merges the branch into `main`, and the workflow publishes each post at its `publish_at` time.
