@@ -1,0 +1,76 @@
+{
+  "id": "2026-10-28-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-10-28T22:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "size": "xl",
+      "kicker": "One-minute tip",
+      "title": "Make your price list **readable**. One prompt.",
+      "seconds": 4
+    },
+    {
+      "layout": "chat",
+      "kicker": "The before",
+      "messages": [
+        {
+          "role": "you",
+          "text": "mani $25 / gel mani $35, gel removal +$10 or free if redoing w us, pedi $40 ($45 w gel?), nail art from $5, kids mani $15 under 12"
+        }
+      ],
+      "note": "Example nail salon price list, invented.",
+      "seconds": 6
+    },
+    {
+      "layout": "prompt",
+      "kicker": "The prompt",
+      "cards": [
+        {
+          "n": "01",
+          "title": "Price list cleanup",
+          "text": "Turn this into a clear price list for customers. Group by service. One line each: name and price. Put add-ons in their own section. Don't change any prices. Flag anything unclear instead of guessing. List: [PASTE YOUR PRICES]"
+        }
+      ],
+      "seconds": 7
+    },
+    {
+      "layout": "chat",
+      "kicker": "What came back",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "HANDS\nManicure · $25\nGel manicure · $35\nKids manicure (under 12) · $15\nFEET\nPedicure · $40\nGel pedicure · $45\nADD-ONS\nGel removal · $10 (free if we redo your nails)\nNail art · from $5\nCheck: is the gel pedicure $45? Your note had a '?'."
+        }
+      ],
+      "seconds": 9
+    },
+    {
+      "layout": "text",
+      "kicker": "The line that matters",
+      "size": "l",
+      "title": "\"Flag anything unclear **instead of guessing**.\"",
+      "paras": [
+        "It asks you about the '?' rather than making up a price."
+      ],
+      "seconds": 5
+    },
+    {
+      "layout": "text",
+      "kicker": "Tip",
+      "size": "l",
+      "title": "Put it where people ask: **your bio link**, a pinned post, the front desk.",
+      "seconds": 5
+    },
+    {
+      "layout": "cover",
+      "size": "l",
+      "kicker": "One-minute tip",
+      "title": "Send this to someone who still explains their prices **one DM at a time**.",
+      "sub": "Follow @nomorebusywork for one fix a day.",
+      "seconds": 5
+    }
+  ],
+  "caption": "How to make your price list clear and readable with one AI prompt\n\nIf your prices live in a messy note full of slashes and question marks, customers end up messaging you to ask. Clean it up once.\n\nCopy this:\n\n\"Turn this into a clear price list for customers. Group by service. One line each: name and price. Put add-ons in their own section. Don't change any prices. Flag anything unclear instead of guessing. List: [PASTE YOUR PRICES]\"\n\nI tried it on an invented nail salon list. It grouped hands, feet and add-ons, kept every price as written, and asked about the one item I'd marked with a question mark instead of inventing an answer.\n\nThen put the clean version where people look: your bio link, a pinned post, the front desk.\n\nSend this to someone who still explains their prices one DM at a time. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#smallbusinesstips #salonowner #pricing #aitools"
+}

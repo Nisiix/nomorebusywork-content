@@ -1,0 +1,151 @@
+{
+  "id": "2026-10-26-am",
+  "type": "carousel",
+  "series": "BUSYWORK AUTOPSY",
+  "publish_at": "2026-10-26T16:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "size": "l",
+      "kicker": "Busywork Autopsy",
+      "title": "A week of social posts: from **about 3 hours** to about 30 minutes.",
+      "sub": "Where the time actually goes, and the one prompt that takes most of it off your plate.",
+      "tag": "Example flower shop, invented ↓"
+    },
+    {
+      "layout": "compare",
+      "kicker": "The autopsy",
+      "title": "Where the **hours** go",
+      "cols": [
+        "Step",
+        "By hand",
+        "With the prompt"
+      ],
+      "rows": [
+        [
+          "Ideas",
+          "Stare at a blank calendar",
+          "Pick from 7 drafts"
+        ],
+        [
+          "Captions",
+          "Write 7 from scratch",
+          "Edit 7 drafts"
+        ],
+        [
+          "Photos",
+          "Shoot when you remember",
+          "One list, one session"
+        ],
+        [
+          "Mix",
+          "Too many 'buy now' posts",
+          "Max 2 sales posts"
+        ]
+      ]
+    },
+    {
+      "layout": "prompt",
+      "kicker": "The prompt (copy it)",
+      "cards": [
+        {
+          "n": "01",
+          "title": "Week planner",
+          "text": "You're my social media helper. Business: [WHAT YOU SELL + WHERE]. This week: [NEWS, OFFERS, EVENTS]. Plan 7 posts, Monday to Sunday. For each: day, post type (photo, tip, behind the scenes, offer), a caption under 40 words, and the photo I should take. Max 2 sales posts."
+        }
+      ]
+    },
+    {
+      "layout": "chat",
+      "kicker": "What I filled in",
+      "messages": [
+        {
+          "role": "you",
+          "text": "Business: flower shop on Maple Street.\nThis week: autumn wreaths arrived (eucalyptus, dried orange). Saturday wreath workshop, 6 spots. Closed Sunday."
+        }
+      ]
+    },
+    {
+      "layout": "chat",
+      "kicker": "The week it planned",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "Mon · Photo · New autumn wreaths are in\nTue · Tip · Keep your wreath fresh longer\nWed · Behind the scenes · A wreath coming together\nThu · Offer · Saturday workshop, 6 spots\nFri · Photo · The shop window this week\nSat · Behind the scenes · Workshop in action\nSun · Note · Closed today, see you Monday"
+        }
+      ],
+      "note": "Each day came with a caption and a photo idea. Monday's is next."
+    },
+    {
+      "layout": "beforeafter",
+      "kicker": "Monday's caption",
+      "before": {
+        "label": "MY USUAL",
+        "text": "New wreaths in! Come check them out."
+      },
+      "after": {
+        "label": "AI DRAFT",
+        "text": "Autumn wreaths just arrived: eucalyptus and dried orange. They smell even better than they look. Come see them on Maple Street.\nPhoto: the wreaths lined up on the counter."
+      },
+      "note": "Change any word that doesn't sound like you."
+    },
+    {
+      "layout": "steps",
+      "kicker": "The new routine",
+      "title": "About **30 minutes**, start to finish",
+      "steps": [
+        {
+          "t": "Write this week's news",
+          "d": "Three lines: what's new, what's on, what's closed."
+        },
+        {
+          "t": "Run the prompt",
+          "d": "Swap any post that doesn't fit."
+        },
+        {
+          "t": "Shoot all 7 photos at once",
+          "d": "The list tells you what to take."
+        },
+        {
+          "t": "Schedule the whole week",
+          "d": "Then stop thinking about it."
+        }
+      ]
+    },
+    {
+      "layout": "checklist",
+      "kicker": "Save this",
+      "title": "Your weekly **posting** checklist",
+      "items": [
+        {
+          "t": "This week's news in 3 lines",
+          "d": "The prompt is only as good as this."
+        },
+        {
+          "t": "Max 2 sales posts",
+          "d": "Tips and behind the scenes carry the rest."
+        },
+        {
+          "t": "One photo idea per post",
+          "d": "No more 'what do I shoot?'"
+        },
+        {
+          "t": "Edit in your own words",
+          "d": "Drafts, not final copy."
+        },
+        {
+          "t": "Batch photos and scheduling",
+          "d": "One sitting, not seven."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "kicker": "Need the tools?",
+      "title": "Follow + comment",
+      "keyword": "TOOLS",
+      "after": "I'll DM you our **starter kit**: an AI chat assistant, a free design tool and a booking link. Free plans first."
+    }
+  ],
+  "caption": "How to plan a week of social media posts with AI in about 30 minutes\n\nMost of the time doesn't go into posting. It goes into staring at a blank calendar, writing seven captions from scratch and remembering to take photos.\n\nCopy this:\n\n\"You're my social media helper. Business: [WHAT YOU SELL + WHERE]. This week: [NEWS, OFFERS, EVENTS]. Plan 7 posts, Monday to Sunday. For each: day, post type (photo, tip, behind the scenes, offer), a caption under 40 words, and the photo I should take. Max 2 sales posts.\"\n\nI tried it for an invented flower shop with three bits of news: new wreaths, a Saturday workshop, closed Sunday. Back came a full week, each post with a caption and a photo idea.\n\nThen: shoot all the photos in one go and schedule the week.\n\nFollow @nomorebusywork and comment TOOLS: I'll DM you our starter kit, free plans first.\n\nSave this for later. 📌\n\n#socialmediatips #contentplanning #smallbusiness #instagramforbusiness #aitools"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-26-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-10-26T22:00:00Z",
+  "slides": [
+    {"layout": "cover", "size": "xl", "kicker": "One-minute tip", "title": "Check your tone **before** you hit send.", "seconds": 4},
+    {"layout": "chat", "kicker": "The draft", "messages": [{"role": "you", "text": "Hi Mark, as I said in my last 2 emails, the invoice was due on the 1st. Please pay it today."}], "note": "Example client, invented. Written while annoyed.", "seconds": 6},
+    {"layout": "prompt", "kicker": "The prompt", "cards": [{"n": "01", "title": "Tone check", "text": "Read this email as the person receiving it. How does it sound, in one line? Then rewrite it to stay firm but friendly. Keep it short. Email: [PASTE YOUR DRAFT]"}], "note": "Remove account numbers before pasting.", "seconds": 7},
+    {"layout": "chat", "kicker": "What came back", "messages": [{"role": "ai", "text": "**How it sounds:** irritated and a bit accusing. Mark may get defensive.\n\n**Rewrite:** Hi Mark, just following up on the invoice that was due on the 1st. Could you send payment today? If something's holding it up, let me know and we'll sort it out."}], "seconds": 8},
+    {"layout": "text", "kicker": "Tip", "size": "l", "title": "The **one-line read** is the useful part.", "paras": ["It tells you how it lands before Mark does."], "seconds": 5},
+    {"layout": "text", "kicker": "Use it when", "size": "l", "title": "You're annoyed, it's about money, or it's a **big client**.", "seconds": 5},
+    {"layout": "cover", "size": "l", "kicker": "One-minute tip", "title": "Send this to someone who still fires off emails **while annoyed**.", "sub": "Follow @nomorebusywork for one fix a day.", "seconds": 5}
+  ],
+  "caption": "How to check the tone of an email with AI before you send it\n\nWe've all written the \"as I said in my last 2 emails\" email. Before you send it, ask AI how it sounds to the person reading it.\n\nCopy this:\n\n\"Read this email as the person receiving it. How does it sound, in one line? Then rewrite it to stay firm but friendly. Keep it short. Email: [PASTE YOUR DRAFT]\"\n\nOn my example, the one-line read was \"irritated and a bit accusing.\" The rewrite still asked for payment today, but left room for the client to explain.\n\nUse it when you're annoyed, when it's about money, or when it's a client you can't afford to upset. Remove account numbers before pasting.\n\nSend this to someone who still fires off emails while annoyed. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#emailtips #smallbusinessowner #communication #aitools"
+}

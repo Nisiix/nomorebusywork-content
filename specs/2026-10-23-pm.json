@@ -1,0 +1,96 @@
+{
+  "id": "2026-10-23-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-10-23T22:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "size": "xl",
+      "kicker": "One-minute tip",
+      "title": "Every good prompt has **3 parts**.",
+      "seconds": 4
+    },
+    {
+      "layout": "chat",
+      "kicker": "Without them",
+      "messages": [
+        {
+          "role": "you",
+          "text": "Write a flyer for my bakery."
+        },
+        {
+          "role": "ai",
+          "text": "Welcome to Our Bakery! Freshly baked bread, pastries and treats made with love every day. Come visit us and taste the difference!"
+        }
+      ],
+      "note": "Could be any bakery, anywhere.",
+      "seconds": 6
+    },
+    {
+      "layout": "text",
+      "kicker": "The formula",
+      "size": "l",
+      "title": "Role + Task + **Format**.",
+      "paras": [
+        "Role: who should the AI be?",
+        "Task: what exactly, and for whom?",
+        "Format: shape, length, tone."
+      ],
+      "seconds": 6
+    },
+    {
+      "layout": "prompt",
+      "kicker": "With them",
+      "cards": [
+        {
+          "n": "R",
+          "title": "Role",
+          "text": "You're a local marketing helper."
+        },
+        {
+          "n": "T",
+          "title": "Task",
+          "text": "Write a flyer for Rosie's Bakery: pumpkin bread is back this Saturday from 8am. For families nearby."
+        },
+        {
+          "n": "F",
+          "title": "Format",
+          "text": "Headline, 3 short lines, 1 call to action. Under 40 words."
+        }
+      ],
+      "seconds": 7
+    },
+    {
+      "layout": "chat",
+      "kicker": "What came back",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "**Pumpkin Bread Is Back!**\nBaked fresh Saturday morning.\nSoft, spiced and kid-approved.\nGrab a loaf while it's still warm.\nSee you Saturday from 8am at Rosie's!"
+        }
+      ],
+      "note": "Example bakery, invented.",
+      "seconds": 7
+    },
+    {
+      "layout": "text",
+      "kicker": "Tip",
+      "title": "Save the role and format as a note. **Swap only the task.**",
+      "paras": [
+        "Next week's flyer takes one line to change."
+      ],
+      "seconds": 5,
+      "size": "l"
+    },
+    {
+      "layout": "cover",
+      "size": "l",
+      "kicker": "One-minute tip",
+      "title": "Send this to someone who still gets **generic** AI answers.",
+      "sub": "Follow @nomorebusywork for one fix a day.",
+      "seconds": 6
+    }
+  ],
+  "caption": "The Role + Task + Format prompt formula, in 30 seconds\n\n\"Write a flyer for my bakery\" got me a flyer that could belong to any bakery on earth. Adding 3 parts fixed it.\n\nRole: who the AI should be.\nTask: what exactly, and for whom.\nFormat: shape, length and tone.\n\nCopy this:\n\n\"You're a [ROLE]. Write [WHAT] for [WHO]: [THE KEY FACTS]. Format: [SHAPE, E.G. HEADLINE + 3 LINES + CALL TO ACTION]. Under [NUMBER] words.\"\n\nTip: keep the role and format saved in a note. Next time, you only swap the task.\n\nSend this to someone who still gets generic AI answers. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#chatgptprompts #smallbusinesstips #aiforbusiness #marketingtips"
+}

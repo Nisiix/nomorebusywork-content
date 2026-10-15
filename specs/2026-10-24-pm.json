@@ -1,0 +1,93 @@
+{
+  "id": "2026-10-24-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-10-24T22:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "size": "xl",
+      "kicker": "One-minute tip",
+      "title": "Never write the same reply **twice**.",
+      "seconds": 4
+    },
+    {
+      "layout": "text",
+      "kicker": "The problem",
+      "size": "l",
+      "title": "Same questions every week. **Typed from scratch** every time.",
+      "seconds": 4
+    },
+    {
+      "layout": "prompt",
+      "kicker": "Build a reply bank",
+      "cards": [
+        {
+          "n": "01",
+          "title": "Reply bank",
+          "text": "My business: [WHAT YOU DO]. Customers ask me these a lot: [PASTE 5–10 QUESTIONS]. Write a short, friendly reply to each, under 50 words, in plain words. Put anything I need to fill in as [BRACKETS]."
+        }
+      ],
+      "seconds": 7
+    },
+    {
+      "layout": "chat",
+      "kicker": "What I pasted",
+      "messages": [
+        {
+          "role": "you",
+          "text": "My business: dog grooming.\n1) Do you do nail trims only?\n2) How long does a groom take?\n3) Can I stay with my dog?"
+        }
+      ],
+      "note": "Example dog groomer, invented.",
+      "seconds": 5
+    },
+    {
+      "layout": "chat",
+      "kicker": "What came back",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "Nail trims only?\nYes! They're [PRICE] and take about [TIME]. Book a slot or ask about walk-ins.\n\nHow long is a groom?\nUsually [X–Y HOURS], depending on size and coat. We'll let you know when they're ready.\n\nCan I stay?\n[YES/NO + YOUR REASON]."
+        }
+      ],
+      "seconds": 8
+    },
+    {
+      "layout": "steps",
+      "kicker": "Then",
+      "title": "Make it **yours**",
+      "steps": [
+        {
+          "t": "Fill the brackets once",
+          "d": "Your real prices and times."
+        },
+        {
+          "t": "Save it in one note",
+          "d": "Call it 'Replies'."
+        },
+        {
+          "t": "Copy, change the name, send",
+          "d": "No more blank page."
+        }
+      ],
+      "seconds": 6
+    },
+    {
+      "layout": "text",
+      "kicker": "Tip",
+      "size": "l",
+      "title": "Answered something twice? **Add it to the bank.**",
+      "seconds": 4
+    },
+    {
+      "layout": "cover",
+      "size": "l",
+      "kicker": "One-minute tip",
+      "title": "Send this to someone who still types every reply **from scratch**.",
+      "sub": "Follow @nomorebusywork for one fix a day.",
+      "seconds": 5
+    }
+  ],
+  "caption": "How to build a reply bank for customer questions with AI\n\nIf you answer the same questions every week, stop typing them from scratch. Build a reply bank once, then copy and paste.\n\nCopy this:\n\n\"My business: [WHAT YOU DO]. Customers ask me these a lot: [PASTE 5–10 QUESTIONS]. Write a short, friendly reply to each, under 50 words, in plain words. Put anything I need to fill in as [BRACKETS].\"\n\nThe brackets matter: instead of guessing your prices or opening hours, the AI leaves a gap for you to fill in once.\n\nThen save everything in one note called \"Replies\". Every time you answer something twice, add it.\n\nSend this to someone who still types every reply from scratch. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#customerservice #smallbusinesstips #aiprompts #timesaving"
+}

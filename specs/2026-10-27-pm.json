@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-27-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-10-27T22:00:00Z",
+  "slides": [
+    {"layout": "cover", "size": "xl", "kicker": "One-minute tip", "title": "Long document? Get **5 bullets** instead.", "seconds": 4},
+    {"layout": "text", "kicker": "The problem", "size": "l", "title": "Your supplier's new terms. Pages of them. **You read page one.**", "seconds": 5},
+    {"layout": "prompt", "kicker": "The prompt", "cards": [{"n": "01", "title": "5-bullet summary", "text": "Summarize this in 5 bullet points for a busy small business owner. Lead with what changes for me, dates and deadlines, and anything I'm agreeing to pay. Then 2 questions I should ask before I sign. Document: [PASTE TEXT]"}], "note": "Remove account numbers and private details first.", "seconds": 7},
+    {"layout": "chat", "kicker": "What came back", "messages": [{"role": "ai", "text": "• Invoices are due in **14 days, not 30**, from Jan 1.\n• Orders under the minimum now get a delivery charge.\n• Prices can change each quarter, with 30 days' notice.\n• Report damaged goods within 48 hours.\n• It renews every year unless you cancel 60 days before.\n**Ask:** What's the minimum order? Can we keep 30-day terms?"}], "note": "Example supplier terms, invented.", "seconds": 9},
+    {"layout": "text", "kicker": "Why it works", "size": "l", "title": "Say who you are and **what you care about**.", "paras": ["'Busy owner' plus 'money and dates' is what makes the bullets useful."], "seconds": 5},
+    {"layout": "text", "kicker": "Tip", "size": "l", "title": "Bullets find what matters. **Read those parts** before you sign.", "seconds": 5},
+    {"layout": "cover", "size": "l", "kicker": "One-minute tip", "title": "Send this to someone who still signs things they **only skimmed**.", "sub": "Follow @nomorebusywork for one fix a day.", "seconds": 5}
+  ],
+  "caption": "How to summarize a long document with AI in 5 bullet points\n\nNew supplier terms, a lease, a policy update: pages you know you should read, and probably won't.\n\nCopy this:\n\n\"Summarize this in 5 bullet points for a busy small business owner. Lead with what changes for me, dates and deadlines, and anything I'm agreeing to pay. Then 2 questions I should ask before I sign. Document: [PASTE TEXT]\"\n\nOn an invented set of supplier terms, the first bullet was the one that mattered: invoices due in 14 days instead of 30. The questions at the end were the ones I'd want to ask.\n\nUse the bullets to find what matters, then read those parts in full before you sign anything. Remove account numbers and private details before pasting.\n\nSend this to someone who still signs things they only skimmed. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#smallbusinesstips #aiforbusiness #productivity #contracts"
+}

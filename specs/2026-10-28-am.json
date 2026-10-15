@@ -1,0 +1,131 @@
+{
+  "id": "2026-10-28-am",
+  "type": "carousel",
+  "series": "STEAL THIS TEMPLATE",
+  "publish_at": "2026-10-28T16:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "size": "xl",
+      "kicker": "Steal This Template",
+      "title": "Raising prices? **Steal this kit.**",
+      "sub": "One prompt gives you the email, a short text for regulars, and calm answers to the questions that follow.",
+      "tag": "Example business, invented ↓"
+    },
+    {
+      "layout": "text",
+      "kicker": "Why a kit",
+      "size": "l",
+      "title": "The email is easy. Answering **'why?'** again and again is not.",
+      "paras": [
+        "So prepare everything in one go: the announcement, the quick heads-up, and your answers."
+      ]
+    },
+    {
+      "layout": "prompt",
+      "kicker": "The prompt (copy it)",
+      "cards": [
+        {
+          "n": "01",
+          "title": "Price increase kit",
+          "text": "I'm raising prices at [BUSINESS] on [DATE]. What changes: [WHICH SERVICES + BY HOW MUCH]. The honest reason: [REASON]. What stays the same: [WHAT CUSTOMERS KEEP]. Write: 1) a short, warm email under 120 words, 2) a 2-line text for regulars, 3) answers to the 4 questions customers are most likely to ask. Calm, no over-apologizing, no hype."
+        }
+      ],
+      "note": "Use your real numbers. Never let the AI guess them."
+    },
+    {
+      "layout": "chat",
+      "kicker": "What I filled in",
+      "messages": [
+        {
+          "role": "you",
+          "text": "Business: Paws & Co, dog walking.\nDate: March 1.\nChange: 30-minute walks go up by [AMOUNT].\nReason: insurance and fuel costs went up.\nSame: same walker, photo update after every walk. Clients booked before March 1 keep the old rate through March."
+        }
+      ],
+      "note": "Example dog-walking business, invented."
+    },
+    {
+      "layout": "prompt",
+      "kicker": "What came back: the email",
+      "cards": [
+        {
+          "n": "01",
+          "title": "Subject: A small change to our walk prices",
+          "text": "Hi [NAME],\nFrom March 1, our 30-minute walks will go up by [AMOUNT]. Our insurance and fuel costs have gone up, and we'd rather adjust our price than cut corners.\nWhat doesn't change: the same walker every time, and a photo update after every walk.\nBooked before March 1? You keep the current rate through March.\nQuestions? Just reply. Thank you for trusting us with your dog.\n— [YOUR NAME]"
+        }
+      ]
+    },
+    {
+      "layout": "prompt",
+      "kicker": "The text + FAQ answers",
+      "cards": [
+        {
+          "n": "02",
+          "title": "Text for regulars",
+          "text": "Hi [NAME]! Heads up: from March 1, 30-min walks go up by [AMOUNT]. Same walker, same photo updates. Questions? Just reply."
+        },
+        {
+          "n": "03",
+          "title": "Why are prices going up?",
+          "text": "Our insurance and fuel costs went up this year. We'd rather adjust the price than cut corners on your dog's walks."
+        }
+      ]
+    },
+    {
+      "layout": "prompt",
+      "kicker": "More FAQ answers",
+      "cards": [
+        {
+          "n": "04",
+          "title": "Can I keep the old price?",
+          "text": "If you're booked before March 1, yes, through the end of March. After that, the new rate applies to everyone."
+        },
+        {
+          "n": "05",
+          "title": "Is anything else changing?",
+          "text": "No. Same walker, same times, same photo after every walk."
+        },
+        {
+          "n": "06",
+          "title": "What if it doesn't fit my budget?",
+          "text": "Just tell us. We can look at fewer walks a week together."
+        }
+      ]
+    },
+    {
+      "layout": "checklist",
+      "kicker": "Save this",
+      "title": "Before you **send it**",
+      "items": [
+        {
+          "t": "A clear date, with notice",
+          "d": "Give people time to plan."
+        },
+        {
+          "t": "The real reason, said once",
+          "d": "No long apology."
+        },
+        {
+          "t": "What stays the same",
+          "d": "Lead with what they keep."
+        },
+        {
+          "t": "One kind option",
+          "d": "Like the old rate for current bookings."
+        },
+        {
+          "t": "Email first, then the text",
+          "d": "Keep the FAQ answers open to copy."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "kicker": "Want more like this?",
+      "title": "Follow + comment",
+      "keyword": "PACK",
+      "after": "I'll DM you **21 more prompts** for sales, bookings, money and your team. Free, for followers."
+    }
+  ],
+  "caption": "How to announce a price increase to customers: email, text and FAQ answers (AI template)\n\nThe email is the easy part. The hard part is answering \"why?\" over and over. So prepare the whole kit in one go.\n\nCopy this:\n\n\"I'm raising prices at [BUSINESS] on [DATE]. What changes: [WHICH SERVICES + BY HOW MUCH]. The honest reason: [REASON]. What stays the same: [WHAT CUSTOMERS KEEP]. Write: 1) a short, warm email under 120 words, 2) a 2-line text for regulars, 3) answers to the 4 questions customers are most likely to ask. Calm, no over-apologizing, no hype.\"\n\nI tried it for an invented dog-walking business. The email said the reason once, spent more words on what stays the same, and offered current bookings the old rate through March.\n\nFill in your real numbers yourself. Never let the AI guess them.\n\nFollow @nomorebusywork and comment PACK: I'll DM you 21 more prompts for sales, money and your team.\n\nSave this for later. 📌\n\n#smallbusiness #pricing #customercommunication #smallbusinessowner #chatgptprompts"
+}

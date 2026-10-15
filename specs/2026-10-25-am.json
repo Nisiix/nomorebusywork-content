@@ -1,0 +1,132 @@
+{
+  "id": "2026-10-25-am",
+  "type": "carousel",
+  "series": "QUIZ",
+  "publish_at": "2026-10-25T16:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "Quiz",
+      "big": "5",
+      "title": "everyday tasks.\nAutomate it or **keep it human**?",
+      "sub": "Guess before you swipe. The answer key is a table you can save.",
+      "tag": "Question 1 ↓"
+    },
+    {
+      "layout": "quiz",
+      "kicker": "Question 1 of 2",
+      "question": "An angry 1-star review comes in. What do you do?",
+      "options": [
+        "Let AI write the reply and post it as is",
+        "AI drafts, you rewrite it and send",
+        "Ignore it and hope it sinks"
+      ],
+      "answer": 1,
+      "reveal": false
+    },
+    {
+      "layout": "quiz",
+      "kicker": "Answer",
+      "question": "An angry 1-star review comes in. What do you do?",
+      "options": [
+        "Let AI write the reply and post it as is",
+        "AI drafts, you rewrite it and send",
+        "Ignore it and hope it sinks"
+      ],
+      "answer": 1,
+      "reveal": true,
+      "explain": "AI is great at a **calm first draft**. The apology and the fix have to come from you."
+    },
+    {
+      "layout": "chat",
+      "kicker": "What 'AI drafts' looks like",
+      "messages": [
+        {
+          "role": "you",
+          "text": "Draft a calm reply to this review. No promises. Leave [FIX] for me. Review: 'Waited 40 minutes for a table we booked. Never again.'"
+        },
+        {
+          "role": "ai",
+          "text": "Hi Dana, I'm sorry. Waiting 40 minutes for a table you booked isn't what we want for anyone. [FIX]. If you'd give us another try, please reach me directly at [EMAIL].\n— [NAME], owner"
+        }
+      ],
+      "note": "Example review, invented. Never paste a customer's phone or email."
+    },
+    {
+      "layout": "quiz",
+      "kicker": "Question 2 of 2",
+      "question": "Three of these are fine to hand to AI. Which one should **stay human**?",
+      "options": [
+        "Sorting receipts into categories",
+        "Turning meeting notes into a to-do list",
+        "Telling a loyal client you're raising prices",
+        "Drafting this week's social posts"
+      ],
+      "answer": 2,
+      "reveal": false
+    },
+    {
+      "layout": "quiz",
+      "kicker": "Answer",
+      "question": "Three of these are fine to hand to AI. Which one should **stay human**?",
+      "options": [
+        "Sorting receipts into categories",
+        "Turning meeting notes into a to-do list",
+        "Telling a loyal client you're raising prices",
+        "Drafting this week's social posts"
+      ],
+      "answer": 2,
+      "reveal": true,
+      "explain": "AI can help you prepare what to say. The conversation is yours."
+    },
+    {
+      "layout": "text",
+      "kicker": "The rule of thumb",
+      "size": "l",
+      "title": "Automate it if it's **repetitive and easy to check**.",
+      "paras": [
+        "And cheap to get wrong. Keep it human when trust, money or feelings are on the line.",
+        "Most tasks sit in the middle: AI drafts, you decide."
+      ]
+    },
+    {
+      "layout": "compare",
+      "kicker": "Save this",
+      "cols": [
+        "Task",
+        "Verdict"
+      ],
+      "rows": [
+        [
+          "Receipts → categories",
+          "Automate, spot-check the totals"
+        ],
+        [
+          "Notes → to-do list",
+          "Automate"
+        ],
+        [
+          "Weekly social posts",
+          "AI drafts, you edit"
+        ],
+        [
+          "1-star review reply",
+          "AI drafts, you rewrite"
+        ],
+        [
+          "Price talk, loyal client",
+          "**Human.** AI helps you prepare"
+        ]
+      ],
+      "title": "The **answer key**"
+    },
+    {
+      "layout": "cta",
+      "kicker": "Want the prompts?",
+      "title": "Follow + comment",
+      "keyword": "PROMPTS",
+      "after": "I'll DM you the **free 25-prompt pack**: reviews, emails, quotes, social posts and admin. Free, for followers."
+    }
+  ],
+  "caption": "Automate it or keep it human? A quick AI quiz for small business owners\n\n5 everyday tasks, 2 questions. How did you score?\n\nMy rule of thumb: automate it if it's repetitive, easy to check and cheap to get wrong. Keep it human when trust, money or feelings are on the line. Most tasks sit in the middle: AI drafts, you decide.\n\nThe review reply from the post, if you want to try it:\n\n\"Draft a calm reply to this review. No promises. Leave [FIX] for me to fill in. Review: [PASTE REVIEW]\"\n\nRemove the customer's contact details before you paste anything.\n\nFollow @nomorebusywork and comment PROMPTS: I'll DM you the free 25-prompt pack for reviews, emails, quotes and more.\n\nSave this for later. 📌\n\n#smallbusiness #aiforbusiness #automation #smallbusinessowner #workflow"
+}
