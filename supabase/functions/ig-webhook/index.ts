@@ -1,21 +1,23 @@
 // Instagram webhook for @nomorebusywork (Instagram API with Instagram Login).
 //
 // Flow
-//  1. Someone comments a keyword (e.g. PACK) on a post -> one private reply asking them to answer YES.
+//  1. Someone comments a keyword (e.g. PACK) on a post -> one private reply asking them to reply with the keyword.
 //  2. They answer in DM (or DM a keyword directly) -> we read is_user_follow_business.
-//     Follower -> the offer is delivered (text + images). Not yet a follower -> we ask them to follow and reply YES again.
+//     Follower -> the offer is delivered (text + images). Not yet a follower -> we ask them to follow and reply again.
 //
 // Offers live in the GitHub repo (offers/offers.json), so new offers need no redeploy.
 //
 // Secrets (Supabase -> Edge Functions -> Secrets):
 //   IG_ACCESS_TOKEN  first Instagram user token (later kept fresh in table ig_token)
 //   IG_APP_SECRET    Instagram app secret, used to check webhook signatures
-//   VERIFY_TOKEN     any string; the same string goes in the Meta webhook form
+//   VERIFY_TOKEN     optional; defaults to the public string below (used only for Meta's setup handshake —
+//                    every event is authenticated by its signature, not by this string)
 import { createClient } from "npm:@supabase/supabase-js@2";
 
 const GRAPH = "https://graph.instagram.com/v25.0";
 const OFFERS_URL = "https://raw.githubusercontent.com/Nisiix/nomorebusywork-content/main/offers/offers.json";
 const RAW_BASE = "https://raw.githubusercontent.com/Nisiix/nomorebusywork-content/main/";
+const DEFAULT_VERIFY_TOKEN = "nomorebusywork-webhook";
 const YES_WORDS = ["YES", "Y", "YEP", "YEAH", "SEND", "SEND IT", "OK", "OKAY", "SI", "SÌ", "PLEASE"];
 
 const db = createClient(Deno.env.get("SUPABASE_URL")!, Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!, {
@@ -214,7 +216,7 @@ Deno.serve(async (req) => {
   if (req.method === "GET") {
     // Meta verification handshake.
     if (url.searchParams.get("hub.mode") === "subscribe") {
-      const ok = url.searchParams.get("hub.verify_token") === Deno.env.get("VERIFY_TOKEN");
+      const ok = url.searchParams.get("hub.verify_token") === (Deno.env.get("VERIFY_TOKEN") || DEFAULT_VERIFY_TOKEN);
       return ok ? new Response(url.searchParams.get("hub.challenge") ?? "", { status: 200 }) : new Response("forbidden", { status: 403 });
     }
     // Health check and token refresh (safe to call: it never returns the token).
