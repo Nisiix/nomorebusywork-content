@@ -1,0 +1,55 @@
+{
+  "_readme": "Offers delivered by DM by the Supabase function ig-webhook. A comment or DM containing a keyword triggers the offer. follower_only offers check that the person follows @nomorebusywork. Image paths are relative to the repository root on main. Keep each text under 1000 characters. Changes go live within 5 minutes, no redeploy needed.",
+  "offers": [
+    {
+      "id": "PACK",
+      "keywords": ["PACK", "EXTENDED"],
+      "follower_only": true,
+      "invite": "Hey, thanks for the comment! 👋 Your extended prompt pack (21 more prompts) is ready. Reply PACK here and I'll send it over.",
+      "not_following": "Almost there! The extended pack is for followers. Follow @nomorebusywork, then reply PACK again and it's yours. 🙌",
+      "messages": [
+        { "text": "Here you go! 21 more copy-paste prompts for sales, bookings, money, content, your website, your team and big decisions. Replace the [brackets] and paste into any AI chat assistant. Save these 📌" },
+        { "image": "offers/pack/01.jpg" },
+        { "image": "offers/pack/02.jpg" },
+        { "image": "offers/pack/03.jpg" },
+        { "image": "offers/pack/04.jpg" },
+        { "image": "offers/pack/05.jpg" },
+        { "image": "offers/pack/06.jpg" },
+        { "image": "offers/pack/07.jpg" },
+        { "image": "offers/pack/08.jpg" },
+        { "image": "offers/pack/09.jpg" }
+      ]
+    },
+    {
+      "id": "PROMPTS",
+      "keywords": ["PROMPTS", "PROMPT"],
+      "follower_only": true,
+      "invite": "Hey, thanks for the comment! 👋 Your free pack of 25 copy-paste prompts is ready. Reply PROMPTS here and I'll send it over.",
+      "not_following": "Almost there! The free packs go to followers. Follow @nomorebusywork, then reply PROMPTS again and it's yours. 🙌",
+      "messages": [
+        { "text": "Here's your free pack: 25 copy-paste prompts for emails, reviews, quotes, social posts, hiring, customer service, marketing and admin. Replace the [brackets] and paste into any AI chat assistant. 📌" },
+        { "image": "offers/prompts/01.jpg" },
+        { "image": "offers/prompts/02.jpg" },
+        { "image": "offers/prompts/03.jpg" },
+        { "image": "offers/prompts/04.jpg" },
+        { "image": "offers/prompts/05.jpg" },
+        { "image": "offers/prompts/06.jpg" },
+        { "image": "offers/prompts/07.jpg" },
+        { "image": "offers/prompts/08.jpg" },
+        { "image": "offers/prompts/09.jpg" },
+        { "image": "offers/prompts/10.jpg" },
+        { "text": "Want 21 more? Reply PACK and I'll send the follower edition." }
+      ]
+    },
+    {
+      "id": "TOOLS",
+      "keywords": ["TOOLS", "TOOL"],
+      "follower_only": true,
+      "invite": "Hey, thanks for the comment! 👋 Our tool picks are ready. Reply TOOLS here and I'll send them over.",
+      "not_following": "Almost there! Tool picks are for followers. Follow @nomorebusywork, then reply TOOLS again. 🙌",
+      "messages": [
+        { "text": "Our starter kit, free plans first:\n\n1) An AI chat assistant for writing and thinking: ChatGPT, Claude or Gemini. All three have a free plan, so try the same prompt in two and keep the one you like.\n2) Canva for posts, flyers and simple graphics (free plan).\n3) A booking link so clients schedule themselves: Calendly has a free plan.\n\nThat's enough to run every prompt we post. Plans and limits change, so check each pricing page before you pay for anything." }
+      ]
+    }
+  ]
+}
