@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-05-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-11-05T23:00:00Z",
+  "slides": [
+    {"layout": "cover", "kicker": "One-minute tip", "title": "Plan a **4-week promotion** in one prompt.", "size": "xl", "seconds": 3},
+    {"layout": "text", "kicker": "The problem", "title": "One post. Then **silence**.", "size": "xl", "paras": ["Sound familiar? A promotion needs a plan, not a single announcement."], "seconds": 5},
+    {"layout": "prompt", "kicker": "The prompt", "cards": [{"n": "01", "title": "4-week promo plan", "text": "Plan a 4-week promotion for [OFFER] at [BUSINESS]. Last orders: [DATE]. Week by week: the goal, 2 post ideas, 1 email, 1 in-store action. Build up to the final week. Keep it doable for one person with a few hours a week."}], "seconds": 8},
+    {"layout": "chat", "kicker": "What I pasted", "messages": [{"role": "you", "text": "Offer: holiday cookie gift boxes. Business: a neighborhood bakery. Last orders: Dec 20."}], "note": "Example business, invented.", "seconds": 5},
+    {"layout": "chat", "kicker": "What came back (shortened)", "messages": [{"role": "ai", "text": "Week 1 · Tease: behind-the-scenes box packing post · email: \"Something sweet is coming\"\n\nWeek 2 · Launch: reveal post with price · email to all customers · sign by the register\n\nWeek 3 · Remind: customer photo post · email: \"Order by Dec 20\"\n\nWeek 4 · Last call: countdown post · final email: last orders Dec 20"}], "seconds": 9},
+    {"layout": "text", "kicker": "One tip", "title": "Start from **last orders** and work back.", "size": "l", "paras": ["A clear end date gives every week a job, and gives customers a reason to act."], "seconds": 6},
+    {"layout": "cta", "kicker": "Share it", "title": "Send this to someone who still plans promotions **the night before**.", "after": "Follow @nomorebusywork for one fix a day.", "seconds": 5}
+  ],
+  "caption": "How to plan a 4-week promotion for your small business in one AI prompt\n\nIt's easy to announce an offer once and hope. A plan with a build-up does the work for you.\n\nCopy this:\n\n\"Plan a 4-week promotion for [OFFER] at [BUSINESS]. Last orders: [DATE]. Week by week: the goal, 2 post ideas, 1 email, 1 in-store action. Build up to the final week. Keep it doable for one person with a few hours a week.\"\n\nFor an invented bakery's holiday cookie boxes it laid out: tease, launch, remind, last call. Each week had posts, one email and something to do at the counter.\n\nTip: start from your last-orders date and work back. It gives every week a job.\n\nSend this to someone who still plans promotions the night before. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#smallbusiness #marketingplan #holidaymarketing #aitools #smallbusinessmarketing"
+}

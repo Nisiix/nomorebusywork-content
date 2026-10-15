@@ -1,0 +1,162 @@
+{
+  "id": "2026-11-04-am",
+  "type": "carousel",
+  "series": "STEAL THIS TEMPLATE",
+  "publish_at": "2026-11-04T17:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "Steal this template",
+      "title": "Inbox → **published FAQ** in 3 prompts.",
+      "size": "xl",
+      "sub": "Find the questions, draft the answers from your facts, turn them into a page, saved replies and a post.",
+      "tag": "All 3 prompts inside ↓"
+    },
+    {
+      "layout": "steps",
+      "kicker": "How it works",
+      "title": "3 prompts, in order",
+      "steps": [
+        {
+          "t": "Collect",
+          "d": "Paste a month of customer questions. Get them grouped and counted."
+        },
+        {
+          "t": "Answer",
+          "d": "AI drafts answers from your facts only. No guessing."
+        },
+        {
+          "t": "Publish",
+          "d": "An FAQ section, saved replies and one post."
+        }
+      ]
+    },
+    {
+      "layout": "prompt",
+      "kicker": "Prompt 1 · Collect",
+      "cards": [
+        {
+          "n": "01",
+          "title": "Find the questions",
+          "text": "From these customer messages, list every question asked, in the customer's own words. Group duplicates, count them, and sort by most asked. Messages: [PASTE QUESTIONS ONLY]"
+        }
+      ],
+      "note": "Remove names, emails, addresses and order numbers before pasting."
+    },
+    {
+      "layout": "compare",
+      "kicker": "What came back · 12 messages",
+      "title": "The questions people **really** ask",
+      "cols": [
+        "Asked",
+        "Customer question"
+      ],
+      "rows": [
+        [
+          "4×",
+          "Can you come to me?"
+        ],
+        [
+          "3×",
+          "Do you fix e-bikes?"
+        ],
+        [
+          "3×",
+          "How much is a tune-up?"
+        ],
+        [
+          "1×",
+          "Do I need to be home?"
+        ],
+        [
+          "1×",
+          "How long does a puncture fix take?"
+        ]
+      ],
+      "note": "Example: a mobile bike repair business, invented."
+    },
+    {
+      "layout": "prompt",
+      "kicker": "Prompt 2 · Answer",
+      "cards": [
+        {
+          "n": "02",
+          "title": "Draft the answers",
+          "text": "Write FAQ answers for these questions. Max 2 sentences each, plain and friendly. Use only these facts: [YOUR FACTS: AREA, PRICES, SERVICES]. If a fact is missing, write [ASK OWNER] instead of guessing."
+        }
+      ],
+      "note": "The [ASK OWNER] rule stops AI from inventing prices or promises."
+    },
+    {
+      "layout": "chat",
+      "kicker": "What came back",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "Can you come to me?\nYes. We repair bikes at your home or workplace anywhere in [AREA].\n\nDo you fix e-bikes?\nYes, for brakes, gears, tires and chains. We don't repair motors or batteries.\n\nDo I need to be home?\nNo. We just need to be able to reach the bike.\n\nHow long does a puncture fix take?\n**[ASK OWNER]**"
+        }
+      ],
+      "note": "Shortened. It left the gap instead of making up an answer."
+    },
+    {
+      "layout": "prompt",
+      "kicker": "Prompt 3 · Publish",
+      "cards": [
+        {
+          "n": "03",
+          "title": "Turn it into 3 things",
+          "text": "Using these FAQ answers, write: 1) an FAQ section for my website with short headings, 2) a saved reply for each question, under 40 words, ending with [BOOKING LINK], 3) one Instagram post that answers the most asked question."
+        }
+      ]
+    },
+    {
+      "layout": "chat",
+      "kicker": "2 of the pieces it wrote",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "Saved reply · e-bikes\nHi! Yes, we work on e-bikes: brakes, gears, tires and chains. We don't repair motors or batteries. Want to book a time? [BOOKING LINK]"
+        },
+        {
+          "role": "ai",
+          "text": "Post · first line\nNo car? No problem. We come to you, at home or at work, anywhere in [AREA]."
+        }
+      ]
+    },
+    {
+      "layout": "checklist",
+      "kicker": "Save this",
+      "title": "Before you **publish**",
+      "items": [
+        {
+          "t": "Fill every [ASK OWNER]",
+          "d": "Then re-read every answer once."
+        },
+        {
+          "t": "Check prices and areas twice",
+          "d": "These are the ones customers hold you to."
+        },
+        {
+          "t": "Put the FAQ next to your booking button",
+          "d": "Where the question comes up."
+        },
+        {
+          "t": "Save the replies in your inbox",
+          "d": "Next time it's one click."
+        },
+        {
+          "t": "Repeat every few months",
+          "d": "New questions, new answers."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "kicker": "Want more templates?",
+      "title": "Follow + comment",
+      "keyword": "PACK",
+      "after": "I'll DM you **21 more prompts** for sales, bookings, your website and your team. Free, for followers."
+    }
+  ],
+  "caption": "Customer FAQ template: turn your inbox into a published FAQ with 3 AI prompts\n\n1) Collect: \"From these customer messages, list every question asked, in the customer's own words. Group duplicates, count them, and sort by most asked. Messages: [PASTE QUESTIONS ONLY]\"\n\n2) Answer: \"Write FAQ answers for these questions. Max 2 sentences each, plain and friendly. Use only these facts: [YOUR FACTS]. If a fact is missing, write [ASK OWNER] instead of guessing.\"\n\n3) Publish: \"Using these FAQ answers, write: an FAQ section for my website with short headings, a saved reply for each question under 40 words ending with [BOOKING LINK], and one Instagram post answering the most asked question.\"\n\nOn an invented mobile bike repair inbox, \"Can you come to me?\" came out on top, and it left one gap open instead of guessing.\n\nRemove customer names and details before you paste.\n\nFollow @nomorebusywork and comment PACK: I'll DM you 21 more prompts.\n\nSave this for later. 📌\n\n#smallbusiness #customerservice #aitools #smallbusinessowner #websitetips"
+}

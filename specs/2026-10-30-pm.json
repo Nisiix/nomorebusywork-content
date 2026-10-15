@@ -1,0 +1,76 @@
+{
+  "id": "2026-10-30-pm",
+  "type": "reel",
+  "series": "ONE-MINUTE TIP",
+  "publish_at": "2026-10-30T22:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "One-minute tip",
+      "title": "Your inbox already wrote **your FAQ**.",
+      "size": "xl",
+      "seconds": 3
+    },
+    {
+      "layout": "text",
+      "kicker": "The problem",
+      "title": "You answer the **same questions** every week. One by one.",
+      "size": "l",
+      "seconds": 5
+    },
+    {
+      "layout": "prompt",
+      "kicker": "The prompt",
+      "cards": [
+        {
+          "n": "01",
+          "title": "FAQ finder",
+          "text": "Here are customer questions from the last month. List the ones people ask more than once, in their own words. Group duplicates, count them, and sort by most asked. Questions: [PASTE QUESTIONS ONLY]"
+        }
+      ],
+      "note": "Remove names, emails and order numbers first.",
+      "seconds": 8
+    },
+    {
+      "layout": "chat",
+      "kicker": "What I pasted",
+      "messages": [
+        {
+          "role": "you",
+          "text": "1) Do you do nail trims without a full groom?\n2) How long does a full groom take?\n3) Can I stay with my dog?\n4) Do you take walk-ins for nails?\n5) How long will my dog be there?\n6) Is there parking?\n7) Can I drop in for a nail clip?\n8) What if my dog is nervous?"
+        }
+      ],
+      "note": "Example: dog groomer, invented.",
+      "seconds": 7
+    },
+    {
+      "layout": "chat",
+      "kicker": "What came back",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "**Asked 3×** Nail trims without a full groom, or walk-in?\n\n**Asked 2×** How long does a full groom take?\n\nAsked once: Can I stay? · Is there parking? · What if my dog is nervous?"
+        }
+      ],
+      "seconds": 7
+    },
+    {
+      "layout": "text",
+      "kicker": "One tip",
+      "title": "Keep **their words**, not yours.",
+      "size": "l",
+      "paras": [
+        "Customers search the way they talk. Use their phrasing as your FAQ headings, then answer the top 3 once."
+      ],
+      "seconds": 6
+    },
+    {
+      "layout": "cta",
+      "kicker": "Share it",
+      "title": "Send this to someone who still answers every question **by hand**.",
+      "after": "Follow @nomorebusywork for one fix a day.",
+      "seconds": 5
+    }
+  ],
+  "caption": "How to build a customer FAQ from your own inbox with AI\n\nYour customers already told you what to put in your FAQ. It's sitting in your inbox.\n\nCopy this:\n\n\"Here are customer questions from the last month. List the ones people ask more than once, in their own words. Group duplicates, count them, and sort by most asked. Questions: [PASTE QUESTIONS ONLY]\"\n\nHow to use it:\n1) Copy only the questions, not whole emails.\n2) Remove names, emails and order numbers.\n3) Answer the top 3 once and pin them where people book.\n\nOn an invented dog groomer's inbox, nail trims without a full groom came out on top. That's an FAQ heading and a saved reply, written by your customers.\n\nSend this to someone who still answers every question by hand. Follow @nomorebusywork for one fix a day.\n\nSave this for later. 📌\n\n#smallbusiness #customerservice #aitools #faq #smallbusinesstips"
+}

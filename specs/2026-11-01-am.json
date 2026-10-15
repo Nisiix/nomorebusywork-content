@@ -1,0 +1,192 @@
+{
+  "id": "2026-11-01-am",
+  "type": "carousel",
+  "series": "QUIZ",
+  "publish_at": "2026-11-01T17:00:00Z",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "Quiz",
+      "big": "5",
+      "title": "tasks, before and after AI. **Guess** the time saved.",
+      "sub": "One invented cleaning business, one week. Real prompts, rough timings including checking.",
+      "tag": "Answers inside ↓"
+    },
+    {
+      "layout": "compare",
+      "kicker": "The 5 tasks",
+      "title": "Same business, same week.",
+      "cols": [
+        "Task",
+        "The job",
+        "By hand"
+      ],
+      "rows": [
+        [
+          "Review reply",
+          "A 2-star review",
+          "about 15 min"
+        ],
+        [
+          "Job ad",
+          "From rough notes",
+          "about 30 min"
+        ],
+        [
+          "Quote email",
+          "From visit notes",
+          "about 20 min"
+        ],
+        [
+          "5 social posts",
+          "One per weekday",
+          "about 45 min"
+        ],
+        [
+          "Who hasn't paid",
+          "This month's invoices",
+          "about 20 min"
+        ]
+      ],
+      "note": "Example business, invented. Timings are rough and for this example only."
+    },
+    {
+      "layout": "quiz",
+      "kicker": "Question 1",
+      "question": "Which task did AI speed up **the most**?",
+      "options": [
+        "Review reply",
+        "Job ad",
+        "5 social posts",
+        "Who hasn't paid"
+      ],
+      "answer": 2,
+      "reveal": false
+    },
+    {
+      "layout": "quiz",
+      "kicker": "Answer 1",
+      "question": "Which task did AI speed up **the most**?",
+      "options": [
+        "Review reply",
+        "Job ad",
+        "5 social posts",
+        "Who hasn't paid"
+      ],
+      "answer": 2,
+      "reveal": true,
+      "explain": "About 45 min → about 10. One prompt drafted all five posts. The time left was checking facts and tone."
+    },
+    {
+      "layout": "chat",
+      "kicker": "2 of the 5 posts it drafted",
+      "messages": [
+        {
+          "role": "ai",
+          "text": "Quick tip from our team: run a squeegee over your shower glass right after you shower. Water spots never get the chance to set. #cleaningtips"
+        },
+        {
+          "role": "ai",
+          "text": "You asked: \"Do I need to be home while you clean?\" Nope. Lots of clients leave us a key or a door code. We'll text you when we arrive and when we're done."
+        }
+      ],
+      "note": "Check the facts: it assumed clients can leave a key. Edit to match how you work."
+    },
+    {
+      "layout": "quiz",
+      "kicker": "Question 2",
+      "question": "Which task did AI speed up **the least**?",
+      "options": [
+        "Review reply",
+        "Quote email",
+        "Job ad",
+        "Who hasn't paid"
+      ],
+      "answer": 3,
+      "reveal": false
+    },
+    {
+      "layout": "quiz",
+      "kicker": "Answer 2",
+      "question": "Which task did AI speed up **the least**?",
+      "options": [
+        "Review reply",
+        "Quote email",
+        "Job ad",
+        "Who hasn't paid"
+      ],
+      "answer": 3,
+      "reveal": true,
+      "explain": "No change. AI can't see your invoices, and you shouldn't paste bank data in. Your invoicing tool's \"unpaid\" filter is the fix."
+    },
+    {
+      "layout": "compare",
+      "kicker": "All 5 answers",
+      "title": "The **full** scorecard",
+      "cols": [
+        "Task",
+        "By hand",
+        "With AI"
+      ],
+      "rows": [
+        [
+          "Review reply",
+          "about 15 min",
+          "about 4 min"
+        ],
+        [
+          "Job ad",
+          "about 30 min",
+          "about 8 min"
+        ],
+        [
+          "Quote email",
+          "about 20 min",
+          "about 6 min"
+        ],
+        [
+          "5 social posts",
+          "about 45 min",
+          "about 10 min"
+        ],
+        [
+          "Who hasn't paid",
+          "about 20 min",
+          "no change"
+        ]
+      ],
+      "note": "Rough timings for this invented example, including reading and fixing every draft."
+    },
+    {
+      "layout": "checklist",
+      "kicker": "Save this",
+      "title": "Where AI **saves time**",
+      "items": [
+        {
+          "t": "Blank-page writing",
+          "d": "Posts, ads, first drafts."
+        },
+        {
+          "t": "Messy notes → clean text",
+          "d": "Quotes, summaries, follow-ups."
+        },
+        {
+          "t": "Tricky replies",
+          "d": "A calm first draft you then edit."
+        },
+        {
+          "t": "Not: anything that needs live data",
+          "d": "Payments, stock, schedules: use the tool that holds them."
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "kicker": "Want the prompts?",
+      "title": "Follow + comment",
+      "keyword": "PACK",
+      "after": "I'll DM you **21 more prompts** for sales, bookings, money, content and your team. Free, for followers."
+    }
+  ],
+  "caption": "Guess the time saved: 5 small business tasks before and after AI\n\nWe timed one invented cleaning business through a normal week. Rough numbers, including the time to read and fix every draft.\n\nBiggest win: a week of social posts, about 45 min down to about 10. The prompt:\n\n\"Write 5 short Instagram posts for this week for [BUSINESS], a [TYPE OF BUSINESS] in [CITY]. One each: a tip, behind the scenes, a customer question answered, a team shoutout, a reminder to book. Under 50 words each. Friendly, plain, max 3 hashtags.\"\n\nSmallest win: checking who hasn't paid. No change at all. AI can't see your invoices, and bank details don't belong in a chat. Use your invoicing tool's filter.\n\nAlways check the facts: it guessed that clients leave a key.\n\nFollow @nomorebusywork and comment PACK: I'll DM you 21 more prompts for your business.\n\nSave this for later. 📌\n\n#smallbusiness #timemanagement #aitools #cleaningbusiness #smallbusinessowner"
+}
