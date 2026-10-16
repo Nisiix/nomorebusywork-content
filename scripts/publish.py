@@ -1,4 +1,7 @@
-"""Publishes due posts from queue/ to Instagram through the official Instagram API (Instagram Login).
+"""MANUAL FALLBACK ONLY. The real scheduler is the Supabase function ig-publisher (pg_cron every 5 min).
+This script skips anything the publisher has claimed.
+
+Publishes due posts from queue/ to Instagram through the official Instagram API (Instagram Login).
 
 Queue layout (one folder per post, on the main branch = approved):
   queue/2026-10-16-am/post.json   {"type": "carousel"|"image"|"reel"|"story",
@@ -99,6 +102,15 @@ def publish(folder, post, ig_id):
     return media_id, link
 
 
+STATUS_URL = "https://mnecumcjsosmcqvmokrf.supabase.co/functions/v1/ig-publisher?action=status"
+
+
+def claimed_by_publisher():
+    """Ids the Supabase publisher already handled or is handling. Manual fallback only: never double-publish."""
+    with urllib.request.urlopen(STATUS_URL, timeout=30) as r:
+        return {p["id"] for p in json.loads(r.read().decode())["posts"]}
+
+
 def main():
     if not TOKEN:
         print("IG_ACCESS_TOKEN secret not set yet: nothing published.")
@@ -116,6 +128,12 @@ def main():
         when = dt.datetime.fromisoformat(post["publish_at"].replace("Z", "+00:00"))
         if when <= now:
             due.append((folder, post))
+    try:
+        claimed = claimed_by_publisher()
+    except Exception as e:
+        print(f"Cannot reach the Supabase publisher status ({e}); not publishing to avoid duplicates.", file=sys.stderr)
+        return 1
+    due = [(f, p) for f, p in due if os.path.basename(f) not in claimed]
     if not due:
         print("Nothing due.")
         return 0

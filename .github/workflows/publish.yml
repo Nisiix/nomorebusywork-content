@@ -1,12 +1,17 @@
-name: Publish Instagram queue
+name: Sync Instagram publishing results
+
+# Publishing itself runs in Supabase (function ig-publisher, pg_cron every 5 minutes),
+# because GitHub's schedule runs hours late. This workflow only records the results in queue/<id>/.
+# Run it manually with mode=publish only as an emergency fallback (it skips anything already claimed).
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: ["queue/**/post.json"]
+    inputs:
+      mode:
+        description: "sync (default) or publish (emergency fallback)"
+        default: "sync"
 
 permissions:
   contents: write
@@ -16,15 +21,18 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  publish:
+  sync:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Publish due posts
+      - name: Record results from the Supabase publisher
+        run: python3 scripts/sync_status.py
+      - name: Emergency fallback publish
+        if: ${{ github.event.inputs.mode == 'publish' }}
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
         run: python3 scripts/publish.py
-      - name: Record results
+      - name: Commit results
         if: always()
         run: |
           git config user.name "nmb-publisher"
