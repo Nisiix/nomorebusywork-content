@@ -1,1 +1,23 @@
-{"_readme":"Comments posted on collab targets posts (rotation log). One entry per comment: date, handle, post_url, text.","comments":[]}
+{
+  "_readme": "Comments posted on collab targets posts (rotation log). One entry per comment: date, handle, post_url, text.",
+  "comments": [
+    {
+      "date": "2026-10-16",
+      "handle": "@mpaige13",
+      "post_url": "https://www.instagram.com/p/Dej8-tSEdxT/",
+      "text": "The \"it gets better the more I use it\" part is the real unlock. Saving every manual fix back into your style examples is what stops the same caption mistake from coming back."
+    },
+    {
+      "date": "2026-10-16",
+      "handle": "@moretolifekate",
+      "post_url": "https://www.instagram.com/p/DejYrkbueOT/",
+      "text": "Putting the hardest thing of the day in your peak-energy window is such an underrated systems move. The only downside is that the excuses disappear too 😅"
+    },
+    {
+      "date": "2026-10-16",
+      "handle": "@its.mikareyes",
+      "post_url": "https://www.instagram.com/reel/DeiY_WIpmSv/",
+      "text": "Point 3 is the one people skip. Divide the paper value by the hours it really takes, and that \"life-changing\" equity often works out to a worse hourly rate than a calm salary."
+    }
+  ]
+}
