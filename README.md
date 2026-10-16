@@ -4,7 +4,8 @@ Publishing queue for the Instagram account @nomorebusywork.
 
 - `queue/<date>-<slot>/` holds one post: `post.json` plus its images (JPEG) or video (MP4).
 - A post on the `main` branch is approved. New posts arrive first on a `pending/<date>` branch and reach `main` only after approval.
-- `.github/workflows/publish.yml` runs every 15 minutes and publishes every post whose `publish_at` time has passed, through the official Instagram API. It then writes `published.json` (with the link) or `error.json`.
+- Publishing runs in Supabase: the Edge Function `ig-publisher` is called by pg_cron every 5 minutes and publishes every approved post (`queue/<id>/post.json` on main) whose `publish_at` has passed, through the official Instagram API. State is in table `ig_publish`, so nothing is published twice. (GitHub's own schedule runs hours late, so it is no longer used for publishing.)
+- `.github/workflows/publish.yml` only copies the results into `queue/<id>/published.json` (with the link) or `error.json`. Run it manually with mode=publish only as an emergency fallback.
 - `.github/workflows/refresh-token.yml` refreshes the Instagram token twice a month.
 
 Secrets (Settings → Secrets and variables → Actions):
